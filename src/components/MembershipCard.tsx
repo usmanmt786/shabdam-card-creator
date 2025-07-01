@@ -1,13 +1,12 @@
-
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Download, Share2, User, MapPin, School, Calendar, BookOpen } from "lucide-react";
+import { ArrowLeft, Download, Share2 } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
+import QRCode from "react-qr-code";
 
 interface FormData {
+  hssmid: string;
   fullName: string;
   phone: string;
-  district: string;
-  division: string;
   schoolName: string;
   year: string;
   stream: string;
@@ -15,10 +14,15 @@ interface FormData {
 
 interface MembershipCardProps {
   formData: FormData;
+  previewImage: string;
   onBack: () => void;
 }
 
-const MembershipCard = ({ formData, onBack }: MembershipCardProps) => {
+const MembershipCard = ({
+  formData,
+  previewImage,
+  onBack,
+}: MembershipCardProps) => {
   const handleDownload = () => {
     toast({
       title: "Download Started",
@@ -35,9 +39,9 @@ const MembershipCard = ({ formData, onBack }: MembershipCardProps) => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white font-clash">
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
-        <div className="flex items-center mb-8">
+        <div className="flex items-center mb-8 ">
           <Button
             variant="ghost"
             onClick={onBack}
@@ -57,59 +61,45 @@ const MembershipCard = ({ formData, onBack }: MembershipCardProps) => {
               🎉 Congratulations!
             </div>
             <div className="text-green-700">
-              Your membership application has been successfully submitted. Your digital membership card is ready!
+              Your membership application has been successfully submitted. Your
+              digital membership card is ready!
             </div>
           </div>
 
           {/* Membership Card Preview */}
-          <div className="bg-gradient-to-br from-primary to-secondary rounded-2xl p-8 text-white shadow-2xl mb-8 animate-slide-up">
-            <div className="text-center mb-6">
-              <h2 className="text-2xl font-bold mb-2">SSF HSS</h2>
-              <p className="text-white/90">Membership Card</p>
-              <div className="w-16 h-1 bg-white/50 mx-auto mt-2 rounded-full"></div>
-            </div>
-
-            {/* Member Photo Placeholder */}
-            <div className="flex justify-center mb-6">
-              <div className="w-24 h-24 bg-white/20 rounded-full flex items-center justify-center border-4 border-white/30">
-                <User className="h-12 w-12 text-white/70" />
+          <div className="bg-gradient-to-br from-primary to-secondary  rounded-2xl p-8 text-white shadow-2xl mb-8 animate-slide-up w-max mx-auto">
+            <div className="relative text-card  w-[460px] h-[733px]">
+              <img
+                src="/card.png"
+                alt="card"
+                className="absolute inset-0 z-[5]"
+              />
+              <img
+                src={previewImage}
+                alt="profile"
+                className="w-[37.7%] absolute top-[37.2%] left-[23.5%] h-auto z-0"
+              />
+              <h6 className="absolute text-lg top-[7.2%] left-[33%] font-bold text-black z-10">
+                {formData.hssmid}
+              </h6>
+              <div className="w-max absolute top-[5.2%] right-[12%] z-10">
+                <QRCode
+                  className="h-16 w-16"
+                  value={formData.hssmid}
+                  size={128}
+                />
               </div>
-            </div>
-
-            {/* Member Details */}
-            <div className="space-y-3">
-              <div className="flex items-center">
-                <User className="h-4 w-4 mr-3 text-white/70" />
-                <span className="font-semibold">{formData.fullName}</span>
+              <div className="absolute top-[63.2%] left-[23.5%] h-auto z-10 text-white w-[200px] flex flex-col gap-2">
+                <h6 className=" text-2xl  font-bold  z-10">
+                  {formData.fullName}
+                </h6>
+                <h6 className=" text-sm  font-bold  z-10">
+                  {formData.schoolName.split(",").join(", ")}
+                </h6>
+                <h6 className=" text-sm  font-bold  z-10 flex gap-3 items-center">
+                  {formData.year}  <span>|</span>   {formData.stream}
+                </h6>
               </div>
-              <div className="flex items-center">
-                <MapPin className="h-4 w-4 mr-3 text-white/70" />
-                <span>{formData.district}, {formData.division}</span>
-              </div>
-              <div className="flex items-center">
-                <School className="h-4 w-4 mr-3 text-white/70" />
-                <span className="text-sm">{formData.schoolName}</span>
-              </div>
-              <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <Calendar className="h-4 w-4 mr-3 text-white/70" />
-                  <span>{formData.year} Year</span>
-                </div>
-                <div className="flex items-center">
-                  <BookOpen className="h-4 w-4 mr-3 text-white/70" />
-                  <span>{formData.stream}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Card Footer */}
-            <div className="border-t border-white/20 mt-6 pt-4 text-center">
-              <p className="text-white/80 text-sm">
-                Member ID: HSS{Math.random().toString(36).substr(2, 9).toUpperCase()}
-              </p>
-              <p className="text-white/60 text-xs mt-1">
-                Issued: {new Date().toLocaleDateString()}
-              </p>
             </div>
           </div>
 

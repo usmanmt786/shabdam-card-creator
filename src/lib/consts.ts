@@ -1,0 +1,10962 @@
+export const districts = [
+  "Alappuzha",
+  "Ernakulam",
+  "Idukki",
+  "Kannur",
+  "Kasaragod",
+  "Kollam",
+  "Kottayam",
+  "Kozhikode",
+  "Malappuram",
+  "Palakkad",
+  "Pathanamthitta",
+  "Thiruvananthapuram",
+  "Thrissur",
+  "Wayanad",
+];
+export const districtDivisions = {
+  Alappuzha: [
+    "AROOR",
+    "MAVELIKKARA",
+    "KAYAMKULAM",
+    "HARIPAD",
+    "CHERTHALA",
+    "AMBALAPUZHA",
+    "ALAPPUZHA",
+  ],
+  Ernakulam: [
+    "THRIKKAKARA",
+    "PARAVUR",
+    "KOTHAMANGALAM",
+    "KOCHI",
+    "KALAMASSERY",
+    "ALUVA",
+    "PERUMBAVUR",
+  ],
+  Idukki: ["IDUKKI", "THODUPUZHA"],
+  Kannur: [
+    "PERINGATHUR",
+    "CHAKKARAKAL",
+    "ALAKKODE",
+    "KAMBIL",
+    "PANOOR",
+    "THALIPARAMBA",
+    "THALASSERY",
+    "SREEKANDAPURAM",
+    "PAYYANNUR",
+    "MADAYI",
+    "KOOTHUPARAMBA",
+    "KANNUR",
+    "IRITTY",
+  ],
+  Kasaragod: [
+    "KUMBALA",
+    "MULLERIYA",
+    "UPPALA",
+    "MANJESHWARAM",
+    "UDUMA",
+    "THRIKKARIPPUR",
+    "BADIADKA",
+    "KASARGODE",
+    "KANHANGAD",
+  ],
+  Kollam: [
+    "CHAVARA",
+    "CHATHANNOOR",
+    "CHADAYAMANGALAM",
+    "PATHANAPURAM",
+    "SASTHAMCOTTA",
+    "KOLLAM",
+    "KARUNAGAPPALLY",
+  ],
+  Kottayam: ["MUNDAKKAYAM", "KOTTAYAM", "VAIKOM", "KANJIRAPPALLY"],
+  Kozhikode: [
+    "KOYILANDY",
+    "VADAKARA",
+    "PERAMBRA",
+    "NADAPURAM",
+    "KUTTIADI",
+    "AYANCHERY",
+    "NADUVANNUR",
+    "POONOOR",
+    "MUKKAM",
+    "THAMARASSERY",
+    "KODUVALLY",
+    "NARIKKUNI",
+    "KUNNAMANGALAM",
+    "KOZHIKODE",
+    "FEROKE",
+    "OMASSERY",
+    "MAVOOR",
+  ],
+
+  Malappuram: [
+    "MANJERI WEST",
+    "KOLATHUR",
+    "PULIKKAL",
+    "EDAVANNAPPRA",
+    "EDAKKARA",
+    "WANDOOR",
+    "PERINTHALMANNA",
+    "NILAMBUR",
+    "MANJERI EAST",
+    "MALAPPURAM",
+    "KONDOTY",
+    "AREEKODE",
+    "PARAPPANANGADI",
+    "EDAPPAL",
+    "PUTHANATHANI",
+    "VENGARA",
+    "TANUR",
+    "VALANCHERY",
+    "THENHIPPALAM",
+    "TIRUR",
+    "TIRURANGADI",
+    "PONNANI",
+    "KOTTAKKAL",
+    "VAILATHUR",
+  ],
+  Palakkad: [
+    "ALANALLUR",
+    "CHERPULASSSERY",
+    "CHITTUR",
+    "KONGAD",
+    "KOPPAM",
+    "THRITHALA",
+    "PATTAMBI",
+    "PALAKKAD",
+    "OTTAPPALAM",
+    "MANNARKADU",
+    "KOLLENGODE",
+    "ALATHUR",
+  ],
+  Pathanamthitta: ["PATHANAMTHITTA", "THIRUVALLA", "ADOOR"],
+  Thiruvananthapuram: [
+    "KANIYAPURAM",
+    "VARKALA",
+    "NEYYATTINKARA",
+    "THIRUVANANTHAPURAM",
+    "NEDUMANGAD",
+  ],
+  Thrissur: [
+    "KAIPPAMANGALAM",
+    "WADAKKANCHERY",
+    "VADAKKEKKAD",
+    "THRISSUR",
+    "THRIPRAYAR",
+    "KUNNAMKULAM",
+    "KODUNGALLUR",
+    "CHELAKKARA",
+    "CHAVAKKAD",
+  ],
+  Wayanad: [
+    "VELLAMUNDA",
+    "MEPPADI",
+    "MANANTHAVADY",
+    "KALPETTA",
+    "SULTHAN BATHERY",
+  ],
+};
+export const schools = [
+  {
+    id: 7414,
+    name: "GOVT MODEL BOYS HSS ATTINGAL",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7415,
+    name: "GOVT. GIRLS HSS, COTTONHILL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7416,
+    name: "GOVT. V.H.S.S FOR THE DEAF, JAGATHY, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7417,
+    name: "DR AMMR HSS ,KATTELA, SREEKARIAM P.O, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7418,
+    name: "GOVT HSS, KILIMANOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7419,
+    name: "GOVT.GIRLS HSS,MANACAUD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7420,
+    name: "GOVT. HSS, MEDICAL COLLEGE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7421,
+    name: "GOVT. BOYS HSS, MITHIRMALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7422,
+    name: "GOVT GIRLS HSS, NEDUMANGAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7423,
+    name: "GOVT. HSS, NEDUVELI, VENJARAMOOD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7424,
+    name: "GOVT. GIRLS HSS, NEYYATTINKARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7425,
+    name: "GOVT HSS, PAKALKURI, PALLICKAL,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7426,
+    name: "GOVT. HSS, PALAYAMKUNNU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7427,
+    name: "GOVT. HSS, PIRAPPANCODE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7428,
+    name: "GOVT. BOYS HSS, PETTAH, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7429,
+    name: "S.M.V. GOVT.MODEL HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7430,
+    name: "GOVT. HSS,VETTOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7431,
+    name: "GOVT. HSS, KULATHOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7432,
+    name: "GOVT. GIRLS HSS, MITHIRMALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7433,
+    name: "GOVT. HSS, THOLIKODE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7434,
+    name: "GOVT. GIRLS HSS, PATTOM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7435,
+    name: "GOVT. HSS, KAMALESWARAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7436,
+    name: "GOVT. MODEL BOYS HSS, THYCAUD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7437,
+    name: "GOVT. HSS, VENJARAMOODU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7438,
+    name: "GOVT. HSS, BALARAMAPURAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7439,
+    name: "GOVT. BHSS, NEYYATTINKARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7440,
+    name: "GOVT. HSS, ANAVOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7441,
+    name: "GOVT MODEL HSS, VARKALA TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7442,
+    name: "PNM GOVT. HSS,KOONTHALLUR, CHIRAYINKEEZHU, TRIVAND",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7443,
+    name: "GOVT GIRLS HSS, ATTINGAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7444,
+    name: "GOVT HSS, NAVAIKULAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7445,
+    name: "GOVT.HSS, BHARATHANNUR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7446,
+    name: "GOVT VHSS, KARAKULAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7447,
+    name: "GOVT HSS, THONNAKKAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7448,
+    name: "PSNPM GOVT HSS, PEROORKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7449,
+    name: "GOVT GIRLS HSS, KARAMANA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7450,
+    name: "GOVT GIRLS HSS, MALAYINKIL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7451,
+    name: "GOVT HSS, PUNNAMOODU,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7452,
+    name: "GOVT HSS, NEEYYARDAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7453,
+    name: "KULATHUMMAL GOVT HSS, KATTAKKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7454,
+    name: "GOVT BOYS HSS, CHALAI, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7455,
+    name: "GOVT VHSS, VELLANAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7456,
+    name: "GOVT HSS, MARAYAMUTTAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7457,
+    name: "GOVT TAMIL HSS, CHALAI,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7458,
+    name: "GOVT VHSS, KULATHOOR,UCHAKKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7459,
+    name: "NKM GOVT HSS, DHANUVACHAPURAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7460,
+    name: "CONCORDIA LUTHERAN HSS, PEROORKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7461,
+    name: "S.S.V HSS, CHIRAYINKIL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7462,
+    name: "LEO XIII HSS, PULLUVILA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7463,
+    name: "SIVAGIRI HSS, VARKALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7464,
+    name: "ST.JOSEPH`S HSS, ANCHENGO, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7465,
+    name: "R.R.V.GIRLS HSS, KILLIMANOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7466,
+    name: "JANATHA HSS, THEMBAMOOD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7467,
+    name: "M.V HSS, THUNDATHIL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7468,
+    name: "PALLITHURA HSS, PALLITHURA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7469,
+    name: "ST.ANTONY`S HSS, VALIATHURA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7470,
+    name: "ST. MARY`S HSS, VETTUKAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7471,
+    name: "R.K.D.N.S.S HSS, SASTHAMANGALAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7472,
+    name: "ST.JOSEPH`S HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7473,
+    name: "L.M.S BOYS HSS, AMARAVILA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7474,
+    name: "M.V. HSS, ARUMANOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7475,
+    name: "GIRLS HSS, VENGANOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7476,
+    name: "V.P.S. MALANKARA HIGHER SECONDARY SCHOOL, VENGANOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7477,
+    name: "UNDENCODE ST JOHN`S HSS, CHERIYAKOLLA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7478,
+    name: "S.N.V HSS, NEDUNGANDA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7479,
+    name: "ST. MARY`S HSS, PATTOM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7480,
+    name: "IQBAL HSS, PERINGAMALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7481,
+    name: "L.M.S.HSS, CHEMBOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7482,
+    name: "NEW HSS, NELLIMOODU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7483,
+    name: "S.N G. HSS, CHEMPAZHANTHY, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7484,
+    name: "S.N.V. HSS, ANAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7485,
+    name: "ST JOHNS MODEL HSS,NALANCHIRA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7486,
+    name: "NSS HSS,PALKULANGARA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7487,
+    name: "SN HSS,UZHAMALAKKAL,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7488,
+    name: "ST THOMAS HSS,POONTHURA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7489,
+    name: "MUSLIM GIRLS HSS,KANIYAPURAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7490,
+    name: "MCHSS,KOTTUKALKONAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7491,
+    name: "SALVATION ARMY HSS,KOWDIAR,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7492,
+    name: "PKS HSS,KANJIRAMKULAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7493,
+    name: "LMS HSS,VATTAPPARA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7494,
+    name: "ST MARY`S HSS,VIZHINJAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7495,
+    name: "MUSLIM HSS,EDAVA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7496,
+    name: "JANARDHANAPURAM HSS,OTTASEKHARAMANGALAM, TRIVANDRU",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7497,
+    name: "DVNM HSS,MARANALLUR,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7498,
+    name: "VTMNSS GIRLS HSS,DHANUVACHAPURAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7499,
+    name: "ST.THOMAS HSS,AMBOORI,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7500,
+    name: "ST XAVIER`S HSS,PEYAD,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7501,
+    name: "AM HSS,THIRUMALA,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7502,
+    name: "BNVV HSS,THIRUVALLAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7503,
+    name: "MULAVANA VHSS,VAMANAPURAM,TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7504,
+    name: "AL- UTH-AMAN ENGLISH MEDIUM HSS,KAZHAKKOOTTAM, TRI",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7505,
+    name: "TECHNICAL HSS, MUTTADA P.O, THIRUVANANTHAPURAM-695025",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7506,
+    name: "BEEM MAHEEM HSS, BEEMAPALLY, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7507,
+    name: "CHRIST NAGAR EM HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7508,
+    name: "HOLY ANGELS CONVENT HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7509,
+    name: "LOYOLA HSS, SREEKARIYAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7510,
+    name: "LOURDE MOUNT HSS, VATTAPPARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7511,
+    name: "MMR HSS, NEERAMANKARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7512,
+    name: "NAVABHARATHI HSS, ATTINGAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7513,
+    name: "NIRMALA BHAVAN EM HSS, KAWDIAR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7514,
+    name: "SARVODAYA VIDYALAYA HSS, NALANCHIRA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7515,
+    name: "DARSANA HSS, NEDUMANGADU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7516,
+    name: "ST. MARY`S HSS, KAMUKINKODE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7517,
+    name: "ST.THERESA`S CONVENT GHSS, NEYYATTINKARA, TRIVANDR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7518,
+    name: "CARMEL GIRLS HSS, VAZHUTHACAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7519,
+    name: "ST.GORETTI`S HSS, NALANCHIRA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7520,
+    name: "SSM HSS, KOCHALUMOODU, MUDAPURAM, CHIRAYINKIL, TRI",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7521,
+    name: "IVANS HSS, PARASALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7522,
+    name: "NSS HSS, PERUNTHANNI, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7523,
+    name: "ST. CHRISOSTEM EM HSS, NELLIMMOODU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7524,
+    name: "SHREE VIDYADHI RAJA VIDYAMANDIR HSS,VELLAYAMBALAM,",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7525,
+    name: "SR. ELIZEBETH JOEL CSI EM HSS, ATTINGAL, TRIVANDRU",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7526,
+    name: "CHINMAYA HSS, VAZHUTHACAUD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7527,
+    name: "JYOTHI NILAYAM HSS, KAZHAKKOOTTAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7528,
+    name: "LITTLE FLOWER EM HSS, EDAVA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7529,
+    name: "OUR LADY OF MERCY HSS, PUTHUKURISSI, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7530,
+    name: "FR. PHILIP`S HSS, NELLIKODU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7531,
+    name: "SREENEELAKANTA VIDYAPITOM, CHENKOTTUKONAM, TRIVAND",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7532,
+    name: "HOLY TRINITY HSS, ALTHARA, SREEKARYAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7533,
+    name: "PTM HSS, MARUTHURKONAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7534,
+    name: "ST. HELEN`S HSS, LOURDUPURAM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7535,
+    name: "ROSAMISTICA HSS, PULIMKUDY, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7536,
+    name: "SAMUEL HSS PARASSALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7537,
+    name: "VICTORY GIRLS HSS, NEMOM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7538,
+    name: "MANARUL HUDA HSS, PAZHAKUTTY, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7539,
+    name: "TECHNICAL HSS, SARKARA,CHIRAYINKEEZHU.P.O, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7540,
+    name: "P.R.WILLIAM HSS, KATTAKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7541,
+    name: "GOVT. HSS, VAKKOM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7542,
+    name: "SNV GOVT. HSS, KADAKKAVOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7543,
+    name: "GOVT. GHSS, PEROORKADA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7544,
+    name: "GOVT. VHSS, POOVAR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7545,
+    name: "GOVT. HSS, VILAVOORKAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7546,
+    name: "GOVT. HSS, AIROORPARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7547,
+    name: "GOVT. BOYS HSS, KARAMANA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7548,
+    name: "GOVT. VHSS, PARASSALA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7549,
+    name: "GOVT. LVHSS, ARAYOOR, CHENGAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7550,
+    name: "GOVT. VHSS, ARYANAD, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7551,
+    name: "GOVT. HSS, POOVACHAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7552,
+    name: "GOVT. HSS, ARUVIKKARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7553,
+    name: "GOVT. HSS, KAZHAKUTTOM, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7554,
+    name: "GOVT. HSS, KAVALAYOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7555,
+    name: "GOVT. HSS, KAPPIL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7556,
+    name: "GOVT. HSS, MYLACHAL, ARIYANGODE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7557,
+    name: "GOVT. VHSS, VATTIYOORKAVU, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7558,
+    name: "GOVT. VHSS, VITHURA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7559,
+    name: "GOVT. HSS FOR GIRLS, KANNIAKULANGARA, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7560,
+    name: "GOVT. HSS, POOVATHOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7561,
+    name: "GOVT. HSS, AZHOOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7562,
+    name: "ELAMBA HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7563,
+    name: "THATTATHUMALA GOVT. HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7564,
+    name: "GOVT. HSS, KEEZHAROOR, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7565,
+    name: "VENGANOOR GOVT. MODEL HSS, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7566,
+    name: "GOVT. VHSS, ALAMCODE, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7567,
+    name: "GOVT. HSS, PALLICKAL, TRIVANDRUM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7568,
+    name: "NSS HSS, M.G.COLLEGE CAMPUS, THIRUVANANTHAPURAM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7569,
+    name: "CORDOVA HSS,AMBALATHARA,POONTHURA., THIRUVANANTHAP",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7570,
+    name: "ST. THOMAS HSS, MUKKOLAKKAL, THIRUVANANTHAPURAM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7571,
+    name: "KTCT EMR HSS, KADUVAYIL, THOTTAKKAD, KALLAMBALAM,",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7572,
+    name: "GEM KNOW MODEL HSS, MEL-VETTOOR, VARKALA, THIRUVAN",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7573,
+    name: "SREE VIDHYADHI RAJA HSS, ATTINGAL, THIRUVANANTHAPU",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7574,
+    name: "SREE VIDHYADHI RAJA HSS, NEYYATTINKARA, THIRUVANA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7575,
+    name: "SANTHIGIRI VIDYABHAVAN HSS, SANTHIGIRI, THIRUVANAN",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7576,
+    name: "SRI SATHYA SAI EM HSS, VELLANAD, THIRUVANANTHAPURA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7577,
+    name: "SRI AYYANKALI MEMORIAL GOVT MODEL RESIDENTIAL SCHOOL, VELLAYANI, THIRUVANANTHAPU",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7578,
+    name: "GOVT.HS, CHERUNNIYOOR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7579,
+    name: "GOVT.HS, AYIRA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7580,
+    name: "GVHSS KOTTUKAL",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7581,
+    name: "GOVT.VHSS, PARUTHIPPALLY",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7582,
+    name: "GOVT.HS, NAGAROOR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7583,
+    name: "GOVT.VHSS, NJEKKAD",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7584,
+    name: "GOVT.HS, KODUVAZHANOOR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7585,
+    name: "GOVT.HS, THIRUPURAM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7586,
+    name: "SNV HS, PANAYARA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7587,
+    name: "NSS HS, MADAVOOR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7588,
+    name: "SKVHS, NANNIYODE",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7589,
+    name: "VICTORY GIRLS HS, NEMOM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7590,
+    name: "PHMKM HS, PANAVOOR",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7591,
+    name: "VPM HS, VELLARADA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7592,
+    name: "ST. MICHELS HSS KADINAMKULAM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7593,
+    name: "CHINNAMMA MEMORIAL GHSS, POOJAPPURA",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7594,
+    name: "SSPBHSS KADAKKAVOOR, THIRUVANANTHAPURAM",
+    district: "Thiruvananthapuram"
+  },
+  {
+    id: 7595,
+    name: "GOVT BHSS, CHAVARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7596,
+    name: "AYYANKOYIKKAL HSS, CHAVARA, MUKUNDAPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7597,
+    name: "GOVT HSS, KARUNAGAPPALLY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7598,
+    name: "GOVT MODEL BOYS HSS, THEVALLY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7599,
+    name: "GOVT BOYS HSS, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7600,
+    name: "GOVT HSS, KULASEKHARAPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7601,
+    name: "GOVT HSS, KUZHIMATHIKAD, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7602,
+    name: "GOVT HSS, VELLAMANAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7603,
+    name: "GOVT HSS, BHOOTHAKULAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7604,
+    name: "GOVT HSS, PUNALUR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7605,
+    name: "GOVT HSS, VALATHUNGAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7606,
+    name: "GOVT HSS, VAYALA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7607,
+    name: "GOVT HSS, OTTAKKAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7608,
+    name: "GOVT HSS, KARUKONE, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7609,
+    name: "GOVT HSS, WEST KALLADA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7610,
+    name: "GOVT HSS, VALLIKEEZHU, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7611,
+    name: "SBVS GOVT HSS, PANMANAMANAYIL, CHAVARA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7612,
+    name: "GOVT HSS, ANJALUMMOODU, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7613,
+    name: "GOVT HSS, MANGAD, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7614,
+    name: "GHSS KUMMIL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7615,
+    name: "GOVT FISHERIES HSS,KUZHITHURA,ALAPPAT,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7616,
+    name: "GOVT HSS,SOORAANAD,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7617,
+    name: "GOVT MG HSS,CHADAYAMANGALAM,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7618,
+    name: "GOVT HSS,ANCHAL WEST,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7619,
+    name: "GOVT HSS,SASTHAMKOTTA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7620,
+    name: "GOVT HSS,PALLIMAN,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7621,
+    name: "MEENAKSHI VILASOM HSS,PEROOR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7622,
+    name: "GOVT VHSS,PATTAZHI,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7623,
+    name: "MOHAMMEDEN GOVT HSS,EDATHARA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7624,
+    name: "GOVT HSS,KULATHUPUZHA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7625,
+    name: "GOVT MODEL HSS,VETTIKKAVALA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7626,
+    name: "GOVT GIRLS HSS,THAZHAVA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7627,
+    name: "GOVT HSS,CHATHANNOOR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7628,
+    name: "GOVT HSS,PUTHUR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7629,
+    name: "GOVT HSS,PARAVUR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7630,
+    name: "GUHANANDAPURAM HSS, CHAVARA SOUTH, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7631,
+    name: "AMRUTHA SANSKRIT HSS, PARIPPALLY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7632,
+    name: "MILADE SHERIF HSS, MYNAGAPPALLY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7633,
+    name: "ODANAVATTOM GIRLS HSS, ODANAVATTOM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7634,
+    name: "V V HSS POREDAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7635,
+    name: "SN HSS CHITHARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7636,
+    name: "ST. GREGORIOUS HSS, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7637,
+    name: "S.M HSS, KOTTARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7638,
+    name: "S.M HSS, PATHARAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7639,
+    name: "B.J.S.M MADATHIL HSS, THAZHAVA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7640,
+    name: "S.V HSS, CLAPPANA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7641,
+    name: "AT. ANTONY`S HSS, KANJIRAKODE, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7642,
+    name: "S.N.D.P.Y HSS, NEERAVIL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7643,
+    name: "M.S.M HSS, CHATHINAMKULAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7644,
+    name: "N.S.S HSS, CHATHANNOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7645,
+    name: "S.N.S.M HSS, ELAMPALLOOR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7646,
+    name: "M.K.L.M. HSS, KANNANALLOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7647,
+    name: "CP HSS KUTTIKKADU, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7648,
+    name: "CHEMPAKASSERY HSS, POOTHAKULAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7649,
+    name: "IRUMPANANGADU HSS, IRUMPANANGADU, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7650,
+    name: "KRIST RAJ HSS, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7651,
+    name: "ST.STEPHEN`S HSS, PATHANAPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7652,
+    name: "EVHSS,NEDUVATHUR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7653,
+    name: "DR CT EAPEN MEMORIAL HSS,SASTHAMCOTTA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7654,
+    name: "EZHIPPURAM HSS,PARIPPALLI,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7655,
+    name: "MAYYANADU HSS,MAYYANADU,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7656,
+    name: "VIMALA HRIDAYA GHSS,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7657,
+    name: "AKM HSS, MAILAPUR, ERAVIPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7658,
+    name: "THADIKAD HSS, THADIKAD, ANCHAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7659,
+    name: "ST GORETTI HSS,PUNALUR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7660,
+    name: "POOVATHOOR HSS,KOTTARAKKARA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7661,
+    name: "ST ALOSIOUS HSS,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7662,
+    name: "NSS HSS,PRAKKULAM,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7663,
+    name: "SIVARAM NSS HSS,KARIKODE,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7664,
+    name: "V.G.S.S AMBIKODAYAM HSS , KUNNATHOOR EAST P.O, KO",
+    district: "Kollam"
+  },
+  {
+    id: 7665,
+    name: "TALUK SAMAJAM HIGHER SECONDARY SCHOOL , PUNALUR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7666,
+    name: "CVKM HSS,EAST KALLADA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7667,
+    name: "KPMEM HSS CHERIYAVELINELLOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7668,
+    name: "MM HSS,UPPODU,EAST KALLADA,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7669,
+    name: "BV HSS,KARUNAGAPPALLI,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7670,
+    name: "MM HSS NILAMEL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7671,
+    name: "TKM HSS,KARIKKODE,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7672,
+    name: "SREE NARAYANA TRUST HSS,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7673,
+    name: "SVR VHSS,VENDAR,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7674,
+    name: "CSI VOCATIONAL HS&HSS FOR DEAF,VALAKOM,KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7675,
+    name: "ST. JOSEPHS CONVENT HSS, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7676,
+    name: "ST. JUDE`S HSS ALUMOODU, MUKHATHALA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7677,
+    name: "ST. MARY`S HSS, KIZHAKEKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7678,
+    name: "VELLIMON HSS, VELLIMON, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7679,
+    name: "VHSS, MANJAPPARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7680,
+    name: "JOHN F KENNADY M HSS KARUNAGAPPALLY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7681,
+    name: "LOURD MATHA HSS, KOVILTHOTTAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7682,
+    name: "NEHRU MEMORIAL HSS, KAITHAKUZHY, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7683,
+    name: "MOUNT CARMEL EM HSS, MATHILAKOM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7684,
+    name: "ST.JOHN`S HSS, KARUVELIL, EZHUKONE, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7685,
+    name: "SDA HSS, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7686,
+    name: "SABARIGIRI HSS, ANCHAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7687,
+    name: "MOUNT TABORE HSS, PATHANAPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7688,
+    name: "RV HSS, VALAKOM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7689,
+    name: "TVTM HSS, VELIYAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7690,
+    name: "VHSS, VAYANAKOM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7691,
+    name: "MAEM HSS KARIKKODU, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7692,
+    name: "JAWAHAR HSS, AYUR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7693,
+    name: "AKMV HSS, THADIKKADU, ANCHAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7694,
+    name: "GOVT. HSS, KOIKKAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7695,
+    name: "TKDM GVHSS, KADAPPAKADA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7696,
+    name: "GOVT. HSS, PERINGALAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7697,
+    name: "GOVT. HSS, ASHTAMUDY, KUNDARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7698,
+    name: "GOVT. VHSS, PUNNALA,PATHANAPURAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7699,
+    name: "GOVT. HSS, CHITHARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7700,
+    name: "GOVT. HSS, MUTTARA, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7701,
+    name: "GOVT. HSS, NEDUMGOLAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7702,
+    name: "GOVT. HSS, OACHIRA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7703,
+    name: "GOVT. HSS, YEROOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7704,
+    name: "GOVT. HSS, THEVANNOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7705,
+    name: "GOVT. HSS, THODIYOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7706,
+    name: "GOVT. HSS, KULAKKADA, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7707,
+    name: "GOVT. HSS, PORUVAZHY, KUNNATHOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7708,
+    name: "GOVT. VHSS, KADAKKAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7709,
+    name: "VAKKANAD GOVT. HSS, KOTTARAKKARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7710,
+    name: "GOVT. HSS, PERINAD, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7711,
+    name: "ANCHAL EAST GOVT. HSS, ANCHAL, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7712,
+    name: "SADANANDAPURAM GOVT. HSS, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7713,
+    name: "GOVT. HSS, QUILON WEST, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7714,
+    name: "SN TRUST HSS, CHATHANNOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7715,
+    name: "SN TRUST HSS, PUNALUR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7716,
+    name: "TECHNICAL HSS, CHADAYAMANGALAM,KOLLAM.",
+    district: "Kollam"
+  },
+  {
+    id: 7717,
+    name: "D.V.V. HSS THALAVOOR,PATHANAPURAM.KOLLAM-691514.",
+    district: "Kollam"
+  },
+  {
+    id: 7718,
+    name: "ST. THOMAS HSS, PUNALUR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7719,
+    name: "MES ENGLISH MEDIUM HSS, PANMANAM, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7720,
+    name: "RAKESH RAVI MEMORIAL HSS, KARAMCODE P.O., CHATHANNOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7721,
+    name: "LIGHT LAND ENGLISH MEDIUM HSS, VALIYAKULANGARA, OCHIRA.P.O, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7722,
+    name: "VIVEKANANDA HSS, CHANGANKULANGARA, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7723,
+    name: "N.G.P.M. HIGHER SECONDARY SCHOOL,VENCHEMPU,PUNALUR",
+    district: "Kollam"
+  },
+  {
+    id: 7724,
+    name: "TCNM GHS, NEDUMPARA",
+    district: "Kollam"
+  },
+  {
+    id: 7725,
+    name: "GOVT.VHSS, KOTTANKULANGARA",
+    district: "Kollam"
+  },
+  {
+    id: 7726,
+    name: "GPVHS, PERUMKULAM",
+    district: "Kollam"
+  },
+  {
+    id: 7727,
+    name: "GOVT.ASHS, PUTHANTHURA",
+    district: "Kollam"
+  },
+  {
+    id: 7728,
+    name: "MGDHS FOR BOYS, KUNDARA",
+    district: "Kollam"
+  },
+  {
+    id: 7729,
+    name: "MAMHS, CHENGAMANADU",
+    district: "Kollam"
+  },
+  { id: 7730, name: "MTDM HS, MALUR", district: "Kollam" },
+  {
+    id: 7731,
+    name: "KNNM VHSS, PAVITHRESWARAM",
+    district: "Kollam"
+  },
+  {
+    id: 7732,
+    name: "DEVI VILASOM VHSS, THALAVOOR",
+    district: "Kollam"
+  },
+  {
+    id: 7733,
+    name: "MTHS VALAKAM, KOTTARAKKARA",
+    district: "Kollam"
+  },
+  {
+    id: 7734,
+    name: "MMHS, VILAKKUDY",
+    district: "Kollam"
+  },
+  {
+    id: 7735,
+    name: "ADICHANALLOOR PANCHAYATH HSS, ADICHANALLOOR",
+    district: "Kollam"
+  },
+  {
+    id: 7736,
+    name: "H.K.M HSS, KALLUKUZHI, UMAYANALLOOR, KOLLAM",
+    district: "Kollam"
+  },
+  {
+    id: 7737,
+    name: "Govt Model Residential Higher Secondary School, Kulathupuzha, Kollam",
+    district: "Kollam"
+  },
+  {
+    id: 7738,
+    name: "GOVT. BHSS, ADOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7739,
+    name: "GOVT. HSS, CHITTAR, VADASSERIKARA,",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7740,
+    name: "GOVT. HSS, EZHUMATTOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7741,
+    name: "GOVT.HSS, KADAMMANITTA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7742,
+    name: "K S GOVT HSS, KADAPRA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7743,
+    name: "GOVT HSS, KALANJOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7744,
+    name: "GOVT HSS, VECHOOCHIRA COLONY, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7745,
+    name: "GOVT HSS, THOTTAKONAM, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7746,
+    name: "GOVT HSS KONNI, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7747,
+    name: "GOVT BOYS HSS,PATHANAMTHITTA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7748,
+    name: "GOVT HSS,KOIPPURAM,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7749,
+    name: "EDAMURI GOVT HSS,RANNI,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7750,
+    name: "GOVT HSS,OMALLOOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7751,
+    name: "GOVT HSS,KADUMEENCHIRA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7752,
+    name: "S C G HSS, THIRUVALLA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7753,
+    name: "M G M HSS, THIRUVALLA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7754,
+    name: "BALIKAMADOM GHSS, THIRUVALLA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7755,
+    name: "C M S HSS, MALLAPPALLY, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7756,
+    name: "N S S HSS, KUNNANTHANAM, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7757,
+    name: "S T B C HSS, CHENGAROOR P O, MALLAPALLY,",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7758,
+    name: "N S S HSS, THATTAYIL, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7759,
+    name: "ST. THOMAS, HSS, KOZHANCHERY, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7760,
+    name: "CATHOLICATE HSS, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7761,
+    name: "M S HSS, RANNI, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7762,
+    name: "S C HSS, CHELLAKADU, PATHANMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7763,
+    name: "S N D P HSS, VENKURINJI, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7764,
+    name: "N S S HSS, THADIYOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7765,
+    name: "PADMANABHODAYAM HSS, MEZHUVELI,",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7766,
+    name: "D B HSS, THIRUVALLA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7767,
+    name: "N S S HSS, ADOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7768,
+    name: "S N V HSS, ANGADICAL SOUTH, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7769,
+    name: "S N D P HSS, CHENNEERKKARA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7770,
+    name: "ABRAHAM M M HSS, EDAYARANMULA,",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7771,
+    name: "NSS HSS,KAVIYOOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7772,
+    name: "DBHSS,PARUMALA,KADAPRA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7773,
+    name: "ST JOHNS HSS,ERAVIPEROOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7774,
+    name: "SNDP HSS,MUTTATHUKONAM,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7775,
+    name: "ST BAHANAN`S HSS,VENNIKKULAM,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7776,
+    name: "NSS BOYS HSS,PANDALAM,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7777,
+    name: "MG HSS,THUMPAMON,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7778,
+    name: "HSS,SEETHATHODE,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7779,
+    name: "PSVPM HSS,AYRAVON,KONNI,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7780,
+    name: "SNDP HSS,KARAMVELI,ELANTHOOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7781,
+    name: "ST THOMAS HSS,ERUVALLIPRA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7782,
+    name: "MT HSS,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7783,
+    name: "CMS HSS,KUZHIKKALA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7784,
+    name: "NSS HSS,CHOORAKODE,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7785,
+    name: "MANAKKALA HSS(DEAF&DUMB),PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7786,
+    name: "S V G V HSS, KIDANGANNOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7787,
+    name: "TECHNICAL HSS,KALLOOPPARA,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7788,
+    name: "HOLY ANGELS EM HSS, ADOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7789,
+    name: "GOOD SHEPHERD EM HSS, PERUMALA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7790,
+    name: "NICHOLSON SYRIAN GHSS, MENJADI",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7791,
+    name: "ST. MARY`S HSS, MULLASSERY",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7792,
+    name: "BETHANY ST. MARY`S HSS, PERINAD, RANNI",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7793,
+    name: "SH HSS, MYLAPRA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7794,
+    name: "KADAMPANADU HSS, KADAMPANADU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7795,
+    name: "MK GAM HSS, MANNADY",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7796,
+    name: "SCHOOL FOR THE DEAF, ENATHU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7797,
+    name: "MOUNT BETHANY EM HSS, MYLAPRA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7798,
+    name: "ST. THOMAS HSS, RANNI",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7799,
+    name: "MPV HSS, KUMBHAZHA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7800,
+    name: "ST. PAUL`S HSS, NARIYAPURAM, MAMPILALI",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7801,
+    name: "NETAJI HSS, PRAMADOM, MALLASSERY",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7802,
+    name: "SCV HSS, KOOTTANADU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7803,
+    name: "PMV HSS, PERINGARA, THIRUVALLA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7804,
+    name: "NMHSS, KARIMPLAVU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7805,
+    name: "CMS HSS, KUMBALAMPOIKA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7806,
+    name: "NMHSS, KUMBANADU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7807,
+    name: "TECHNICAL HSS, ADOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7808,
+    name: "TECHNICAL HSS, ARANMULA, KOZHENCHERY",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7809,
+    name: "GOVT. HSS, KISUMAM, PAMBAVALLY, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7810,
+    name: "GOVT. GIRLS HSS, ADOOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7811,
+    name: "GOVT. HSS, TRICHENNAMANGALAM, PERINGANAD, PATHANAM",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7812,
+    name: "GHSS, ELIMULLUMPLAKKAL, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7813,
+    name: "MRSLB VGHSS, VAIPUR, MALLAPPALLY, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7814,
+    name: "GHSS, THUMPAMON NORTH, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7815,
+    name: "GHSS, THEKKUTHODE, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7816,
+    name: "GHSS, AYIROOR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7817,
+    name: "KULANADA PANCHAYAT HSS, KULANADA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7818,
+    name: "GHSS THENGAMAM, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7819,
+    name: "GHSS MANCODE, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7820,
+    name: "ST.MARY`S MAHILA MANDIRAM, GIRLS HSS, ADOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7821,
+    name: "TECHNICAL HSS,KALANJOOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7822,
+    name: "BRETHREN HSS,KUMBANAD,PTA.",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7823,
+    name: "MGD HSS, PUDUSSERI, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7824,
+    name: "REPUBLICAN VOCATIONAL HSS, KONNI, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7825,
+    name: "ST. GEORGE MOUNT HSS, KAIPPATTUR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7826,
+    name: "MODEL RESIDENTIAL SCHOOL, VADASSERIKKARA, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7827,
+    name: "GOVT.HS, KEEKOZHUR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7828,
+    name: "GOVT. VHSS, ELANTHOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7829,
+    name: "GOVT.HS, MAROOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7830,
+    name: "GOVT.HS, KIZHAKUPURAM",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7831,
+    name: "GOVT.HS, KUTTOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7832,
+    name: "JMPHS, MALAYALAPUZHA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7833,
+    name: "GOVT.GIRL'S HS, PERINGARA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7834,
+    name: "ST.THOMAS HS,KADAMBANAD",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7835,
+    name: "SCV HS, KOTTANADU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7836,
+    name: "SHHS, MYLAPRA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7837,
+    name: "NETHAJI HS, PRAMADAM",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7838,
+    name: "EBENEZAR HS, EATTICHUVADU",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7839,
+    name: "MMAHS, MARAMON",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7840,
+    name: "ST.MARYS HS NIRANAM",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7841,
+    name: "Gurukulam HS, Idakkulam",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7842,
+    name: "GOVT VHSS KAIPATTOOR",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7843,
+    name: "NSS HSS, VAIPUR, PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7844,
+    name: "GOVT VHSS , ELANTHOOR,PATHANAMTHITTA",
+    district: "Pathanamthitta"
+  },
+  {
+    id: 7845,
+    name: "GOVT HSS, ALA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7846,
+    name: "GOVT MHSS, AMBALAPPUZHA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7847,
+    name: "S N M GOVT BHSS, CHERTHALA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7848,
+    name: "GOVT MBHSS, HARIPPAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7849,
+    name: "GOVT HSS, KALAVOOR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7850,
+    name: "GOVT BOYS HSS, KAYAMKULAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7851,
+    name: "GOVT HSS, KIDANGARA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7852,
+    name: "GOVT HSS, KUNNAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7853,
+    name: "GOVT HSS, PERUMPALAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7854,
+    name: "GOVT HSS, CHANDIROOR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7855,
+    name: "GOVT DVHSS, CHARAMANGALAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7856,
+    name: "GOVT MUHAMADEN`S HSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7857,
+    name: "GOVT GHSS, MAVELIKKARA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7858,
+    name: "GOVT HSS, THIRUVANVANDOOR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7859,
+    name: "GOVT HSS, BUDHANOOR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7860,
+    name: "KKM GOVT HSS, ELIPPAKKULAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7861,
+    name: "GOVT HSS, ANGADIKKAL SOUTH, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7862,
+    name: "GOVT VHSS,CHUNAKKARA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7863,
+    name: "GOVT HSS,MANGALAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7864,
+    name: "GOVT HSS,AYAPARAMBU,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7865,
+    name: "GOVT HSS,SL PURAM,KANJIKKUZHI,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7866,
+    name: "GOVT GIRLS HSS,CHERTHALA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7867,
+    name: "GOVT GIRLS HSS,HARIPPAD,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7868,
+    name: "GOVT GIRLS HSS,KAYAMKULAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7869,
+    name: "GOVT SCU VHSS,PATTANAKKAD,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7870,
+    name: "GOVT VHSS,MULAKKUZHA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7871,
+    name: "TD HSS, THURAVOOR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7872,
+    name: "VADUTHALA JUMA HATH HSS, NAVADUVATHU NAGAR,",
+    district: "Alappuzha"
+  },
+  {
+    id: 7873,
+    name: "LAJANATHUL MUHAMMADI HSS, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7874,
+    name: "ST. JOSEPH`S GHSS, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7875,
+    name: "AMRITHA HSS, VALLIKKUNNAM, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7876,
+    name: "N S HSS, NEDUMUDI, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7877,
+    name: "ST. MARY`S HSS, CHAMPAKKULAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7878,
+    name: "ARAVUKAD HSS, PUNNAPPRA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7879,
+    name: "S N D P HSS , KUTTAMANGALAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7880,
+    name: "ST. ALOSIOUS HSS, EDATHUA, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7881,
+    name: "N S S HSS, RAMANKARI, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7882,
+    name: "N S S HSS, KARUVATTA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7883,
+    name: "M S M HSS, KAYAMKULAM, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7884,
+    name: "BISHOP HODGES HSS, MAVELIKKARA, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7885,
+    name: "POPE PIOUS XI HSS, BHARANIKKAVU, ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7886,
+    name: "V V HSS, THAMARAKKULAM , ALLAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7887,
+    name: "NS BHSS, MANNAR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7888,
+    name: "LEO XIII HSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7889,
+    name: "S N M HSS, PURAKKAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7890,
+    name: "S N HSS, POOCHACKAL, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7891,
+    name: "ST. FRANCIS ASSISSI HSS, ARTHINKAL, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7892,
+    name: "ST. JOSEPH`S HSS, PULINKUNNU, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7893,
+    name: "LM HSS,PACHA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7894,
+    name: "ST JOHNS HSS,MATTOM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7895,
+    name: "TD HSS,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7896,
+    name: "SD VB HSS,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7897,
+    name: "PADANILAM HSS,NOORANAD,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7898,
+    name: "DBHSS,THAKAZHI,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7899,
+    name: "RVSM HSS,PRAYAR,OCHIRA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7900,
+    name: "NRPM HSS,KAYAMKULAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7901,
+    name: "MTM HSS,VENMANI,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7902,
+    name: "METROPOLITAN HSS,PUTHENKAVU,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7903,
+    name: "DBHSS,CHERIYANADU,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7904,
+    name: "BOYS VHSS,KANICHUKULANGARA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7905,
+    name: "HOLI FAMILY BHSS MUTTAM,CHERTHALA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7906,
+    name: "NSS HSS,PANAVALLI,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7907,
+    name: "HSS,KANDAMANGALAM,AROOR,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7908,
+    name: "ST AUGESTINE`S HSS,AROOR,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7909,
+    name: "AB VILASOM HSS,MUHAMMA,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7910,
+    name: "NSS HSS,KAVALAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7911,
+    name: "ST GEORGE HSS,MUTTAR,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7912,
+    name: "HSS,THIRUVAMBADI,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7913,
+    name: "HOLY FAMILY HSS,KATTOOR,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7914,
+    name: "KV SANSKRIT HSS,MUTHUKULAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7915,
+    name: "PKKSM HSS,KAYAMKULAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7916,
+    name: "SN TRUST HSS,MARARIKULAM NORTH,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7917,
+    name: "SAMAJAM HSS,MUTHUKULAM,ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7918,
+    name: "SREE BHUVANESWARI EM HSS, MANNAR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7919,
+    name: "OUR LADY OF MERCY HSS, AROOR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7920,
+    name: "ST. THOMAS HSS, NEERETTUPURAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7921,
+    name: "BISHOP MOORE HSS, AKANATTUKARA, MAVELIKARA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7922,
+    name: "CARMEL ACADEMY EM HSS, PAZHAVANGADY, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7923,
+    name: "BETHANY BALIKAMATOM HSS, NANGIARKULANGARA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7924,
+    name: "ST. MARY`S GHSS, KAYAMKULAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7925,
+    name: "SREE VITOBHA HSS, KAYAMKULAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7926,
+    name: "VHSS, CHATHIYARA, THAMARAKULAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7927,
+    name: "KKKVM HSS, POOTHAPPALLY SOUTH, HARIPPAD",
+    district: "Alappuzha"
+  },
+  {
+    id: 7928,
+    name: "ST. ANNE`S GHSS, ANGADIKKAL, CHENGANNUR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7929,
+    name: "NADUVATTOM HSS, PALLIPADU",
+    district: "Alappuzha"
+  },
+  {
+    id: 7930,
+    name: "SDA HSS, MAVELIKKARA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7931,
+    name: "TECHNICAL HSS, PERISSERY, CHENGANNUR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7932,
+    name: "GOVT. HSS, THIRUNELOOR, CHERTHALA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7933,
+    name: "GOVT. HSS, CHERTHALA SOUTH, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7934,
+    name: "VAYALAR RAMA VARMA GOVT. HSS, VAYALAR, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7935,
+    name: "GOVT. VVHSS, KODENTHURUTHU, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7936,
+    name: "GOVT. HSS, RAMAPURAM, KEERIKKAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7937,
+    name: "GOVT. VHSS, MAVELIKKARA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7938,
+    name: "K.K.KUNCHY PILLAI MEMORIAL HSS, AMBALAPPUZHA, ALAP",
+    district: "Alappuzha"
+  },
+  {
+    id: 7939,
+    name: "GOVT. GIRLS HSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7940,
+    name: "GOVT. VHSS, ARYAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7941,
+    name: "GOVT. HSS, THALAVADY, KUTTANAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7942,
+    name: "GOVT. MOHAMMADENS GIRLS HSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7943,
+    name: "GOVT. HSS, THANNEERMUKKAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7944,
+    name: "KUDASSANAD THANDANAVILA GS VHSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7945,
+    name: "VALIYAZHEEKKAL GOVT. HSS, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7946,
+    name: "SN TRUST HSS, CHERIYANAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7947,
+    name: "SN TRUST HSS, PALLIPPAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7948,
+    name: "TECHNICAL HSS, IHRD,PALLIPURAM P.O,CHERTHALA,ALAPP",
+    district: "Alappuzha"
+  },
+  {
+    id: 7949,
+    name: "CBM HSS, NOORANAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7950,
+    name: "CHAKKALAKKAL HSS, PADANILAM, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7951,
+    name: "MODEL RESIDENTIAL SCHOOL, PUNNAPRA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7952,
+    name: "MAHATMA HIGHER SECONDARY SCHOOL FOR BOYS, CHENNITHALA, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7953,
+    name: "GOVT.HS, KAKKAZHOM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7954,
+    name: "GOVT.HS, PULIYOOR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7955,
+    name: "GOVT.HS, PARAVOOR",
+    district: "Alappuzha"
+  },
+  {
+    id: 7956,
+    name: "GOVT.HS, THEVARVATTOM POOCHAKKAL",
+    district: "Alappuzha"
+  },
+  {
+    id: 7957,
+    name: "GHS VEEYAPURAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7958,
+    name: "LUTHERAN HS, SOUTH ARYAD",
+    district: "Alappuzha"
+  },
+  {
+    id: 7959,
+    name: "DEVI VILASOM HS, KANDANKERI",
+    district: "Alappuzha"
+  },
+  {
+    id: 7960,
+    name: "CKHS, CHEPPAD",
+    district: "Alappuzha"
+  },
+  {
+    id: 7961,
+    name: "HIGH SCHOOL, CHETTIKULANGARA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7962,
+    name: "ST.THOMAS HS, KARTHIKAPPALLY",
+    district: "Alappuzha"
+  },
+  {
+    id: 7963,
+    name: "ST.RAPHEL HS ,EZHUPUNNA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7964,
+    name: "KOPPARATHU HS, PUTHIYAVILA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7965,
+    name: "VISWABHARATHI MODEL HS, KRISHNAPURAM",
+    district: "Alappuzha"
+  },
+  {
+    id: 7966,
+    name: "KKK VM HS, POTHAPPALLY",
+    district: "Alappuzha"
+  },
+  {
+    id: 7967,
+    name: "AJ JOHN MEMORIAL HS, KAINADY",
+    district: "Alappuzha"
+  },
+  {
+    id: 7968,
+    name: "SV HS, PANDANADU",
+    district: "Alappuzha"
+  },
+  {
+    id: 7969,
+    name: "MKAM HS PALLANA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7970,
+    name: "VALAMANGALAM SERVICE CO-OP.SOCIETY HS",
+    district: "Alappuzha"
+  },
+  {
+    id: 7971,
+    name: "NSS HSS, KURATHIKAD, ALAPPUZHA",
+    district: "Alappuzha"
+  },
+  {
+    id: 7972,
+    name: "MOTHER TERESA HIGHER SECONDARY SCHOOL, MUHAMMA P.O., ALAPPUZHA - 688525",
+    district: "Alappuzha"
+  },
+  {
+    id: 7973,
+    name: "GOVT. HSS, ERATTUPETTAH , KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7974,
+    name: "GOVT. HSS, KADAPPOOR , KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7975,
+    name: "GOVT. HSS, KARAPPUZHA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7976,
+    name: "GOVT. MHSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7977,
+    name: "GOVT. HSS, KUMARAKAM , KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7978,
+    name: "GOVT. HSS, PALA , KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7979,
+    name: "GOVT. HSS, PANAMATTOM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7980,
+    name: "GOVT. HSS, THAZHATHUVADAKARA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7981,
+    name: "GOVT. HSS, THRIKKODITHANAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7982,
+    name: "GOVT. GIRLS HSS, VAIKOM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7983,
+    name: "GOVT. HSS, VADAKKEKKARA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7984,
+    name: "GOVT. HSS, PAMPADY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7985,
+    name: "GOVT. HSS, VAIKOM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7986,
+    name: "GOVT. HSS, PERUVA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7987,
+    name: "GOVT. BOYS HSS, PUTHUPALLY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7988,
+    name: "MCV HSS,ARPOOKARA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7989,
+    name: "GOVT HSS,AREEPARAMBA,VIJAYAPURAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7990,
+    name: "GOVT HSS,KUDAMALLOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7991,
+    name: "GOVT HSS,KURICHY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7992,
+    name: "GOVT HSS,EDAKKOLI,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7993,
+    name: "SKV GOVT HSS,NEENDOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7994,
+    name: "GOVT HSS,TV PURAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7995,
+    name: "GOVT HSS,KANAKKARY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7996,
+    name: "GOVT HSS,KULASEKHARAMANGALAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7997,
+    name: "AJJM HSS,THALAYOLAPPARAMBA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7998,
+    name: "GOVT. VHSS, PONKUNNAM ( P O), PONKUNNAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 7999,
+    name: "GOVT. HSS,NEDUMKUNNAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8000,
+    name: "GOVT. HSS,EDAKUNNAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8001,
+    name: "GOVT. VHSS,MURIKKUMVAYAL,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8002,
+    name: "M G M HSS, LAKKATTOOR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8003,
+    name: "M G HSS, ERATTUPETTA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8004,
+    name: "M T HSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8005,
+    name: "M D HSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8006,
+    name: "BAKER MEMORIAL GHSSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8007,
+    name: "ST MARY`S HSS, MANARCAD, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8008,
+    name: "NSS BHSS, KARUKACHAL, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8009,
+    name: "ST. JOHN`S BAPTIST HSS, NEDUMKUNNAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8010,
+    name: "JM HSS, VAKATHANAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8011,
+    name: "ST. EPHREM`S HSS, MANNANAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8012,
+    name: "SMV HSS, POONJAR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8013,
+    name: "ST. ANTONY`S HSS, PLASANAL, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8014,
+    name: "ST.SEBASTIAN`S HSS, KADANAD, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8015,
+    name: "ST. MARY`S BHSS, BHARANANGANAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8016,
+    name: "ST. MARY`S HSS, THEEKOY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8017,
+    name: "CMS HSS, MELUKAVU, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8018,
+    name: "JJMM HSS, YENDAYAR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8019,
+    name: "C.KESAVAN MHSS, KORUTHODE, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8020,
+    name: "VISWABHARATHI SNDP HSS, NJEEZHOOR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8021,
+    name: "ST. LITTLE THERESAS GHSS, VAIKOM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8022,
+    name: "HOLY CROSS HSS, CHERPUNKAL, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8023,
+    name: "NSS HSS, KALLARA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8024,
+    name: "ST.MICHELS HSS, KADATHURUTHY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8025,
+    name: "ST. MARY`S BOYS HSS, KURAVILANGAD, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8026,
+    name: "ST. THOMAS HSS, PALA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8027,
+    name: "ST. PETER`S BOYS HSS, KURUMBANADAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8028,
+    name: "SB HSS, CHANGANACHERRY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8029,
+    name: "NSS GIRLS HSS, PERUNNA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8030,
+    name: "SKM HSS, KUMARAKAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8031,
+    name: "OLL HSS, UZHAVOOR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8032,
+    name: "ST. ANN`S GHSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8033,
+    name: "MOUNT CARMEL HSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8034,
+    name: "ST. DOMINIC`S HSS, KANJIRAPPALLY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8035,
+    name: "A V HSS KURICHY KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8036,
+    name: "SNDP HSS,KILIROOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8037,
+    name: "ST ALOSIUS HSS,ATHIRAMPUZHA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8038,
+    name: "ST JOSEPH`S GHSS,CHANGANACHERRY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8039,
+    name: "SH MOUNT HSS,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8040,
+    name: "CMS HSS,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8041,
+    name: "ST THERESAS GHSS,VAZHAPPALLI,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8042,
+    name: "NSS HSS,ANICKAD,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8043,
+    name: "NSS HSS,KARAPPUZHA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8044,
+    name: "NSS HSS,KIDANGORE,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8045,
+    name: "HOLY FAMILY HSS,MUTTAMBALAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8046,
+    name: "CCMHSS,KARIKKATTOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8047,
+    name: "ST AUGUSTINES HSS,RAMAPURAM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8048,
+    name: "ST JOHN NEPHUSIANS`S HSS,KOZHUVANAL,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8049,
+    name: "EMMANUEL`S HSS,KOTHANALLOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8050,
+    name: "ST MICHEAL`S HSS,KUDAVACHOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8051,
+    name: "ST MARY`S HSS,KIDANGOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8052,
+    name: "SMSN HSS,VAIKOM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8053,
+    name: "ST MARY`S HSS,PALA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8054,
+    name: "ST ANNE`S HSS,KURIYANAD,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8055,
+    name: "MUSLIM GIRLS HSS,KANGAZHA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8056,
+    name: "AM HSS,KALAKKETTY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8057,
+    name: "ST THOMAS HSS,ERUMELY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8058,
+    name: "ST GEORGE HSS,ARUVITHURA,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8059,
+    name: "ST ANTONY`S HSS,POONJAR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8060,
+    name: "SVR NSS HSS,VAZHOOR,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8061,
+    name: "MODEL TECHNICAL HSS,PUTHUPPALLY,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8062,
+    name: "HOLY CROSS HSS, THELLAKAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8063,
+    name: "AKJM EM HSS, KANJIRAPALLY",
+    district: "Kottayam"
+  },
+  {
+    id: 8064,
+    name: "ST. JOSEPH`S EM HSS, KANJIRAPALLY",
+    district: "Kottayam"
+  },
+  {
+    id: 8065,
+    name: "DON BOSCO HSS, PUTHUPALLY",
+    district: "Kottayam"
+  },
+  {
+    id: 8066,
+    name: "GIRIDEEPAM BETHENY HSS, VADAVATHOOR",
+    district: "Kottayam"
+  },
+  {
+    id: 8067,
+    name: "MAR GREGORIUS HSS, NJALIKUZHY",
+    district: "Kottayam"
+  },
+  {
+    id: 8068,
+    name: "S.V.R VS EM HSS, NATTASSERY",
+    district: "Kottayam"
+  },
+  {
+    id: 8069,
+    name: "ST. ANNES GHSS, CHANGANASSERY",
+    district: "Kottayam"
+  },
+  {
+    id: 8070,
+    name: "ST. GEORGE HSS, MANIMALA",
+    district: "Kottayam"
+  },
+  {
+    id: 8071,
+    name: "VAVAR MEMORIAL HSS, ERUMELI",
+    district: "Kottayam"
+  },
+  {
+    id: 8072,
+    name: "ST. MARY`S GHSS, KANJIRAPALLY",
+    district: "Kottayam"
+  },
+  {
+    id: 8073,
+    name: "KRISTU JYOTHI HSS, CHETHIPUZHA, CHANGANASSERY",
+    district: "Kottayam"
+  },
+  {
+    id: 8074,
+    name: "INFANT JESUS B.C.G HSS, MANARKADU",
+    district: "Kottayam"
+  },
+  {
+    id: 8075,
+    name: "REV. FR. GMHSS, KARIKKODE",
+    district: "Kottayam"
+  },
+  {
+    id: 8076,
+    name: "K.E.E.M HSS, MANNANAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8077,
+    name: "MANGALAM EM HSS, VETTIMUKAL, ETTUMANUR",
+    district: "Kottayam"
+  },
+  {
+    id: 8078,
+    name: "ST. VINCENT ENGLISH MEDIUM HSS, PALA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8079,
+    name: "BASELIOUS EM HSS, KANGHAZHA",
+    district: "Kottayam"
+  },
+  {
+    id: 8080,
+    name: "SHEM HSS, PERUNNA, CHANGANASSERY",
+    district: "Kottayam"
+  },
+  {
+    id: 8081,
+    name: "CMS HSS, PALLOM",
+    district: "Kottayam"
+  },
+  {
+    id: 8082,
+    name: "ST. JOSEPH CONVENT HSS, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8083,
+    name: "ST. ANTONOY`S HSS, CHENGALAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8084,
+    name: "DE PAUL HSS, NAZRETH HILL, KURAVILANGADU",
+    district: "Kottayam"
+  },
+  {
+    id: 8085,
+    name: "DEAF HSS NEERPARA, THALAYOLAPARAMBU",
+    district: "Kottayam"
+  },
+  {
+    id: 8086,
+    name: "ITHITHANAM HSS, MALAKUNNAM, CHANGANACHERRY",
+    district: "Kottayam"
+  },
+  {
+    id: 8087,
+    name: "GOVT. HSS, THOTTAKKAD, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8088,
+    name: "GOVT. VHSS, VAYALA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8089,
+    name: "GHSS, PUTHUVELI, PALA, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8090,
+    name: "GHSS, PAIPPAD, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8091,
+    name: "GHSS CHENGALAM, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8092,
+    name: "PTM GHSS, VELLOOR, PAMPADY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8093,
+    name: "GOVERNMENT DEVI VILASOM HSS, KUDAVECHOOR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8094,
+    name: "GHSS CHANGANACHERRY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8095,
+    name: "SACRED HEART HSS, CHANGANACHERRY, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8096,
+    name: "SREE VIDHYADIRAJA HSS, ETTUMANOOR, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8097,
+    name: "CROSS ROADS EM HSS, PAMPADI, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8098,
+    name: "ST. GEORGE`S EM HSS, THALAYOLAPARAMBU, KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8099,
+    name: "BRAHMAMANGALAM VHSS,CHEMBU,VAIKOM,KOTTAYAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8100,
+    name: "GOVT.VHSS, ETTUMANOOR",
+    district: "Kottayam"
+  },
+  {
+    id: 8101,
+    name: "GOVT.HS, MEENADOM",
+    district: "Kottayam"
+  },
+  {
+    id: 8102,
+    name: "GOVT.HS, ADUKKAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8103,
+    name: "MATTAKKARA HS",
+    district: "Kottayam"
+  },
+  {
+    id: 8104,
+    name: "ST.SEBASTIAN'S HS AYARKUNNAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8105,
+    name: "ST.MICHLES HS PRAVITHANAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8106,
+    name: "ST.JOSEPH`S HSS, VILAKKUMADAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8107,
+    name: "ST.PAULS HS, VALIYAKUMARAMANGALAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8108,
+    name: "ST.ANTONYS HS, MUTHOLI",
+    district: "Kottayam"
+  },
+  {
+    id: 8109,
+    name: "ST.MARYS HS, VALLAKAM",
+    district: "Kottayam"
+  },
+  {
+    id: 8110,
+    name: "NSSHSS Chigavanam,Kottayam",
+    district: "Kottayam"
+  },
+  {
+    id: 8111,
+    name: "NSS HSS VECHOOR",
+    district: "Kottayam"
+  },
+  {
+    id: 8112,
+    name: "GOVT HSS AMARAVATHY, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8113,
+    name: "GOVT TAMIL HSS, DEVIKULAM, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8114,
+    name: "GOVT HSS,KALLAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8115,
+    name: "GOVT HSS,KUMILI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8116,
+    name: "GOVT HSS,KUNCHITHANNI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8117,
+    name: "GOVT TRIBAL HSS, MURIKKATTUKUDI, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8118,
+    name: "CPM GOVT HSS, PEERUMEDU, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8119,
+    name: "GOVT TRIBAL HSS, POOMALA, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8120,
+    name: "GOVT HSS,RAJAKKAD,PONMUDI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8121,
+    name: "GOVT GHSS, THODUPUZHA, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8122,
+    name: "GOVT HSS, VELLATHOOVAL, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8123,
+    name: "GOVT HSS,KUTTIPLANGAD,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8124,
+    name: "GOVT HSS,KUDAYATHUR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8125,
+    name: "GOVT VHSS,RAJAKUMARI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8126,
+    name: "MULLARINGADU HSS,MULLARINGADU,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8127,
+    name: "NEHRU SMARAKA PANCHAYATH HSS,PUTTADY,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8128,
+    name: "ST GEORGE HSS,MUTHALAKODAM,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8129,
+    name: "ST MARY`S HSS,KALIYAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8130,
+    name: "ST JOSEPH`S HSS,KARIMANNUR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8131,
+    name: "NSS HSS,MANACAUD,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8132,
+    name: "ST AUGUSTINES HSS,KARIMKUNNAM,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8133,
+    name: "ST MARY`S HSS,ARAKULAM,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8134,
+    name: "ST GEORGE HSS,VAZHATHOPPE NORTH,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8135,
+    name: "NANKICITY S N HSS,KANJIKKUZHI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8136,
+    name: "ST MARY`S HSS,MURIKKASSERY,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8137,
+    name: "ST GEORGE`S HSS,KATTAPPANA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8138,
+    name: "ST THOMAS`S HSS,ERATTAYAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8139,
+    name: "NSS HSS,KOOTTAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8140,
+    name: "SNV HSS,NR CITY,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8141,
+    name: "ST MARY`S HSS,VELLARAMKUNNU,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8142,
+    name: "ST SEBASTIANS HSS,CHEENTHALAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8143,
+    name: "FMG HSS,KOOMPANPARA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8144,
+    name: "SNDP VHSS,ADIMALI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8145,
+    name: "ST XAVIER`S HSS,CHEMMANNAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8146,
+    name: "S J HSS,VELLAYAMKUDI,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8147,
+    name: "ST PHILOMINA`S HSS,UPPUTHARA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8148,
+    name: "ST SEBASTIAN`S HSS,VAZHITHALA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8149,
+    name: "ST JOSEPH`S HSS,PERUVAMTHANAM,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8150,
+    name: "MKNM HSS,KUMARAMANGALAM,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8151,
+    name: "ST THOMAS HSS,THANKAMANY,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8152,
+    name: "TECHNICAL HSS, PEERUMEDU, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8153,
+    name: "TECHNICAL HSS, THODUPUZHA, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8154,
+    name: "ST. MARY`S HSS, MARYKULAM, AYYAPPANCOIL",
+    district: "Idukki"
+  },
+  {
+    id: 8155,
+    name: "ST. THOMAS EM HSS, ATTAPPALLAM, KUMILY",
+    district: "Idukki"
+  },
+  {
+    id: 8156,
+    name: "OSSANAM EM HSS, KATTAPPANA",
+    district: "Idukki"
+  },
+  {
+    id: 8157,
+    name: "ST. RITAS HSS, PAINAKULAM, THODUPUZHA",
+    district: "Idukki"
+  },
+  {
+    id: 8158,
+    name: "ST. SEBASTIANS HSS, NEDUMKANDAM",
+    district: "Idukki"
+  },
+  {
+    id: 8159,
+    name: "ST. GEORGE HSS, PARATHODE",
+    district: "Idukki"
+  },
+  {
+    id: 8160,
+    name: "SHEM HSS, MOOLAMATTOM",
+    district: "Idukki"
+  },
+  {
+    id: 8161,
+    name: "DE PAUL EM HSS, THODUPUZHA EAST",
+    district: "Idukki"
+  },
+  { id: 8162, name: "SVHSS, ADIMALI", district: "Idukki" },
+  {
+    id: 8163,
+    name: "MARIAGIRI HSS PEERUMEDU",
+    district: "Idukki"
+  },
+  {
+    id: 8164,
+    name: "JAIRANI EMHSS THODUPUZHA",
+    district: "Idukki"
+  },
+  {
+    id: 8165,
+    name: "GOVT. HSS, MARAYOOR, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8166,
+    name: "GOVT. HSS, THOPRANKUDY, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8167,
+    name: "GOVT. HIGHER SECONDARY SCHOOL, PERINGASSERY,THODUPUZHA, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8168,
+    name: "GOVT. HSS, PANIKKANKUDY, KONNATHADI, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8169,
+    name: "GOVT. HSS, PATHINARAMKANDAM, VATHIKUDY, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8170,
+    name: "VAGAVARRAI GOVT. HSS, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8171,
+    name: "CHANDUVARAI GOVT. HSS, S.P.PURAM.P.O, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8172,
+    name: "ELAPPARA PANCHAYATH HSS, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8173,
+    name: "WANDIPERIYAR PANCHAYAT HSS, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8174,
+    name: "MES HSS, VANDENMEDU, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8175,
+    name: "AUXILIUM HSS, KATTAPPANA, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8176,
+    name: "MODEL RESIDENTIAL SCHOOL,MUNNAR,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8177,
+    name: "GOVT. HSS, BISON VALLEY,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8178,
+    name: "GOVT. TRIBAL HSS, KATTAPPANA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8179,
+    name: "GOVT. HSS, VAGAMON,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8180,
+    name: "GOVT. HSS, ANAKKARA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8181,
+    name: "GOVT. HSS, VATTAVADA,IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8182,
+    name: "GOVT. MODEL RSIDENTIAL SCHOOL, PEERUMEDU, IDUKKI",
+    district: "Idukki"
+  },
+  {
+    id: 8183,
+    name: "GOVT.HS, CHINNAKANAL",
+    district: "Idukki"
+  },
+  {
+    id: 8184,
+    name: "GOVT.HS, KODIKULAM",
+    district: "Idukki"
+  },
+  {
+    id: 8185,
+    name: "GOVT.HS, MUTTOM",
+    district: "Idukki"
+  },
+  {
+    id: 8186,
+    name: "GOVT.HS, NEDUKANDAM",
+    district: "Idukki"
+  },
+  {
+    id: 8187,
+    name: "St. George`s HSS, Kalayanthani",
+    district: "Idukki"
+  },
+  {
+    id: 8188,
+    name: "ST.MARY'S HS, MARYKULAM",
+    district: "Idukki"
+  },
+  {
+    id: 8189,
+    name: "ST.GEORGE HS, KALLANIKAL",
+    district: "Idukki"
+  },
+  { id: 8190, name: "SMHS, MANKULAM", district: "Idukki" },
+  {
+    id: 8191,
+    name: "ST.SEBASTIAN HS, PURAPPUZHA",
+    district: "Idukki"
+  },
+  {
+    id: 8192,
+    name: "MAR BASIL VHSS, SENAPATHY",
+    district: "Idukki"
+  },
+  {
+    id: 8193,
+    name: "St. Marys High School, Mariapuram, Idukki. PinCode 685602",
+    district: "Idukki"
+  },
+  {
+    id: 8194,
+    name: "GOVT HSS,AKANAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8195,
+    name: "GOVT HSS,CHENDAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8196,
+    name: "GOVT HSS,EDAPPALLI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8197,
+    name: "GOVT HSS,ELAMKUNNAPPUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8198,
+    name: "GOVT GIRLS HSS,KOCHI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8199,
+    name: "GOVT GIRLS HSS,MATTANCHERY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8200,
+    name: "GOVT HSS,MOOKKANNUR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8201,
+    name: "GOVT HSS,SIVANKUNNU,MOOVATTUPUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8202,
+    name: "GOVT HSS,NAMAKKUZHY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8203,
+    name: "GOVT HSS,NORTH PARAVUR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8204,
+    name: "GOVT BOYS HSS,PERUMBAVOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8205,
+    name: "GOVT HSS,PULIYANAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8206,
+    name: "GOVT HSS,NAYATHODE,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8207,
+    name: "GOVT BOYS HSS,ALUVA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8208,
+    name: "GOVT MODEL HSS, CHERUVATTUR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8209,
+    name: "GOVT HSS,CHATHAMATTOM,CHATHAMATTOM P O , PAINGOTTOOR ,KOTHAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8210,
+    name: "GOVT HSS,KUTTAMPUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8211,
+    name: "GOVT HSS,KADAYIRIPPU,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8212,
+    name: "GOVT GIRLS HSS,NORTH PARUR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8213,
+    name: "EM GIRLS HSS,FORT COCHIN,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8214,
+    name: "GOVT GIRLS HSS,ALUVA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8215,
+    name: "GOVT. VHSS FOR BOYS,THRIPPUNITHURA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8216,
+    name: "GOVT. HSS,MULANTHURUTHY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8217,
+    name: "GOVT. HSS,ELAMAKKARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8218,
+    name: "GOVT HSS,KONGARAPPALLI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8219,
+    name: "GOVT VHSS,KALAMASSERY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8220,
+    name: "GOVT HSS,EDATHALA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8221,
+    name: "GOVT HSS,MANJAPRA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8222,
+    name: "GOVT HSS,CHENGAMANGAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8223,
+    name: "GOVT HSS,POOTHRIKA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8224,
+    name: "GOVT SANSKRIT HSS,THRIPOONITHURA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8225,
+    name: "PUTHENTHODE GOVT HSS,CHELLANAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8226,
+    name: "GOVT MODEL HSS, PALAKKUZHA P O, NEAR KOOTHATTUKULAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8227,
+    name: "SRV HSS,KOCHI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8228,
+    name: "NERIYAMANGALAM GVHSS,KOTHAMANGALAM-1",
+    district: "Ernakulam"
+  },
+  {
+    id: 8229,
+    name: "SNDP HSS,UDAYAMPERUR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8230,
+    name: "SDPY HSS,PALLURUTHY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8231,
+    name: "JAYAKERALAM HSS,PULLUVAZHI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8232,
+    name: "MAR ELIAS HSS,KOTTAPPADY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8233,
+    name: "SNM HSS, MOOTHAKUNNAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8234,
+    name: "VCS HSS,PUTHENVELIKKARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8235,
+    name: "ST MARY`S HSS,MORAKKALA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8236,
+    name: "ST SEBASTIANS HSS,GOTHURUTHY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8237,
+    name: "SM HSS,CHERAI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8238,
+    name: "HSS OF JESUS,KOTHAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8239,
+    name: "CARDINAL HSS,THRIKKAKKARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8240,
+    name: "ST PHILOMINA`S HSS,KOONAMAVU,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8241,
+    name: "NSS BHSS,MANICKAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8242,
+    name: "ST THOMAS`S HSS,KEEZHILLAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8243,
+    name: "ST AUGUSTINE`S HSS,KALLOORKKAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8244,
+    name: "ST MARY`S HSS,ARAKKUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8245,
+    name: "FR JOSEPH`S HSS,PUTHUPPADI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8246,
+    name: "SNDP HSS,MUVATTUPUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8247,
+    name: "TT HSS,KAVUMKARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8248,
+    name: "ST GEORGE HSS,KOTHAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8249,
+    name: "ST STEPHEN`S HSS,KEERAMPARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8250,
+    name: "MAR BASIL HSS,KOTHAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8251,
+    name: "NSS HSS,VARAPPEETTY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8252,
+    name: "ST IGNATIUS HSS,KANJIRAMATTOM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8253,
+    name: "ST MARY`S HSS,THALAKKODE,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8254,
+    name: "MGM HSS,KURUPPUMPADI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8255,
+    name: "ST ALBERTS HSS,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8256,
+    name: "SACRED HEART HSS,THEVARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8257,
+    name: "SN HSS,OKKAL,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8258,
+    name: "SN HSS,TRIKKANARVATTOM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8259,
+    name: "SNVSKT HSS,N PARUR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8260,
+    name: "ST PETER`S HSS,KUMBALANGI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8261,
+    name: "KPM HSS,POOTHOTTA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8262,
+    name: "ST THERESAS CGHSS,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8263,
+    name: "ST SEBASTIANS HSS,PALLURUTHY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8264,
+    name: "DARUL ULOOM HSS,PULLAPPADI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8265,
+    name: "ST FRANCIS GIRLS HSS,ALUVA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8266,
+    name: "ST MARY`S GHSS,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8267,
+    name: "ST ANTONY`S HSS,KACHERIPPADI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8268,
+    name: "ST PETERES HSS,ELANJI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8269,
+    name: "MAR COORLOSE MHSS,PATTIMATTOM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8270,
+    name: "ST JOHN`S HSS,VADAKARA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8271,
+    name: "ASRAMAM HSS,PERUMBAVOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8272,
+    name: "ST AUGUSTINES CG HSS,KOTHAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8273,
+    name: "MAR KAUMA HSS,VENGOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8274,
+    name: "RAJARSHI MEMORIAL HSS,VADEVUCODE,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8275,
+    name: "SN HSS,N PARAVOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8276,
+    name: "HMY HSS,KOTTUVALIKAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8277,
+    name: "NSS HSS,PARAKADAVU,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8278,
+    name: "SNDP HSS,ALUVA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8279,
+    name: "ST THOMAS HSS,MALAYATTOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8280,
+    name: "BRAHMANANDODAYA HSS,KALADI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8281,
+    name: "HOLY GHOST GIRLS HSS,THOTTAKKATTUKARA,",
+    district: "Ernakulam"
+  },
+  {
+    id: 8282,
+    name: "ST PETER`S HSS,KOLENCHERY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8283,
+    name: "ST AUGUSTINE`S GHSS,MOOVATTUPUZHA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8284,
+    name: "MKM HSS,PIRAVAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8285,
+    name: "HIDAYATHUL ISLAM HSS,EDAVANKKAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8286,
+    name: "SANTHA CRUZ HSS,FORT KOCHI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8287,
+    name: "VALAYANCHIRANGARA HSS,VALAYANCHIRANGARA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8288,
+    name: "THANDEKKADU JAMA ATH HSS,MUDICKAL ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8289,
+    name: "ST JOSEPH`S HSS,PAINGOTTOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8290,
+    name: "KAVALANGAD JHSS,KOTHAMANGALAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8291,
+    name: "MODEL TECHNICAL HSS,KALOOR,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8292,
+    name: "MODEL TECHNICAL HSS,CHENGAMANAD,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8293,
+    name: "GOVT. HSS PAMPAKUDA, ERANAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8294,
+    name: "ST. JOSEPH`S HSS TRIKKAKARA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8295,
+    name: "RAJAGIRI HSS KALAMASSERY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8296,
+    name: "ST.JOSEPH`S HSS THRUPPUNITHURA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8297,
+    name: "HM TRUST HSS RANDARKARA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8298,
+    name: "NIRMALA EM HSS, MUVATTUPUZHA,",
+    district: "Ernakulam"
+  },
+  {
+    id: 8299,
+    name: "NIRMALA EM HSS ALUVA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8300,
+    name: "MARY MATHA EM HSS, THRIKKAKARA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8301,
+    name: "PANANGAD HSS, PANANGAD, KOCHI",
+    district: "Ernakulam"
+  },
+  {
+    id: 8302,
+    name: "SDPY GHSS, PALLURUTHY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8303,
+    name: "LMC HSS, PACHALAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8304,
+    name: "MA HSS, KODANADU, PERUMBAVOOR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8305,
+    name: "O.L.C.GHSS, PALLURUTHY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8306,
+    name: "NIV HSS, MARAPPALLY, ALUVA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8307,
+    name: "ST. JOSEPH`S HSS, CHENGAL, KALADY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8308,
+    name: "SNDP HSS, NEELESWARAM, KALADY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8309,
+    name: "ST. JUDE EM HSS, KARNAKODAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8310,
+    name: "STAR JESUS HSS, KARUKUTTY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8311,
+    name: "ST. JOSEPH`S HSS PIRAVAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8312,
+    name: "HILL VALLEY HSS, THRIKKAKARA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8313,
+    name: "CHRISTAVA MAHILALAYAM HSS, ALUVA, THOTTUMUGHAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8314,
+    name: "ABDULLA HAJI AHAMED SAIT MEMORIAL KMEA AL-MANAR HIGHER SECONDARY SCHOOL,KUZHIVELIPPADY,EDATHALA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8315,
+    name: "ST. ANNE`S HSS, ELOOR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8316,
+    name: "MAM HSS, PUTHEN KURISSU",
+    district: "Ernakulam"
+  },
+  {
+    id: 8317,
+    name: "ISLAMIC HSS, ALUVA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8318,
+    name: "ST. JOSEPH`S HSS, KOONAMAVU",
+    district: "Ernakulam"
+  },
+  {
+    id: 8319,
+    name: "ANITA VIDYALAYA HSS, TANNIPUZHA, OKKAL",
+    district: "Ernakulam"
+  },
+  {
+    id: 8320,
+    name: "ASIA BAI HSS, MATTANCHERY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8321,
+    name: "LOBELIA, HSS, NAYARAMBALAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8322,
+    name: "HAIL MARY HSS, PERUMPILLY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8323,
+    name: "FATIMA MATHA HSS, PIRAVOM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8324,
+    name: "GUARDIAN ANGEL HSS, MANJUMMEL, UDYOGAMANDAL, ALUV",
+    district: "Ernakulam"
+  },
+  {
+    id: 8325,
+    name: "BAPUJI EM HSS, KOOTHATTUKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8326,
+    name: "GUARDIAN ANGEL EM HSS, MANNOOR, KEEZHILLAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8327,
+    name: "TD HSS, MATTANCHERY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8328,
+    name: "BV HSS, NAYARAMBALAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8329,
+    name: "ST. SEBASTIAN`S HSS, ANICAUD, AVOLY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8330,
+    name: "SANTA CRUZ HSS, OCHENTHURUTH",
+    district: "Ernakulam"
+  },
+  {
+    id: 8331,
+    name: "INFANT JESUS HSS, VAZHAKULAM, MUVATTUPUZHA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8332,
+    name: "RAGHAVA PANICKAR MHSS, KUMBALAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8333,
+    name: "GUJARATHY VIDYALAYA HSS, MATTANCHERRY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8334,
+    name: "MTM HSS, PAMPAKUDA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8335,
+    name: "TECHNICAL HSS.ALUVA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8336,
+    name: "GOVT. VHSS, KADAMKUDY, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8337,
+    name: "GOVT. VHSS, NJARAKKAL, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8338,
+    name: "GOVT. HSS, VENNALA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8339,
+    name: "GOVT. HSS, CENTRAL KALAVATHY, KOCHI, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8340,
+    name: "GOVT. HSS, CHOWARA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8341,
+    name: "GOVT. HSS, EZHIPURAM SOUTH, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8342,
+    name: "GOVT. VHSS, PALLARIMANGALAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8343,
+    name: "GOVT. GIRLS HSS, PERUMBAVOOR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8344,
+    name: "GOVT. HSS, EDAPPALLY NORTH, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8345,
+    name: "GOVT. HSS, MAMALASSERY, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8346,
+    name: "GOVT. HSS, MANNANTHOOR, THIRUMARADI, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8347,
+    name: "GOVT. HSS, PEZHAKKAPPALLY, PAYIPPARA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8348,
+    name: "GOVT. HSS, MUPPATHADAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8349,
+    name: "GOVT. HSS, METHALAKALLIL, ASWAMANNOOR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8350,
+    name: "GOVT. VHSS, CHOTTANIKKARA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8351,
+    name: "GOVT. HSS, ELOOR, ALUVA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8352,
+    name: "GOVT. HSS, PIRAVOM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8353,
+    name: "GOVT. HSS, PAZHAMTHOTTAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8354,
+    name: "GHSS, OOORAMANA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8355,
+    name: "GOVT. HSS, VAZHAKULAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8356,
+    name: "GOVT. HSS, CHERANALLOOR, PERUMBAVOOR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8357,
+    name: "GOVT. HSS, EZHIKKARA, NORTH PARUR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8358,
+    name: "GOVT. HSS, PUTHIYAKAVU, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8359,
+    name: "GOVT. HSS, MANEEDU, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8360,
+    name: "GOVT. GIRLS HSS, THRIPPUNITHURA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8361,
+    name: "GOVT. MODEL HSS, MUVATTUPUZHA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8362,
+    name: "THE ALUVA SETTLEMENT HSS, ALUVA,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8363,
+    name: "ACSEM HSS KALOOR, KOCHI,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8364,
+    name: "VIDHYADHIRAJA VIDHYABHAVAN HSS,ALUVA, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8365,
+    name: "ST.MARY`S ANGLO INDIAN GIRLS HSS,FORT COCHIN, ERNA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8366,
+    name: "M.P.M.E.M.HSS,THAMMANAM,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8367,
+    name: "VIMALA MATHA HSS, KADALIKKADU, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8368,
+    name: "BHAGAVATHI VILASOM HSS, NAYARAMBALAM, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8369,
+    name: "DE-PAUL EM HSS, ANGAMALY, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8370,
+    name: "ST. JOSEPH`S HSS, KIDANGOOR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8371,
+    name: "AL FAROOKHIYA HSS, CHERANELLUR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8372,
+    name: "EBENEZER HSS, VEETTOOR, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8373,
+    name: "MODEL RESIDENTIAL SCHOOL, KEEZHMADU, ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8374,
+    name: "GOVT.HS KUTTAMASSERY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8375,
+    name: "GOVT.VHS, MANGAYIL",
+    district: "Ernakulam"
+  },
+  {
+    id: 8376,
+    name: "GHS PANAMPILLY NAGAR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8377,
+    name: "GOVT. HS MUDIKKAL",
+    district: "Ernakulam"
+  },
+  {
+    id: 8378,
+    name: "ST.SEBASTIANS HS, ANIKADU",
+    district: "Ernakulam"
+  },
+  {
+    id: 8379,
+    name: "SACRET HEART HS AYAVANA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8380,
+    name: "KALADY PLANTATION HS",
+    district: "Ernakulam"
+  },
+  {
+    id: 8381,
+    name: "AL-FAROOKHIYA HS",
+    district: "Ernakulam"
+  },
+  {
+    id: 8382,
+    name: "ST.PAUL'S HS, VELIYANADU",
+    district: "Ernakulam"
+  },
+  {
+    id: 8383,
+    name: "FMCT HS KARUMALOOR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8384,
+    name: "ST.JOSEPH HS KIZHAKKAMBALAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8385,
+    name: "HS KOOTHATTUKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8386,
+    name: "PANANGAD VHSS",
+    district: "Ernakulam"
+  },
+  {
+    id: 8387,
+    name: "ST.THOMAS HS, AYIROOR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8388,
+    name: "ST.AGUSTIN'S GIRLS HS KUZHUPPILLI",
+    district: "Ernakulam"
+  },
+  {
+    id: 8389,
+    name: "ST.MARYS HS, VALLARPADAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8390,
+    name: "BHAGAVATHI VILASOM HS",
+    district: "Ernakulam"
+  },
+  {
+    id: 8391,
+    name: "MAR-ATHANESIOUS HS ,ATHANI",
+    district: "Ernakulam"
+  },
+  {
+    id: 8392,
+    name: "TVJOSEPH MEMORIAL HS , PINDIMANA",
+    district: "Ernakulam"
+  },
+  {
+    id: 8393,
+    name: "ST.GEORGE HS VENNIKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8394,
+    name: "MSVHS VALAKAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8395,
+    name: "ST.GEORGE SCHOOL PUTHENPALLI",
+    district: "Ernakulam"
+  },
+  {
+    id: 8396,
+    name: "OLCG HS PALLURUTHY ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8397,
+    name: "CCPLM ANGLO-INDIAN HS,PERUMANNUR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8398,
+    name: "OLFHS KUMBALANGY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8399,
+    name: "Ebenezer HSS ,Veettoor",
+    district: "Ernakulam"
+  },
+  {
+    id: 8400,
+    name: "SNDP HS NEELESHWARAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8401,
+    name: "ST.JOHN'S HS, PULINTHANAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8402,
+    name: "GVHSS, MARADI",
+    district: "Ernakulam"
+  },
+  {
+    id: 8403,
+    name: "ST. JOSEPH`S HSS ,CHENGAL",
+    district: "Ernakulam"
+  },
+  {
+    id: 8404,
+    name: "ST JOSEPH`S GIRLS HSS, KARUKUTTY",
+    district: "Ernakulam"
+  },
+  {
+    id: 8405,
+    name: "VIMALA MATHA HSS, KADALIKAD",
+    district: "Ernakulam"
+  },
+  {
+    id: 8406,
+    name: "ST. JOSEPH`S HSS, KIDANGOOR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8407,
+    name: "MAR AGUSTINS HSS, THURAVUR",
+    district: "Ernakulam"
+  },
+  {
+    id: 8408,
+    name: "ST.CLARE ORAL SCHOOL FOR THE DEAF,MANICKYAMANGALAM,KALADY,ERNAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8409,
+    name: "K.KARUNAKARAN MEMORIAL HSS, CHERUVATTOOR, KOTHAMANGALAM, ERANAKULAM",
+    district: "Ernakulam"
+  },
+  {
+    id: 8410,
+    name: "GOVT SMT HSS,CHELAKKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8411,
+    name: "GOVT HSS,CHERPU,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8412,
+    name: "GOVT MODEL GHSS,IRINJALAKKUDA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8413,
+    name: "GOVT HSS,KANDASSANKADAVU,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8414,
+    name: "GOVT HSS,KODAKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8415,
+    name: "P BHASKARAN MEMORIAL GOVT HSS,KODUNGALLUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8416,
+    name: "GOVT HSS,MACHAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8417,
+    name: "KERALA VARMA MEMORIAL GHSS,ERIYAD,KODUNGALLOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8418,
+    name: "GOVT FISHERIES HSS,NATTIKA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8419,
+    name: "GOVT HSS,PEECHI,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8420,
+    name: "GOVT HSS,PERINGOTTUKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8421,
+    name: "GOVT MODEL HSS FOR BOYS,THRISSUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8422,
+    name: "GOVT HSS,VETTILAPPARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8423,
+    name: "GOVT HSS,CHERUTHURUTHY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8424,
+    name: "MODEL BOYS VHSS,KUNNAMKULAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8425,
+    name: "GOVT HSS,PATTIKKADU,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8426,
+    name: "GOVT MODEL BOYS HSS,CHALAKKUDI,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8427,
+    name: "GOVT MODEL BOYS HSS,IRINJALAKKUDA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8428,
+    name: "GOVT HSS,VILLEDOM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8429,
+    name: "MODEL BOY`S HSS,VADAKKANCHERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8430,
+    name: "GOVT HSS,CHAVAKKAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8431,
+    name: "GOVT MHSS,NADAVARAMBU,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8432,
+    name: "KKTM GOVT GIRL`S HSS,KODUNGALLUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8433,
+    name: "GOVT HSS,IRANIKKULAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8434,
+    name: "GOVT HSS,CHAIPANKUZHI,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8435,
+    name: "GOVT HSS,KARUPADANNA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8436,
+    name: "GOVT HSS,NANDIKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8437,
+    name: "GOVT SAMITHY HSS,MELADOOR,MALA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8438,
+    name: "GOVT HSS,EDAVILANGU,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8439,
+    name: "GOVT NALANDA HSS,KIZHUPPILAKKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8440,
+    name: "GOVT HSS,MANALOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8441,
+    name: "GOVT HSS,KATTILAPOOVAM,THRISUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8442,
+    name: "GOVT VHSS,AYYANTHOLE,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8443,
+    name: "GOVT SRVHSS,VELUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8444,
+    name: "GOVT HSS,KOCHANNUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8445,
+    name: "GOVT HSS,MULLASSERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8446,
+    name: "GVHSS,THALIKKULAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8447,
+    name: "GOVT HSS,ERUMAPETTY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8448,
+    name: "GOVT HSS,VARAVOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8449,
+    name: "GOVT HSS,PAZHAYANNOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8450,
+    name: "GOVT MODEL GIRLS HSS,KUNNAMKULAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8451,
+    name: "SEETHI SAHIB MV HSS,EDAKKAZHIYOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8452,
+    name: "UNION HSS,MAMBRA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8453,
+    name: "SN HSS,IRINJALAKKUDA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8454,
+    name: "AKM HSS,POOCHATTY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8455,
+    name: "SANTHA HSS, AVANOOR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8456,
+    name: "VIVEKODAYAM BHSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8457,
+    name: "NHSS,IRINJALAKKUDA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8458,
+    name: "ST ANTONY`S HSS,AMMADAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8459,
+    name: "SH CONVENT GHSS,CHALAKKUDY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8460,
+    name: "ST CLARAS GHSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8461,
+    name: "SNDP HSS,PALLISSERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8462,
+    name: "RM HSS,ALOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8463,
+    name: "CHALDEAN SYRIAN HSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8464,
+    name: "MASM VHSS,VENMANAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8465,
+    name: "ST ANTONY`S HSS,MALA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8466,
+    name: "SREE KRISHNA HSS,GURUVAYOOR,THRISUUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8467,
+    name: "SACRED HEART CONVENT GHSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8468,
+    name: "SRKGVM HSS,PURANATTUKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8469,
+    name: "VPM SNDP HSS,KAZHIMBRAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8470,
+    name: "ST ANTONY`S HSS,PUDUCAUD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8471,
+    name: "HSS,PANANGAD,MATHILAKAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8472,
+    name: "ST MARY`S HSS,KUZHIKKATTUSSERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8473,
+    name: "SOCCRASO HSS,MALA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8474,
+    name: "ST SEBASTIANS HSS,KUTTIKKAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8475,
+    name: "ST MARY`S HSS,IRINJALAKKUADA",
+    district: "Thrissur"
+  },
+  {
+    id: 8476,
+    name: "HDP HSS,EDATHIRINJI,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8477,
+    name: "LBS HSS,AVITTATHUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8478,
+    name: "CMS HSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8479,
+    name: "ST JOSEPH`S CG HSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8480,
+    name: "ST RAPHEL`S CGHSS,OLLUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8481,
+    name: "CJMA HSS,VARANTHARAPALLI,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8482,
+    name: "SREE SARADA GHS,PURANATTUKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8483,
+    name: "ST ALOSIOUS HSS,ELTHURUTH",
+    district: "Thrissur"
+  },
+  {
+    id: 8484,
+    name: "ST THOMAS COLLEGE HSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8485,
+    name: "ST THOMAS LHSS,THOPE,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8486,
+    name: "ST JOSEPH`S HSS,PAVARATTY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8487,
+    name: "NHSS,ENGANDIYOOR,TRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8488,
+    name: "LITTLE FLOWER CGHSS,GURUVAYOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8489,
+    name: "ST FRANCIS BHS,MATTOM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8490,
+    name: "NSS VHSS,MUNDATHICODE,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8491,
+    name: "AI HSS, PADOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8492,
+    name: "SN TRUST HSS, NATTIKA,THRISUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8493,
+    name: "I.C.A.E. HSS, VADAKKEKAD, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8494,
+    name: "BETHANY ST. JOHNS HSS, KUNNAMKULAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8495,
+    name: "NSS EM HSS, WEST FORT, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8496,
+    name: "VIVEKODAYAM GHSS, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8497,
+    name: "PERPECTUAL SUCCESS HSS, THUMUDIKUNNU",
+    district: "Thrissur"
+  },
+  {
+    id: 8498,
+    name: "KAMALA NEHRU MVHSS, VATANAPALLY, THRITHALLOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8499,
+    name: "DON BOSCO HSS, MULLAKKARA, MANNUTHY, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8500,
+    name: "FOCUS EM HSS, THOTTAPPU",
+    district: "Thrissur"
+  },
+  {
+    id: 8501,
+    name: "DE- PAUL EM HSS, CHOONDAL, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8502,
+    name: "ST. JOSEPH`S MHSS, KURIACHIRA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8503,
+    name: "ST. PAULS CONVENT EHSS KURIACHIRA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8504,
+    name: "LITTLE FLOWER CONVENT HSS, KORATTY",
+    district: "Thrissur"
+  },
+  {
+    id: 8505,
+    name: "VIMALA HSS, VELLIKKULANGARA",
+    district: "Thrissur"
+  },
+  {
+    id: 8506,
+    name: "CARMEL HSS, CHALAKKUDI",
+    district: "Thrissur"
+  },
+  {
+    id: 8507,
+    name: "BETHANY CONVENT GHSS, KUNNAMKULAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8508,
+    name: "DEEPTHI HSS, THALORE",
+    district: "Thrissur"
+  },
+  {
+    id: 8509,
+    name: "JPE HSS, KOORKKENCHERY",
+    district: "Thrissur"
+  },
+  {
+    id: 8510,
+    name: "CNN HSS, CHERPPU",
+    district: "Thrissur"
+  },
+  {
+    id: 8511,
+    name: "LITTLE FLOWER CONVENT HSS, IRINGALAKKUDA",
+    district: "Thrissur"
+  },
+  {
+    id: 8512,
+    name: "ST.JOSEPH`S EMHSS, ERAVU, ARIMPUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8513,
+    name: "ST. JOSEPH`S EM HSS ALOOR, KALLETTINKARA",
+    district: "Thrissur"
+  },
+  {
+    id: 8514,
+    name: "HOLY CHILD CONVENT EMHSS, SNEHA GIRI, MALA",
+    district: "Thrissur"
+  },
+  {
+    id: 8515,
+    name: "SN GHSS, KANIMANGALAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8516,
+    name: "CHENTRAPPINI HSS, CHENTRAPPINNI",
+    district: "Thrissur"
+  },
+  {
+    id: 8517,
+    name: "RAHMATH EM HSS, THOZHIYOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8518,
+    name: "DON BOSCO HSS, IRINJALAKKUDA.",
+    district: "Thrissur"
+  },
+  {
+    id: 8519,
+    name: "MALIK DINAR HSS, DESAMANGALAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8520,
+    name: "TMV HSS, PERUMPILAVU",
+    district: "Thrissur"
+  },
+  {
+    id: 8521,
+    name: "HOLY ANGEL`S HSS, OLLUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8522,
+    name: "SWAMI BHOOTHANANDA HSS, KURUMPILAVU",
+    district: "Thrissur"
+  },
+  {
+    id: 8523,
+    name: "S.N GUPTA SAMAJAM HSS, KARAMUKKU, KANDASSAMKADAVU",
+    district: "Thrissur"
+  },
+  {
+    id: 8524,
+    name: "GANDHSMARAKA HSS, ASHTAMICHIRA",
+    district: "Thrissur"
+  },
+  {
+    id: 8525,
+    name: "TECHNICAL HSS, CHETTUVA, KUNDALIYUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8526,
+    name: "TECHNICAL HSS, VARADIAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8527,
+    name: "GOVT. HSS, MANATHALA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8528,
+    name: "KADAPPURAM GOVT. HSS, CHAVAKKAD, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8529,
+    name: "GOVT. FISHERIES HSS, KAIPAMANGALAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8530,
+    name: "GOVT. MAPPILA HSS, CHAMAKKALA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8531,
+    name: "GOVT. HSS, THANNYAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8532,
+    name: "GOVT. CMHSS, KUTTOOR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8533,
+    name: "GOVT. HSS, KATTOOR, IRINJALAKUDA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8534,
+    name: "MARMHSS, SANTHIPURAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8535,
+    name: "GOVT. HSS, MUPPILIYAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8536,
+    name: "GOVT. HSS, ANCHERY, OLLUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8537,
+    name: "GOVT. HSS, VADANAPPALLY, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8538,
+    name: "GOVT. HSS, VALAPPAD, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8539,
+    name: "GOVT. VHSS, PUTHENCHIRA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8540,
+    name: "GOVT. HSS, KADIKKAD, PUNNAYOORKULAM PANCHAYAT, THR",
+    district: "Thrissur"
+  },
+  {
+    id: 8541,
+    name: "GOVT. HSS, KADAVALLUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8542,
+    name: "PANJAL GOVT. HSS, PANJAL, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8543,
+    name: "GOVT. FISHERIES TECHNICAL HSS, CHAVAKKAD, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8544,
+    name: "GOVT. HSS, CHEMBUCHIRA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8545,
+    name: "GOVT. MODEL VHSS FOR GIRLS, THRISSUR TOWN, THRISSU",
+    district: "Thrissur"
+  },
+  {
+    id: 8546,
+    name: "GOVT. HSS, POOKUNNAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8547,
+    name: "MES HSS, SREEMARAMAPURAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8548,
+    name: "HOLY FAMILY CONVENT GIRLS HSS, CHEMPUKAVU, THRISSU",
+    district: "Thrissur"
+  },
+  {
+    id: 8549,
+    name: "ST. ANNE`S GIRLS HSS, EDATHIRUTHY, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8550,
+    name: "VIDYAJYOTHI EM PUBLIC HSS, MATHILAKOM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8551,
+    name: "VIDHYA JYOTHI HSS, MATHILAKOM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8552,
+    name: "FOCUS ISLAMIC HSS, KADAPPURAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8553,
+    name: "VIMALA HSS, VELLIKULANGARA, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8554,
+    name: "POOMALA HSS, MULANKUNNATHKAVU, CHETTUPARA, THRISSU",
+    district: "Thrissur"
+  },
+  {
+    id: 8555,
+    name: "RM VHSS, PERINJANAM, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8556,
+    name: "CONCORD ENGLISH HSS, CHIRAMANENGAD, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8557,
+    name: "GURU SREE HSS, PULLUT, KODUNGALLUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8558,
+    name: "ST. THOMAS HSS, ENGANDIYOOR POST, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8559,
+    name: "MODEL RESIDENTIAL SCHOOL, CHALAKKUDY, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8560,
+    name: "GOVT. SARVODAYA HSS, TRIKKUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8561,
+    name: "GHS, MARATHANCODE,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8562,
+    name: "ALAGAPPANAGAR PANCHAYATH HSS, ALAGAPPANAAGAR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8563,
+    name: "GOVT. HSS, ELAVALLY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8564,
+    name: "GHSS PAMBADY, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8565,
+    name: "GHSS PULLUT (V. K. RAJAN MEMORIAL),,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8566,
+    name: "ST. JOSEPH’S HS S,MELOOR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8567,
+    name: "ST. THOMAS HSS, MAYANNUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8568,
+    name: "NSS HSS, MULLOORKARA,,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8569,
+    name: "ST. JOSEPH’S HSS, AVINISSERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8570,
+    name: "ST.THOMAS HSS,VALLACHIRA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8571,
+    name: "SREEKRISHNA HSS,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8572,
+    name: "BVMHSS, KALAPRAMBU.P.O ARIPALAM ,THRISSUR- 680 688",
+    district: "Thrissur"
+  },
+  {
+    id: 8573,
+    name: "SREE DURGA VILASAM HSS, PERAMANGALAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8574,
+    name: "DEEPTHI HSS, THALORE,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8575,
+    name: "AKM HSS, POYYA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8576,
+    name: "ST. JOSEPH’S & ST. CYRIL’S HSS, WEST MANGAD,,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8577,
+    name: "ST. JOHN’S HSS, PARAPPUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8578,
+    name: "ST.ANTONYS HSS,PUTHENPEEDIKA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8579,
+    name: "H S S ARIMPUR, ARIMPUR P O ,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8580,
+    name: "ST. ANTONY’S HSS, PAZHUVIL,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8581,
+    name: "MIC AL AMEEN HSS, KECHERY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8582,
+    name: "UNION HSS, ANNANAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8583,
+    name: "MAM HSS, KORATTY,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8584,
+    name: "ST.JOSEPH HSS, MATHILAKAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8585,
+    name: "POOMALA HSS, POOMALA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8586,
+    name: "ST. ANTONY’S HSS, MOORKANAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8587,
+    name: "V.R.APPU MASTER MEMORIAL HSS, THAIKKAD,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8588,
+    name: "PODUJANA VIDHYABYASA SAMITHY HSS, PARAPPUKKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8589,
+    name: "ST. ANNE’S HSS, KOTTAPPURAM,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8590,
+    name: "MARTHOMA GIRLS HSS, THRISSUR,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8591,
+    name: "LFGHSS, CHELAKKARA,THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8592,
+    name: "APPUNNI MEMORIAL HSS, CHEMMANNUR,THRISSUR-680 517",
+    district: "Thrissur"
+  },
+  {
+    id: 8593,
+    name: "ASHA BHAVAN H.S.S FOR DEAF, PADAVARATT. P.O, OLLUR, THRISSUR.",
+    district: "Thrissur"
+  },
+  {
+    id: 8594,
+    name: "LITTLE FLOWER CONVENT HSS, KORATTI, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8595,
+    name: "ISLAMIC VHSS , ORUMANAYUR, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8596,
+    name: "GOVT. VHSS, DESAMANGALAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8597,
+    name: "GOVT. VHSS, PAZHANHI",
+    district: "Thrissur"
+  },
+  {
+    id: 8598,
+    name: "GOVT. VHSS PUTHOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8599,
+    name: "GHS VIJAYARAGHAVAPURAM",
+    district: "Thrissur"
+  },
+  { id: 8600, name: "VHSS KARALAM", district: "Thrissur" },
+  {
+    id: 8601,
+    name: "RMVHS PERINGANAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8602,
+    name: "SNVVHSS, ALOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8603,
+    name: "MRRAMAN MEMMORIALHS CHAVAKKAD",
+    district: "Thrissur"
+  },
+  {
+    id: 8604,
+    name: "SNMHS CHAZHOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8605,
+    name: "CNN HS CHERPU",
+    district: "Thrissur"
+  },
+  {
+    id: 8606,
+    name: "CHENTHRA PINNI HS",
+    district: "Thrissur"
+  },
+  {
+    id: 8607,
+    name: "SEETHI SAHIB MEMMORIAL HS AZHEEKODE",
+    district: "Thrissur"
+  },
+  {
+    id: 8608,
+    name: "HOLY CROSS HS MAPRANAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8609,
+    name: "ST. THOMAS HS TIROOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8610,
+    name: "PS HS THIRUMUDIKKUNNU",
+    district: "Thrissur"
+  },
+  {
+    id: 8611,
+    name: "SREENARAYANA GUPTHA SAMAJAM HS",
+    district: "Thrissur"
+  },
+  {
+    id: 8612,
+    name: "ST.GEORGE HS PARIYARAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8613,
+    name: "HOLY FAMILY CGHS CHEMBUKKAVU",
+    district: "Thrissur"
+  },
+  {
+    id: 8614,
+    name: "JPE HS KOORKANCHERY",
+    district: "Thrissur"
+  },
+  {
+    id: 8615,
+    name: "ST..AUGUSTINE HSS KUTTANELLUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8616,
+    name: "BETHELEHEM CONVENT HS, PAZHAYA OLLUKKARA",
+    district: "Thrissur"
+  },
+  {
+    id: 8617,
+    name: "HS THIRUVALAYANNUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8618,
+    name: "ST.JOSEPH HS VELUPADAM",
+    district: "Thrissur"
+  },
+  {
+    id: 8619,
+    name: "GOVERNMENT HIGHER SCHOOL KANNATTUPADAM THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8620,
+    name: "ST GORGE HIGHER SECONDARY SCHOOL THOZHYOOR",
+    district: "Thrissur"
+  },
+  {
+    id: 8621,
+    name: "ST. GEORGE HSS, PUTTEKKARA, TRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8622,
+    name: "ST ANTONYS HSS ,PAZHUVIL, THRISSUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8623,
+    name: "LOURDE MATHA EM HSS, CHERPU",
+    district: "Thrissur"
+  },
+  {
+    id: 8624,
+    name: "THEQWA RESIDENTIAL GIRLS HSS, ANDATHODE",
+    district: "Thrissur"
+  },
+  {
+    id: 8625,
+    name: "ASSISSI EM HIGHER SECONDARY SCHOOL, THALAKKOTTUKKARA(PO),KECHERY,THRISSUR-680 501",
+    district: "Thrissur"
+  },
+  {
+    id: 8626,
+    name: "JMJEM HSS, ATHANI",
+    district: "Thrissur"
+  },
+  {
+    id: 8627,
+    name: "IDCE HSS, ORUMANAYUR",
+    district: "Thrissur"
+  },
+  {
+    id: 8628,
+    name: "GOVT HSS, CHALISSERY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8629,
+    name: "GOVT BHSS , CHITTUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8630,
+    name: "GOVT HSS , EDATHANATTUKARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8631,
+    name: "GOVT HSS KIZHKKENCHERRY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8632,
+    name: "GOVT HSS, KODUVAYUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8633,
+    name: "GOVT HSS KOTTAYI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8634,
+    name: "GOVT JANATHA HSS, NADUVATTOM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8635,
+    name: "PMG MGHSS, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8636,
+    name: "GMM GOVT HSS , PALAKKAD, PALAKKD",
+    district: "Palakkad"
+  },
+  {
+    id: 8637,
+    name: "GOVT ORIENTAL HSS , PATTAMBI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8638,
+    name: "MNKM GOVT HSS, PULAPATTA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8639,
+    name: "GOVT HSS, VELLINAZHY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8640,
+    name: "GOVT HSS MANKARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8641,
+    name: "GOVT HSS, CHATHANNUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8642,
+    name: "GOVT HSS, BIG BAZAAR , PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8643,
+    name: "GOVT HSS , MUNNOORKODE, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8644,
+    name: "GOVT HSS, PATTAMBI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8645,
+    name: "GOVT HSS , POTTASSERY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8646,
+    name: "GOVT HSS, KANJIKODE, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8647,
+    name: "GOVT HSS, VATANAMKURISSI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8648,
+    name: "GOVT HSS, KUMARANALLOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8649,
+    name: "GOVT BOYS HSS, NEMMARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8650,
+    name: "GHSS, KOZHIPARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8651,
+    name: "GOVT. VICTORIA GHSS , CHITTOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8652,
+    name: "GOVT HSS, MUTHALAMADA , PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8653,
+    name: "GHSS, MEZHATHUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8654,
+    name: "GOVT. HSS, GANESHGIRI, SHORANUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8655,
+    name: "GHSS, PERINGOTTUKURISSI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8656,
+    name: "GOVT AP HSS, ELAPPULLY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8657,
+    name: "GHSS, KADAMBUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8658,
+    name: "PANCHAYAT HSS, PERUMATTY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8659,
+    name: "GHSS, AGALY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8660,
+    name: "GOVT. HSS, CHERPULASSERRY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8661,
+    name: "GVHSS , PATHIRIPPALA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8662,
+    name: "ASM HSS, ALATHUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8663,
+    name: "KKMHSS VANDITHAVALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8664,
+    name: "C G HSS, VADAKKENCHERRY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8665,
+    name: "P T M YATHIMKHANA HSS, EDAPPALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8666,
+    name: "ST. THERESE HSS SHORANUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8667,
+    name: "KANNADI HSS, KANNADI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8668,
+    name: "BRAHMANADASWAMI SIVAYOGI HSS KOLLENGODE",
+    district: "Palakkad"
+  },
+  {
+    id: 8669,
+    name: "K C P HSS, KAVASSERRY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8670,
+    name: "T.R.K. HSS, VANIYAMKULAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8671,
+    name: "CHALAVARA HSS, CHALAVARA .P.O., PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8672,
+    name: "ST PAUL`S HSS, KOZHINJAMPARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8673,
+    name: "KALLADI HSS, KUMARAMPATHOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8674,
+    name: "L S N HSS, OTTAPPALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8675,
+    name: "HSS, SREEKRISHNAPURAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8676,
+    name: "KARIMPUZHA HSS, THOTTARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8677,
+    name: "MNK M S HSS, CHITTILENCHERRY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8678,
+    name: "HSS, VALLAPPUZHA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8679,
+    name: "B E M HSS.,PALAKKAD, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8680,
+    name: "PULIYANPARA HSS, KODUMTHIRAPPALLY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8681,
+    name: "C B K M GOVT. HSS, PUTHUPARIYARAM, PALAKAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8682,
+    name: "MES HSS, MANNARKKAD, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8683,
+    name: "KANIKKAMATHA CONVENT EM HSS, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8684,
+    name: "PARADUR HSS, KARIMBATHOOR, PATTAMBI",
+    district: "Palakkad"
+  },
+  {
+    id: 8685,
+    name: "KTM HSS, MANNARCAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8686,
+    name: "ST. THOMAS GHSS, KALLEKULANGARA",
+    district: "Palakkad"
+  },
+  {
+    id: 8687,
+    name: "ASSISSI EM HSS, KANJIKODE",
+    district: "Palakkad"
+  },
+  {
+    id: 8688,
+    name: "BHARATH MATHA HSS, CHANDRANAGAR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8689,
+    name: "BSS GURUKULAM HSS, ALATHUR",
+    district: "Palakkad"
+  },
+  {
+    id: 8690,
+    name: "SDA HSS, KANIYAMPURAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8691,
+    name: "MUJAHIDEEN HSS, PARALI",
+    district: "Palakkad"
+  },
+  {
+    id: 8692,
+    name: "GRACE HIGHER SECONDARY SCHOOL, KODUNTHIRAPPULLY, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8693,
+    name: "RAILWAY HSS, OLVAKKODE",
+    district: "Palakkad"
+  },
+  {
+    id: 8694,
+    name: "KALLADI ABDU HAJI HSS, KOTTAPPADAM, MANNARKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8695,
+    name: "AROGYAMATHA HSS, KOTTATHARA",
+    district: "Palakkad"
+  },
+  {
+    id: 8696,
+    name: "DARU JANA HSS, NELLIPPUZHA, MANNARKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8697,
+    name: "VIJAYA MATHA CONVENTT HSS, CHITTOOR",
+    district: "Palakkad"
+  },
+  {
+    id: 8698,
+    name: "MET HSS, MANNARKADU",
+    district: "Palakkad"
+  },
+  {
+    id: 8699,
+    name: "AL HUDA EM HSS, ONGALLOR",
+    district: "Palakkad"
+  },
+  {
+    id: 8700,
+    name: "MES KTM EMHSS, VATTAMANNAPURAM, EDATHANATTUKARA, P",
+    district: "Palakkad"
+  },
+  {
+    id: 8701,
+    name: "GOVT. HSS, KUMARAPURAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8702,
+    name: "GOVT. HSS, KARIMBA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8703,
+    name: "GOVT. HSS, MALAMPUZHA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8704,
+    name: "GOVT. TRIBAL HSS, SHOLLAYAR, MANNARKKAD, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8705,
+    name: "GOVT. HSS, ALANNALLOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8706,
+    name: "BHAGAVATHI GOVT. HSS, VANNAMADA, CHITTUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8707,
+    name: "GOVT. HSS, ERUMAYOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8708,
+    name: "GOVT. GIRLS HSS, NENMARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8709,
+    name: "GOVT. HSS, OTTAPPALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8710,
+    name: "GOVT. HSS, MARAYAMANGALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8711,
+    name: "GOVT. HSS, CHUNDANPETTAH, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8712,
+    name: "PUTHUR TRIBAL GOVT. HSS, PUTHUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8713,
+    name: "GOVT. HSS, KARAKURISSI, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8714,
+    name: "GOVT. HSS, ANAKKARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8715,
+    name: "GOVT. HSS, THOLANNUR, KUZHALMANDAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8716,
+    name: "GOVT. HSS, THATHAMANGALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8717,
+    name: "GOVT. GIRLS HSS, ALATHOOR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8718,
+    name: "KUMANANELLOOR GOKHALE GOVT. HSS, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8719,
+    name: "SN TRUST HSS, SHORNUR, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8720,
+    name: "TECHNICAL HSS,AYILOOR.P.O,VIA NEMMARA,PALAKKD-6785",
+    district: "Palakkad"
+  },
+  {
+    id: 8721,
+    name: "SKDI ORPHANAGE HSS, VALLAPPUZHA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8722,
+    name: "HSS KATAMPAZHIPURAM, OTTAPPALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8723,
+    name: "MES ENGLISH MEDIUM HSS, OLAVAKODE, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8724,
+    name: "MARIYUMMA MEMORIAL HSS, OTTAPPALAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8725,
+    name: "SRAVANA SAMSARA HSS, WEST YAKKARU, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8726,
+    name: "MES TRUST PUBLIC HSS, KARIMPARA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8727,
+    name: "IES ENGLISH HSS, THRITHALA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8728,
+    name: "PALLIKURUP HSS, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8729,
+    name: "KPRP HSS, KONGAD, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8730,
+    name: "GOVT.HSS, KUNISSERI,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8731,
+    name: "GOVT.HSS, KODUMUNDA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8732,
+    name: "GOVT.HSS, THENKURISSI,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8733,
+    name: "MODEL RESIDENTIAL HSS,THRITHALA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8734,
+    name: "SARVAJANA HSS PUTHUKKODE,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8735,
+    name: "PGP HSS, POPULLY,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8736,
+    name: "CA HSS, COYALMANNAM, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8737,
+    name: "CA HSS, AYAKKAD. P. O, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8738,
+    name: "SKHSS ,NALLEPILLY,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8739,
+    name: "PRALI HSS ,PARALI ,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8740,
+    name: "SMM HSS, PAZHAMBALACODE. P. O, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8741,
+    name: "CA HSS, PERUVEMBA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8742,
+    name: "KALLADI ABDU HAJI HSS,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8743,
+    name: "DARUNNAJATH HSS, NELLIPUZHA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8744,
+    name: "SM HSS, AYALUR,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8745,
+    name: "RPM HSS, PANANGATTIRI,PALAKKAD - 678 506",
+    district: "Palakkad"
+  },
+  {
+    id: 8746,
+    name: "POLACHIRACKAL HSS, PADAGIRI, NELLIAMPATHY ,PALAKKAD- 678 509",
+    district: "Palakkad"
+  },
+  {
+    id: 8747,
+    name: "VIM HSS, PALLASSANA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8748,
+    name: "VELAYUDHAN MEMORIAL HSS, VADAVANNUR,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8749,
+    name: "SREE SANKARA ORIENTAL HSS, LAKKIDI,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8750,
+    name: "MUNDUR HSS, MUNDUR PO, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8751,
+    name: "P.T.M HSS, THRIKKATIRI,,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8752,
+    name: "HSS, KERALASSERY,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8753,
+    name: "KPRP HSS, KONGAD,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8754,
+    name: "DESABANDHU HSS, THACHAMPARA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8755,
+    name: "HSS, PERINGODE,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8756,
+    name: "PARADUR HSS, PALLIPPURAM,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8757,
+    name: "NSS HSS, AKATHETHARA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8758,
+    name: "P.K.HSS, MANNAPRA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8759,
+    name: "TSNM HSSL, KUNDURKUNNU,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8760,
+    name: "CVM HSS,P.O. VANDAZHY, PALAKKAD,PIN:678706.",
+    district: "Palakkad"
+  },
+  {
+    id: 8761,
+    name: "HSS,KUTHANUR,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8762,
+    name: "AKNM - MA MEMORIAL HSS, KATTUKULAM,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8763,
+    name: "DR. KB MENON MEMORIAL HSS THRITHALA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8764,
+    name: "SABARI PTB SMARAKA HSS, ADAKKAPUTHUR,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8765,
+    name: "LOURDE MATHA HSS, MANGALAM DAM,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8766,
+    name: "ANANGANNADI HSS, PO PANAMANNA,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8767,
+    name: "KPSMM VHSS, VARODE, OTTAPPALAM,PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8768,
+    name: "GOVT. VHSS KOPPAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8769,
+    name: "GOVT.VHSS VATTENAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8770,
+    name: "GHS KALLINGALPADAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8771,
+    name: "GOVT ASHRAMAM SCHOOL",
+    district: "Palakkad"
+  },
+  {
+    id: 8772,
+    name: "GOPAL MEMMORIAL HSS, THIRUVALATHUR P O, KODUMBU, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8773,
+    name: "CFD VHSS MATHOOR",
+    district: "Palakkad"
+  },
+  {
+    id: 8774,
+    name: "MUSLIM HS PUTHUNAGARAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8775,
+    name: "MOUNT CARMEL HS MAMANA",
+    district: "Palakkad"
+  },
+  {
+    id: 8776,
+    name: "AVM HS CHUNANGAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8777,
+    name: "SABARI HS PALLIKURUP",
+    district: "Palakkad"
+  },
+  {
+    id: 8778,
+    name: "KARNAKAYAMMAN HS MOOTHANTHARA",
+    district: "Palakkad"
+  },
+  {
+    id: 8779,
+    name: "FATHIMA MEMMORIAL HS KARINKALATHANI",
+    district: "Palakkad"
+  },
+  {
+    id: 8780,
+    name: "GHSS THENKARA",
+    district: "Palakkad"
+  },
+  {
+    id: 8781,
+    name: "MARY MATHA HSS, PANTHALAMPADAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8782,
+    name: "P K HSS,MANNAPPRA, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8783,
+    name: "CGM ENGLISH MEDIUM HSS, KALLDIPATTA, PATTAMBI",
+    district: "Palakkad"
+  },
+  {
+    id: 8784,
+    name: "CARMEL HSS SCHOOL, PALAKKAYAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8785,
+    name: "ST. PAULS ENGLISH HSS, KOLLENGODE",
+    district: "Palakkad"
+  },
+  {
+    id: 8786,
+    name: "INIC HSS, NATTUKKAL",
+    district: "Palakkad"
+  },
+  {
+    id: 8787,
+    name: "ST. JOHNS HSS, AKAPADAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8788,
+    name: "GOVT. VHSS FOR THE DEAF, OTTAPALAM - 4",
+    district: "Palakkad"
+  },
+  {
+    id: 8789,
+    name: "GOVT. MODEL RESIDENTIAL HSS , KUZHALMANNAM",
+    district: "Palakkad"
+  },
+  {
+    id: 8790,
+    name: "MODEL RESIDENTIAL HIGHER SECONDARY SCHOOL, ATTAPPADI, MUKKALI P.O, PALAKKAD",
+    district: "Palakkad"
+  },
+  {
+    id: 8791,
+    name: "GANAPATH GGHSS,CHALAPPURAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8792,
+    name: "GOVT HSS,EAST HILL,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8793,
+    name: "GOVT HSS,KODUVALLI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8794,
+    name: "GOVT HSS,KOKKALLUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8795,
+    name: "GOVT HSS,KOYILANDI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8796,
+    name: "GOVT MHSS,KOZHIKKODE,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8797,
+    name: "GOVT HSS,KUTTIADI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8798,
+    name: "GOVT VHSS,MADAPPALLI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8799,
+    name: "GOVT HSS,MAVOOR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8800,
+    name: "GOVT VHSS,MEPPAYUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8801,
+    name: "GOVT HSS,KAYANNA,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8802,
+    name: "GOVT JNM HSS,PUTHUPPANAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8803,
+    name: "GOVT SANSKRIT HSS,MEPPAYIL,VADAKARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8804,
+    name: "GOVT HSS,VALAYAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8805,
+    name: "GOVT BT HSS,VADAKARA,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8806,
+    name: "GOVT HSS,AZHIYOOR,KOZHOKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8807,
+    name: "GOVT. MOPLA HSS,KOYILANDY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8808,
+    name: "GOVT HSS,POONUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8809,
+    name: "GOVT HSS. MEDICAL COLLEGE CAMPUS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8810,
+    name: "GOVT HSS,BEYPORE,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8811,
+    name: "REC GOVT HSS,CHATHAMANGALAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8812,
+    name: "GOVT HSS,KUTTIKKATTUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8813,
+    name: "GOVT VHSS,PAYYOLI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8814,
+    name: "GOVT HSS,KALLACHI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8815,
+    name: "GOVT VHSS,NADAKKAVU,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8816,
+    name: "GOVT GHSS,BALUSSERY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8817,
+    name: "GOVT HSS,KOLATHUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8818,
+    name: "GOVT HSS,CHORODI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8819,
+    name: "GOVT HSS,ORKATTERI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8820,
+    name: "GOVT HSS,VELLIYODE,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8821,
+    name: "HSS,PAVANDOOR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8822,
+    name: "PERAMBRA HSS,PERAMBRA,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8823,
+    name: "TIM GHSS,NADAPPURAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8824,
+    name: "RAC HSS,KATAMERI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8825,
+    name: "NADUVANNUR HSS,VAKAYAD,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8826,
+    name: "HSS,NANMINDA,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8827,
+    name: "RAHMANIA HSS FOR HANDICAPPED,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8828,
+    name: "MARKEZ HSS,KARANTHOOR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8829,
+    name: "ST SEBASTIANS HSS,KOODARANJI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8830,
+    name: "BEM GIRLS HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8831,
+    name: "NOCHAT HSS,NOCHATH,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8832,
+    name: "ST.JOSEPH`S BOYS HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8833,
+    name: "ZAMORIN`S HSS,TALI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8834,
+    name: "CHENNAMANGALLUR HSS,MUKKAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8835,
+    name: "FAROOK HSS, FAROOK COLLEGE P O, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8836,
+    name: "ST JOSEPH`S A I GHSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8837,
+    name: "MALABAR X`IAN COLLEGE HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8838,
+    name: "SAVIO HSS,DEVAGIRY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8839,
+    name: "SRM HSS,KALLAI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8840,
+    name: "JDT ISLAM HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8841,
+    name: "CALICUT GIRLS HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8842,
+    name: "MM BOYS HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8843,
+    name: "MIM HSS,PERODE,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8844,
+    name: "MEMUNDA HSS,VILIAPPALLI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8845,
+    name: "IRINGANNUR HSS,IRINGANNUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8846,
+    name: "ST JOSEPH`S HSS,KODENCHERY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8847,
+    name: "SACRED HSS,THIRUVAMPADI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8848,
+    name: "UMBICHI HAJI HSS,CHALIYAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8849,
+    name: "CALICUT HSS FOR THE HANDICAPPED, KOLATHARA.P.O, KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8850,
+    name: "PALORA HSS,ULIYERY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8851,
+    name: "THIRUVANGOOR HSS,KOILANDY,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8852,
+    name: "ST GEORGE HSS,KULATHUVAYAL,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8853,
+    name: "KUNNAMANGALAM HSS,KUNJIMANGALAM,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8854,
+    name: "HIMAYATHUL ISLAM HSS,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8855,
+    name: "AKKR HSS FOR GIRLS,CHELLANNUR,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8856,
+    name: "PROVIDENCE HSS,KOZHIKKODE-2",
+    district: "Kozhikode"
+  },
+  {
+    id: 8857,
+    name: "MOHAMMED ALI JOHA HSS,ELETTIL,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8858,
+    name: "VATTOLI NATIONAL HSS,VATTOLI,KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8859,
+    name: "SALAFI HSS, MEPPAYUR",
+    district: "Kozhikode"
+  },
+  {
+    id: 8860,
+    name: "PRESENTATION HSS, CHEVAYUR",
+    district: "Kozhikode"
+  },
+  {
+    id: 8861,
+    name: "SREE NARAYANA HSS, VADAKARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8862,
+    name: "VENERINI ENGLISH MEDIUM HSS, FAROOK",
+    district: "Kozhikode"
+  },
+  {
+    id: 8863,
+    name: "CALICUT ISLAMIC HSS, MATHARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8864,
+    name: "CHINMAYA VIDYALAYA HSS, NELLIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8865,
+    name: "KMO HSS, KODUVALLY",
+    district: "Kozhikode"
+  },
+  {
+    id: 8866,
+    name: "KUTTAMBOORE HSS, PUNNASSEERY, NARIKKUNNU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8867,
+    name: "CHACKALACKAL HSS, PADANILAM, MADAVOOR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8868,
+    name: "MUM HSS, VADAKARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8869,
+    name: "ILAHIYA HSS, KAPPADU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8870,
+    name: "KPES HSS, KAYAKKODI",
+    district: "Kozhikode"
+  },
+  {
+    id: 8871,
+    name: "SH HSS, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8872,
+    name: "SHRI GUJARATHI VIDYALAYA HSS, KOZIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8873,
+    name: "CRESENT HSS, VANIMEL",
+    district: "Kozhikode"
+  },
+  {
+    id: 8874,
+    name: "NSS EM HSS, MEENCHANTHA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8875,
+    name: "JDT ISLAM HSS, MARYKUNNU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8876,
+    name: "ISLAMIC ACADEMY HSS, KOTTAKKAL",
+    district: "Kozhikode"
+  },
+  {
+    id: 8877,
+    name: "KM HSS, IRINJAL",
+    district: "Kozhikode"
+  },
+  {
+    id: 8878,
+    name: "AUXILIAM NAV JYOTHI HSS KUNNAMANGALAM",
+    district: "Kozhikode"
+  },
+  {
+    id: 8879,
+    name: "PTM HSS, KODIYATHOOR, MOKKAM",
+    district: "Kozhikode"
+  },
+  {
+    id: 8880,
+    name: "MKHMMO HSS, MANNASSERY, MUKKAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8881,
+    name: "SIA COLLEGE HSS, UMMATHUR, PARAKKADAVU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8882,
+    name: "TECHNICAL HSS, KODUVALLY",
+    district: "Kozhikode"
+  },
+  {
+    id: 8883,
+    name: "GVHSS, KOYILANDY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8884,
+    name: "GOVT. HSS, PUTHUPPADY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8885,
+    name: "GOVT. HSS, THAMARASSERY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8886,
+    name: "GOVT. FISHERIES HSS, MADAPPALLY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8887,
+    name: "GOVT. HSS, AZCHAVATTOM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8888,
+    name: "GOVT. VHSS, KUTTICHIRA, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8889,
+    name: "GOVT. HSS, NARIKUNI, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8890,
+    name: "GOVT. HSS, PAYIMBRA, KUNNAMANGALAM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8891,
+    name: "GOVT. HSS, KARUVAMPOYIL, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8892,
+    name: "GOVT. HSS, KAKKODY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8893,
+    name: "GOVT. HSS, PANNUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8894,
+    name: "GOVT. HSS, SIVAPURAM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8895,
+    name: "GOVT. ACHUTHAN GIRLS HSS, CALICUT, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8896,
+    name: "GOVT. KALLAI GANAPATHY HSS, KALLAI P.O. KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8897,
+    name: "GOVT. NGO QUARTERS HSS, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8898,
+    name: "GOVT. VHSS, ATHOLI, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8899,
+    name: "NEELESWARAM GOVT. HSS, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8900,
+    name: "GOVT. HSS, PERINGALAM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8901,
+    name: "GOVT. FISHERIES HSS, PUTHIYAPPA, ELANTHOOR, KOZHIK",
+    district: "Kozhikode"
+  },
+  {
+    id: 8902,
+    name: "GOVT. GANAPATH VHSS, FAROKE, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8903,
+    name: "GOVT. HSS, AVALA, KUTTOTH, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8904,
+    name: "MANIYOOR PANCHAYATH HSS, MANIYOOR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8905,
+    name: "NEDUVANNUR GOVT. HSS, NEDUVANNUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8906,
+    name: "GOVT. HSS, AVITTANALLUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8907,
+    name: "GOVT. VHSS, CHERUVANNUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8908,
+    name: "GOVT. HSS, KOYILANDI, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8909,
+    name: "SN TRUST HSS, CHELANNUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8910,
+    name: "TECHNICAL HSS, IHRD,CHUNGAM,THAMARASSERY,KOZHOKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8911,
+    name: "VELOM HS, VELOM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8912,
+    name: "GOVT. VOCATIONAL HS, BALUSSERY, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8913,
+    name: "MKHNNO HSS FOR GIRLS, MUKKOM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8914,
+    name: "VALIYAPALLY MJ HSS, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8915,
+    name: "MGM HSS, ENGAPUZHA, PUDUPPADI, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8916,
+    name: "TECHNICAL HSS,THURUTHIYAD,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8917,
+    name: "NASRETH ISLAMIC RESIDENTIAL HSS, PARAPPANPOYIL, TH",
+    district: "Kozhikode"
+  },
+  {
+    id: 8918,
+    name: "SWAMI BODHANANDA HSS, PERUMANNA, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8919,
+    name: "MARKAZ EM HSS, KARANTHUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8920,
+    name: "IPC EM HSS, MELADI, PAYYOLI, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8921,
+    name: "DARUL HUDA EM HSS, NADAPURAM, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8922,
+    name: "JDT ISLAM IQRAA HSS, MARIKUNNU POST, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8923,
+    name: "GOVT HSS,PERINGOLAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8924,
+    name: "GOVT HSS,NAYARKUZHI,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8925,
+    name: "GOVT HSS,PRAMBIL,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8926,
+    name: "GOVT HSS,IRINGALLUR,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8927,
+    name: "GOVT HSS, KUNDUAPARAMBU, IDAKKAD, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8928,
+    name: "GOVT HSS,KARAPARAMBU,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8929,
+    name: "GOVT BHSS,PARAYANCHERY,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8930,
+    name: "GHSS FOR GIRLS, PARAYANCHARY,PUTHIYARA,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8931,
+    name: "CMM HIGH SCHOOL,THALAKKULATHUR,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8932,
+    name: "HOLY FAMILY HSS, KATTIPPARA,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8933,
+    name: "CKG MEMORIAL HSS,CHINGAPURAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8934,
+    name: "KUNHALI MARAKKAR HSS,IRINGAL, KOTTAKKAL,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8935,
+    name: "BAFAKHY THANGAL MEMMORIAL HSS, THURAYUR,PAYYOLI, ANGADI. P. O,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8936,
+    name: "POIKAV HSS, EDAKKULAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8937,
+    name: "VELOM HSS, CHERAPURAM P O,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8938,
+    name: "A J JOHN MEMMORIAL HSS,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8939,
+    name: "KPES HSS, KAYAKKODI,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8940,
+    name: "ST. MARY’S HSS, MARUTHOMKARA. P. O, MARUTHOMKARA, ,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8941,
+    name: "KPM SM HSS, ARIKKULAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8942,
+    name: "VMHM HSS ANAYAMKUNNU, MUKKAM, KOZHIKOE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8943,
+    name: "VADAKKUMPAD HSS, PALERI. P. O, PALERI TOWN,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8944,
+    name: "ST.MARY’S HIGH SCHOOL, KALLANODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8945,
+    name: "CHAKKALAKKAL HSS, MADAVOOR, PADANILAM,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8946,
+    name: "ST. MARRY’S H SS, KOODATHAI,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8947,
+    name: "AMHSS,POOVAMBAYI, KINALUR. P. O,,KOZHIKODE - 673621",
+    district: "Kozhikode"
+  },
+  {
+    id: 8948,
+    name: "C.M HSS,MANNUR NORTH,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8949,
+    name: "FATHIMABI MEMMORIAL HSS, KOOMBARA, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8950,
+    name: "MARKAZ GIRLS HSS, KARANTHUR, KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8951,
+    name: "SEVAMANDIR HSS,RAMANATTUKARA,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8952,
+    name: "PVS HSS, ERANHIKKAL",
+    district: "Kozhikode"
+  },
+  {
+    id: 8953,
+    name: "ST, VINCENT COLONY GIRLS HSS CALICUT - 673 006",
+    district: "Kozhikode"
+  },
+  {
+    id: 8954,
+    name: "ST. MICHEL’S GIRLS HSS ,WESTHILL, KOZHIKODE - 5",
+    district: "Kozhikode"
+  },
+  {
+    id: 8955,
+    name: "ST. JOSEPH’S HSS, PULLURAMPARA,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8956,
+    name: "S.I HSS, UMMATHUR,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8957,
+    name: "RNM SS, NARIPPATTA,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8958,
+    name: "KRHSS, PURAMERI,KOZHIKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8959,
+    name: "SREE VASUDEVA ASHRAMAM HSS, NADUVATHOOR, KOILANDI",
+    district: "Kozhikode"
+  },
+  {
+    id: 8960,
+    name: "EMS GOVT. HS PERUMANNA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8961,
+    name: "GHS CHERUVADI",
+    district: "Kozhikode"
+  },
+  {
+    id: 8962,
+    name: "KOOTHALLI VHSS",
+    district: "Kozhikode"
+  },
+  {
+    id: 8963,
+    name: "RAHMANIYA HS AYANCHERI",
+    district: "Kozhikode"
+  },
+  {
+    id: 8964,
+    name: "HOLY FAMILY HS PADATHKADAVU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8965,
+    name: "KUTTAMBOOR HS",
+    district: "Kozhikode"
+  },
+  {
+    id: 8966,
+    name: "PTM HS KODIYATHUR",
+    district: "Kozhikode"
+  },
+  {
+    id: 8967,
+    name: "ST.GEORGE HSS VELAMKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8968,
+    name: "ST.THOMAS HS KOORACHUNDU",
+    district: "Kozhikode"
+  },
+  {
+    id: 8969,
+    name: "MKHMMOVHSS FOR GIRLS MUKKAM",
+    district: "Kozhikode"
+  },
+  {
+    id: 8970,
+    name: "MUKKAM HS MUKKAM",
+    district: "Kozhikode"
+  },
+  {
+    id: 8971,
+    name: "PANTHEERANKAVE HS",
+    district: "Kozhikode"
+  },
+  {
+    id: 8972,
+    name: "HOLY FAMILY HS VENAPARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8973,
+    name: "MGM HS ENGAPUZHA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8974,
+    name: "MUMVHSS VADAKARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8975,
+    name: "CRESCENT HS VANIMEL",
+    district: "Kozhikode"
+  },
+  {
+    id: 8976,
+    name: "EMJAY VHSS VILLIAPALLI",
+    district: "Kozhikode"
+  },
+  {
+    id: 8977,
+    name: "ST.THOMAS HIGH SCHOOL THOTTUMUKKAM, KOZHIKODE - 673639",
+    district: "Kozhikode"
+  },
+  {
+    id: 8978,
+    name: "BEM HSS, VADAKARA",
+    district: "Kozhikode"
+  },
+  {
+    id: 8979,
+    name: "SANTHINIKETHAN HSS, THIRUVALLUR, KOZHIKKODE",
+    district: "Kozhikode"
+  },
+  {
+    id: 8980,
+    name: "HI-TECH HIGHER SECONDARY SCHOOL, VATTOLI POST,CALICUT",
+    district: "Kozhikode"
+  },
+  {
+    id: 8981,
+    name: "KARUNA SPEECH & HEARING HSS, ERANHIPALAM P.O, KOZHIKODE-6",
+    district: "Kozhikode"
+  },
+  {
+    id: 8982,
+    name: "GOVT GHSS,MALAPPURAM,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8983,
+    name: "GOVT HSS,PANDIKKAD,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8984,
+    name: "GOVT MHSS,PERINTHALMANNA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8985,
+    name: "DEVDHAR GOVT HSS,THANUR,MALAPPUARM",
+    district: "Malappuram"
+  },
+  {
+    id: 8986,
+    name: "GOVT BOYS HSS,TIRUR,TIRUR P O, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8987,
+    name: "GOVT HSS,THIRURANGADI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8988,
+    name: "GOVT VMC HSS,WANDOOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8989,
+    name: "GOVT HSS,PULLENGODE,MALAPPPUARM",
+    district: "Malappuram"
+  },
+  {
+    id: 8990,
+    name: "GOVT HSS,MUTHEDATHU,MALAPPUARM",
+    district: "Malappuram"
+  },
+  {
+    id: 8991,
+    name: "GOVT BOYS HSS,MANJERY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8992,
+    name: "GOVT RAJAH`S HSS, KOTTAKKAL, MALAPPUARAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8993,
+    name: "GOVT HSS, KOKKUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8994,
+    name: "GOVT HSS,VAZHAKKAD,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8995,
+    name: "GOVT HSS,KUNNAKKAVU,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8996,
+    name: "GOVT HSS,THIRUVALI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8997,
+    name: "GOVT HSS,PULAMANTHOLE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8998,
+    name: "GOVT HSS, POOKKOTTUMPADAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 8999,
+    name: "GOVT HSS, MARANCHERY, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9000,
+    name: "GOVT HSS,AREACODE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9001,
+    name: "GOVT MODEL HSS,CALICUT UNIVERSITY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9002,
+    name: "GOVT HSS,EDAPPAL,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9003,
+    name: "GOVT HSS,OTHUKKUNGAL,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9004,
+    name: "GOVT HSS,KOTTAPPURAM,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9005,
+    name: "GOVT HSS,MANKADA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9006,
+    name: "GOVT HSS,KUZHIMANNA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9007,
+    name: "GOVT GIRLS HSS,MANJERY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9008,
+    name: "GOVT HSS,KARUVARAKUNDU,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9009,
+    name: "GOVT HSS,POOKKOTTOOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9010,
+    name: "GOVT HSS,ANAMANGADU,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9011,
+    name: "GOVT MANAVEDAN HSS, NILAMBUR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9012,
+    name: "GOVT HSS,PANG,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9013,
+    name: "GOVT HSS,KATTILANGADI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9014,
+    name: "GOVT HSS,KADANCHERY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9015,
+    name: "GOVT HSS,KUTTIPURAM,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9016,
+    name: "PCN GHSS, MOOKKUTHALA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9017,
+    name: "GOVT HSS,VETTATHUR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9018,
+    name: "MMM HSS,KUTTAI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9019,
+    name: "IKT HSS,CHERUKULAMBA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9020,
+    name: "MSM HSS,KALLINGALPARAMBA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9021,
+    name: "S V HSS,PALEMED,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9022,
+    name: "NNM HSS,CHELAMBRA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9023,
+    name: "NIRMALA HSS,ERUMAMUDNDA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9024,
+    name: "VALANCHERY HSS, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9025,
+    name: "NM HSS,THIRUNAVAYA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9026,
+    name: "ST MARY`S HSS,PARIYAPURAM,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9027,
+    name: "DU HSS,THOOTHA ,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9028,
+    name: "MV HSS,ARIYALLUR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9029,
+    name: "KM HSS,KUTTOOR NORTH, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9030,
+    name: "CB HSS,VALLIKKUNNU,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9031,
+    name: "HMY HSS,MANJERY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9032,
+    name: "EMEA HSS,KONDOTTY,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9033,
+    name: "MI HSS,PONNANI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9034,
+    name: "DHO HSS POOKKARATHARA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9035,
+    name: "ORIENTAL HSS,THIRURANGADI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9036,
+    name: "SS HSS,MOORKANAD,URANGATTIRI P O, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9037,
+    name: "MI HSS FOR GIRLS, PUDUPPONNANI,",
+    district: "Malappuram"
+  },
+  {
+    id: 9038,
+    name: "PPM HSS,KOTTUKKARA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9039,
+    name: "PMSAPT HSS,KAKKOVE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9040,
+    name: "PPTMY HSS VENGARA,CHEROOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9041,
+    name: "SNM HSS,PARAPPANANGADI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9042,
+    name: "PTM HSS,THAZHEKKODE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9043,
+    name: "PKMM HSS,EDARIKKODE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9044,
+    name: "SSM HSS,THEYYALINKAL,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9045,
+    name: "VPK MM HSS,PUTHUR,PALLIKKAL,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9046,
+    name: "CATHOLICATE HSS,POTHUKAL,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9047,
+    name: "VHM HSS,MORAYOOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9048,
+    name: "BROTHER`S HSS,MAVANADIYOOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9049,
+    name: "BYK VHSS,VALAVANNUR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9050,
+    name: "ST GEMMA`S GIRLS HSS,MALAPPUARM",
+    district: "Malappuram"
+  },
+  {
+    id: 9051,
+    name: "MSP HSS,MALAPPURAM,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9052,
+    name: "PANTHALLOOR HSS,KADAMODE,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9053,
+    name: "MES HSS,PONNANI,TIRUR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9054,
+    name: "MES HSS,MAMPAD,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9055,
+    name: "MARTHOMA HSS,CHUNGATHARA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9056,
+    name: "D.H.R.HSS FOR WOMEN, EDAPPAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9057,
+    name: "A.R.HSS FOR GIRLS, PAVITTAPURAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9058,
+    name: "J.S.R.HSS FOR GIRLS, MANJERI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9059,
+    name: "E.M.O.R.GIRLS HSS, PALAD,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9060,
+    name: "J.N.R. HSS, SALAH NAGAR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9061,
+    name: "ASM HSS, VELLIYENCHERRY, (VIA) MANJERI",
+    district: "Malappuram"
+  },
+  {
+    id: 9062,
+    name: "TECHNICAL HSS, VATTAMKULAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9063,
+    name: "TECHNICAL HSS, VAZHAKKAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9064,
+    name: "THSS, PERINTALMANNA",
+    district: "Malappuram"
+  },
+  {
+    id: 9065,
+    name: "MARKEZ HSS, ATHAVANAD, KARTHALA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9066,
+    name: "THARAGAN HSS, ANGADIPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9067,
+    name: "MPM HSS, CHUNAGATHARA, NILAMPUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9068,
+    name: "ALMANAR HSS, WADIMANAR, RANDATHANI",
+    district: "Malappuram"
+  },
+  {
+    id: 9069,
+    name: "AMS HSS, PAZHAMKULANGARA, THIRUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9070,
+    name: "MAJLIS HSS, VENGAD, VALANCHERY",
+    district: "Malappuram"
+  },
+  {
+    id: 9071,
+    name: "FATHIMA MATHA HSS, POOKAYIL, TIRUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9072,
+    name: "DARUNNAJATH HSS, KARUVARAKKUNDU, (VIA) MANJERI",
+    district: "Malappuram"
+  },
+  {
+    id: 9073,
+    name: "ISLAHIYA EM HSS, DOWN HILL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9074,
+    name: "LITTLE FLOWER HSS, NILAMBUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9075,
+    name: "NSS EM HSS, MANJERI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9076,
+    name: "CRESCENT HSS, ADAKKAKKUNDU, KALIKKAVU, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9077,
+    name: "IU HSS, PARAPPUR, KOTTAKKAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9078,
+    name: "KHIDAMATUL ISLAM HSS, EDAKKULAM, THIRUNAVAYA",
+    district: "Malappuram"
+  },
+  {
+    id: 9079,
+    name: "MVM HSS, VALAYAMKULAM, KOKKUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9080,
+    name: "JM HSS, PARNEKKADU, THIRUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9081,
+    name: "CRESCENT RHSS, VELLIMUKKU SOUTH, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9082,
+    name: "CHERURAL HSS, KURUMBATHUR, ANANTHAVOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9083,
+    name: "FAROOK EM HSS PARAPPUR, KOTTAKKAL",
+    district: "Malappuram"
+  },
+  {
+    id: 9084,
+    name: "DARUL HIDAYA HSS, EDAPPAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9085,
+    name: "THANGAL`S HSS, VADAKKANGARA",
+    district: "Malappuram"
+  },
+  {
+    id: 9086,
+    name: "PONNANI GIRLS HSS, PONNANI",
+    district: "Malappuram"
+  },
+  {
+    id: 9087,
+    name: "UNITY HSS, WANDOOR",
+    district: "Malappuram"
+  },
+  {
+    id: 9088,
+    name: "PES HSS, PARAPPANADU",
+    district: "Malappuram"
+  },
+  {
+    id: 9089,
+    name: "PRESENTATION HSS PERINTHALMANNA",
+    district: "Malappuram"
+  },
+  {
+    id: 9090,
+    name: "FAZPHARI ORPHANAGE HSS, PADINJATTUMURI, KOOTTILANG",
+    district: "Malappuram"
+  },
+  {
+    id: 9091,
+    name: "ST. PAUL`S HSS, THENJIPALAM, KOHINOOR",
+    district: "Malappuram"
+  },
+  {
+    id: 9092,
+    name: "NATIONAL HSS, KOLATHOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9093,
+    name: "KM NSS UNION HSS, ATHALUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9094,
+    name: "NSS K HSS, PUTHOOR",
+    district: "Malappuram"
+  },
+  {
+    id: 9095,
+    name: "S.O HSS, ARECODE",
+    district: "Malappuram"
+  },
+  {
+    id: 9096,
+    name: "RM HSS, MELATTOOR",
+    district: "Malappuram"
+  },
+  {
+    id: 9097,
+    name: "MTI HSS, THALAKADATHUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9098,
+    name: "TECHNICAL HSS, MUTHUVALLUR, KONDOTTY",
+    district: "Malappuram"
+  },
+  {
+    id: 9099,
+    name: "KY HSS, KATTILANGADI, ATHAVANAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9100,
+    name: "GOVT. HSS, CHERIYAMUNDAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9101,
+    name: "GOVT. BOYS HSS, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9102,
+    name: "GOVT. HSS, IRUMBUZHI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9103,
+    name: "GOVT. HSS, PATTIKKAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9104,
+    name: "GOVT. GIRLS HSS, PERINTHALMANNA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9105,
+    name: "GOVT. HSS, NIRAMARUTHOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9106,
+    name: "GOVT. HSS, CHETTIYANKINAR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9107,
+    name: "GOVT. HSS, KADUNGAPURAM, PUZHAKKATTIRI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9108,
+    name: "GOVT. SEETHI HAJI MEMORIAL HSS, EDAVANNA, MALAPPUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9109,
+    name: "GOVT. HSS, VELIANCODE, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9110,
+    name: "GOVT. VHSS, OMANNOOR, CHEEKODE, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9111,
+    name: "GOVT. VHSS, KIZHUPARAMBA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9112,
+    name: "GOVT. VHSS, KONDOTTY, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9113,
+    name: "GOVT. VHSS, PULLANNOOR, VALLUVAMBRAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9114,
+    name: "GOVT. HSS, PERUVALLUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9115,
+    name: "GOVT. HSS, PURATHOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9116,
+    name: "GOVT. HSS, EZHUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9117,
+    name: "GOVT. HSS, EDAKKARA, NILAMBOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9118,
+    name: "GOVT. HSS, ALIPARAMBA, PERINTHALMANNA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9119,
+    name: "GOVT. HSS, KAVANUR, ELAYOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9120,
+    name: "GHSS, NELLIKUTH, MANJERI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9121,
+    name: "GOVT. VHSS, ARIMBRA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9122,
+    name: "GOVT. GIRLS HSS, B.P.ANGADI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9123,
+    name: "GVHSS, PARAVANNA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9124,
+    name: "GOVT. HSS, THADATHILPARAMBA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9125,
+    name: "GOVT. GIRLS HSS, WANDOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9126,
+    name: "GOVT. HSS, PORUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9127,
+    name: "GOVT. HSS, THUVOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9128,
+    name: "GOVT. HSS, PALAPPETTY, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9129,
+    name: "GOVT. HSS, MANKADA, PALLIPPURAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9130,
+    name: "GOVT. VHSS,KALPAKANCHERRY, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9131,
+    name: "GOVT. HSS, ERANHIMANGAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9132,
+    name: "GOVT. HSS, IRIMBILIYAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9133,
+    name: "GOVT. VHSS, MAMPAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9134,
+    name: "GOVT. HSS, MATTUMMAL, ATHAVANAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9135,
+    name: "GOVT. VHSS, VENGARA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9136,
+    name: "GOVT. MODEL VOCATIONAL HIGHER SECONDARY SCHOOL, VENGARA TOWN, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9137,
+    name: "GOVT. HSS, VANIYAMBALAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9138,
+    name: "GOVT. HSS, KARAKUNNU, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9139,
+    name: "GOVT. VHSS, MAKKARAPARAMBA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9140,
+    name: "GOVT. HSS, PUTHUPARAMBA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9141,
+    name: "GOVT. HSS, CHELARI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9142,
+    name: "GOVT. HSS, PERASSANNOOR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9143,
+    name: "GOVT. REGIONAL FISHERIES TECHNICAL VHSS, THANUR, M",
+    district: "Malappuram"
+  },
+  {
+    id: 9144,
+    name: "GOVT. HSS, THRIKKAV, PONNANI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9145,
+    name: "KELAPPAN MEMORIAL GOVT. VHSS, THAVANNOOR, MALAPPUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9146,
+    name: "MES HSS, IRIMBILIYAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9147,
+    name: "AL-HUDA HSS, KARIYANKALLU, KARIPPUR.P.O, MALAPPURA",
+    district: "Malappuram"
+  },
+  {
+    id: 9148,
+    name: "MIC HSS, ATHANIKKAL, VALLUVAMBRAM, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9149,
+    name: "ISS HSS, EZHUVATHIRUTHY, PONNANI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9150,
+    name: "AL-FURQAN ENGLISH HSS, SANTHIVAYAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9151,
+    name: "MA HSS, KODINHI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9152,
+    name: "NAJMUL HUDA HSS, KOTTAKKAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9153,
+    name: "NOORUL ISLAMIC HSS, NELLIKUNNU, VELAYAPPURAM, VENG",
+    district: "Malappuram"
+  },
+  {
+    id: 9154,
+    name: "MARKAZU SSAKHAFATHIL ISLAMIYYA HSS, KUNDOOR, MALAP",
+    district: "Malappuram"
+  },
+  {
+    id: 9155,
+    name: "GARDEN VALLEY EM HSS, KUTTIPPALA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9156,
+    name: "ANVAR ENGLISH HSS, THIRURKAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9157,
+    name: "NAJATH ISLAMIC CENTRE, PERUVALLUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9158,
+    name: "MAMBAUL HUDA HSS KUZHICHENA,P.O.KANNATTIPADI",
+    district: "Malappuram"
+  },
+  {
+    id: 9159,
+    name: "AL-IHSAN ENGLISH HSS VENGARA,O.K.MURI.P.O",
+    district: "Malappuram"
+  },
+  {
+    id: 9160,
+    name: "CRESCENT HSS POTTUR MUDUR.P.O",
+    district: "Malappuram"
+  },
+  {
+    id: 9161,
+    name: "IDEAL ENGLISH HSS KADAKASSERY,AYANKALAM.PO.MALAPPU",
+    district: "Malappuram"
+  },
+  {
+    id: 9162,
+    name: "RAHMATH PUBLIC HSS, PULLUR, KARUVAMBRAM.P.O, MANJE",
+    district: "Malappuram"
+  },
+  {
+    id: 9163,
+    name: "GUIDANCE HSS, KATTUPPARA, CHELAKKAD.P.O, PULAMANTH",
+    district: "Malappuram"
+  },
+  {
+    id: 9164,
+    name: "HSM ENGLISH & MALAYALAM MEDIUM HSS, THANUR, MALAPP",
+    district: "Malappuram"
+  },
+  {
+    id: 9165,
+    name: "AZHAR ENGLISH MEDIUM HSS, MARANCHERY, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9166,
+    name: "WOMEN`S ISLAMIYA COLLEGE HSS, ERIYAD, WANDOOR, MAL",
+    district: "Malappuram"
+  },
+  {
+    id: 9167,
+    name: "RAHMANIYA COLLEGE HSS, MAMPAD, MEMPADAM.P.O, MALAP",
+    district: "Malappuram"
+  },
+  {
+    id: 9168,
+    name: "POOKOYA THANGAL MEMORIAL HSS, VELLILA, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9169,
+    name: "NATIONAL ENGLISH MEDIUM HSS, WANDINOOR, CHEMMAD, T",
+    district: "Malappuram"
+  },
+  {
+    id: 9170,
+    name: "HMS HSS, THURACKAL, MANJERI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9171,
+    name: "MALABAR ENGLISH HSS, PARAPPUR, KOTTAKKAL, MALAPPUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9172,
+    name: "NATIONAL PUBLIC HSS, KILINAKODE, CHERUR, MALAPPURA",
+    district: "Malappuram"
+  },
+  {
+    id: 9173,
+    name: "JAMIYA ISLAMIA HSS, MANJERI, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9174,
+    name: "PSMA PTM HSS, VETTICHIRA.P.O, PUNNATHALA, MALAPPUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9175,
+    name: "IET HSS, MARAVANTHA, KAVANCHERY.P.O, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9176,
+    name: "ISLAMIYA COLLEGE HSS, SANTHAPURAM, PUTTIKAD, MALAP",
+    district: "Malappuram"
+  },
+  {
+    id: 9177,
+    name: "CRESCENT HSS, ADAKKAKUNDU, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9178,
+    name: "EDAVANNA JAMIA HSS, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9179,
+    name: "IDEAL HSS, DHARMAGIRI, CHELAKKAD, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9180,
+    name: "HI ORPHANAGE HSS, OLAVATTUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9181,
+    name: "RAMANATTUKARA HSS, RAMANATTUKARA,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9182,
+    name: "VVM HSS MARAKKARA, MARAKKARA PO, VIA KADAMPUZHA,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9183,
+    name: "PMSAM HSS, CHEMMEENKADAVU, KODUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9184,
+    name: "CHEKKUTTY HAJI MEMORIAL HSS, POOKOLOTHUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9185,
+    name: "NATIONAL HSS, KOLATHUR, KOLATHUR. P. O, MALAPPURAM - 679 338",
+    district: "Malappuram"
+  },
+  {
+    id: 9186,
+    name: "CRESENT HS S,ADAKKAKUNDU,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9187,
+    name: "MANNAM SMARAKA NSS HSS, CHAKKALAKKUTH,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9188,
+    name: "MPM HSS, CHUNGATHARA,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9189,
+    name: "KM HSS, KARULAI,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9190,
+    name: "ASM HSS VELLIYANCHERY, VELLLIYANCHERY PO, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9191,
+    name: "CPPMHSS ,OZHUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9192,
+    name: "KUNHIMON HAJI MEMORIAL HSS, ALATHIYUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9193,
+    name: "ABDURAHIMAN NAGAR HSS,CHENDAPPURAYA, ABDURAHIMAN NAGAR.P.O, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9194,
+    name: "KUNHAHAMMAD HAJI MEMORIAL HSS, VALAKULAM ,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9195,
+    name: "MOONNIYUR HSS,,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9196,
+    name: "IUHSS PARAPPUR, KOTTAKKAL, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9197,
+    name: "RM HSS, MELATTUR, P. O,MALAPPURAM. 679 326",
+    district: "Malappuram"
+  },
+  {
+    id: 9198,
+    name: "NAROKKAVU HSS. NAROKKAVU,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9199,
+    name: "ISLAHIYA ORIENTAL HSS, EDAVANNA ,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9200,
+    name: "BEM HSS,PARAPPANANGADI,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9201,
+    name: "PMSA HSS,ELANKUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9202,
+    name: "THARAKAN HSS, ANGADIPURAM,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9203,
+    name: "DARUL ULOOM HSS, PANAKKAD,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9204,
+    name: "A.V HSS, PONNANI,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9205,
+    name: "SMM HSS, RAYIRIMANGALAM,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9206,
+    name: "GHSS ,MUTHUVALLUR,MALAPPURAM.",
+    district: "Malappuram"
+  },
+  {
+    id: 9207,
+    name: "AKM HSS, KOTTOOR,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9208,
+    name: "PMSA VHSS, CHAPPANANGADI,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9209,
+    name: "GOVT.HS PONMUNDAM NORTH",
+    district: "Malappuram"
+  },
+  {
+    id: 9210,
+    name: "GHS CHULLIKODE",
+    district: "Malappuram"
+  },
+  {
+    id: 9211,
+    name: "IGMR HS NILAMBUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9212,
+    name: "AM HS THIRUKAD",
+    district: "Malappuram"
+  },
+  {
+    id: 9213,
+    name: "SULLAMUSSALAM ORIENTAL HS AREEKODE",
+    district: "Malappuram"
+  },
+  {
+    id: 9214,
+    name: "KKM HS CHEEKODE",
+    district: "Malappuram"
+  },
+  {
+    id: 9215,
+    name: "AHS PAREL MAMPATTUMOOLA",
+    district: "Malappuram"
+  },
+  {
+    id: 9216,
+    name: "CH MUHAMMED KOYA MEMMORIALHSS KAVANUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9217,
+    name: "THACHINGANADAM HS",
+    district: "Malappuram"
+  },
+  {
+    id: 9218,
+    name: "TSS VADAKKANGARA",
+    district: "Malappuram"
+  },
+  {
+    id: 9219,
+    name: "MMET HS MELMURI",
+    district: "Malappuram"
+  },
+  {
+    id: 9220,
+    name: "AMHS VENGOOR",
+    district: "Malappuram"
+  },
+  {
+    id: 9221,
+    name: "CRESCENT HSS OZHUKUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9222,
+    name: "MARKAZUL ULOOM HS ORRAKAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9223,
+    name: "VANDHERI HS PUNNAYURKULAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9224,
+    name: "GIRLS HS PONNANI",
+    district: "Malappuram"
+  },
+  {
+    id: 9225,
+    name: "HIO HS OLAVATTUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9226,
+    name: "CHERURAL HS KURUMBATHUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9227,
+    name: "CKHS MANIMOOLY",
+    district: "Malappuram"
+  },
+  {
+    id: 9228,
+    name: "Girls Higher Secondary School,Valanchery, Malappuram",
+    district: "Malappuram"
+  },
+  {
+    id: 9229,
+    name: "IZZATHUL ISLAM HSS, KUZHIMANNA",
+    district: "Malappuram"
+  },
+  {
+    id: 9230,
+    name: "MAJMA U HIGHER SECONDARY SCHOOL, THERATTUMMAL",
+    district: "Malappuram"
+  },
+  {
+    id: 9231,
+    name: "MALABAR HIGHER SECONDARY SCHOOL, ALATHIYOOR, TIRUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9232,
+    name: "MAJMA U HSS, VETTICHIRA",
+    district: "Malappuram"
+  },
+  {
+    id: 9233,
+    name: "UMMUL QURA HSS, MONGAM PO, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9234,
+    name: "MADIN HIGHER SECONDARY SCHOOL, SWALATH NAGAR, MELMURI",
+    district: "Malappuram"
+  },
+  {
+    id: 9235,
+    name: "ISLAMIC RESIDENTIAL HSS, POOKATTIRI, EDAYUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9236,
+    name: "MAO HIGHER SECONDARY SCHOOL, ELAYUR",
+    district: "Malappuram"
+  },
+  {
+    id: 9237,
+    name: "AL-IRSHAD PUBLIC SCHOOL, TRIPPANACHI",
+    district: "Malappuram"
+  },
+  {
+    id: 9238,
+    name: "VIJAYAMATHA EM HSS, PONNANI",
+    district: "Malappuram"
+  },
+  {
+    id: 9239,
+    name: "MARKAZ HSS, KARATHUR,THIRUNAVAYA,MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9240,
+    name: "ASSISI SCHOOL FOR THE DEAF , MALAPARAMBU, PALACHODE P O MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9241,
+    name: "PEEVEES HIGHER SEC. SCHOOL, NILAMBUR, MALAPPURAM",
+    district: "Malappuram"
+  },
+  {
+    id: 9242,
+    name: "KARUNYA BHAVAN HIGHER SECONDARY SCHOOL FOR THE DEAF",
+    district: "Malappuram"
+  },
+  {
+    id: 9243,
+    name: "GOVT HSS, KANIYAMBETTA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9244,
+    name: "GOVT HSS, MENANGADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9245,
+    name: "DR. AMBEDKAR M.M. HSS, NALLOORNAD, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9246,
+    name: "GOVT HSS, PANAMARAM, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9247,
+    name: "GOVT HSS, THARIODE, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9248,
+    name: "GOVT HSS, THALAPOYA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9249,
+    name: "GOVT HSS, VELLAMUNDA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9250,
+    name: "GOVT HSS, PADINJARATHARA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9251,
+    name: "GOVT HSS, CHEERAL, SULTHAN BATHERY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9252,
+    name: "GHSS, MEPPADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9253,
+    name: "GV HSS, MANANTHAVADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9254,
+    name: "GOVT HSS, VALAT, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9255,
+    name: "GOVT VHSS, AMBALAVAYAL, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9256,
+    name: "ST.MARY`S HSS, MULLENKOLLY P.O., WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9257,
+    name: "ST. CATHERINE`S HSS, PAYYAMPALLY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9258,
+    name: "VIJAYA HSS, PULPALLY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9259,
+    name: "W.O.HSS, PINANGODE, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9260,
+    name: "SREE NARAYANA HSS, POOTHADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9261,
+    name: "ST. JOSEPH`S GIRLS HSS, MEPADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9262,
+    name: "S K M J HSS, KALPETTA NORTH, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9263,
+    name: "JAYASREE HSS , KALLUVAYAL, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9264,
+    name: "ST. JOSEPH`S HSS, KALLADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9265,
+    name: "SACRED HEART HSS, DWARAKA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9266,
+    name: "ST MARY`S COLLEGE HSS, SULTHAN BATHERY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9267,
+    name: "NSS EM HSS KALPATTA",
+    district: "Wayanad"
+  },
+  {
+    id: 9268,
+    name: "ST. JOSEPH`S EM HSS, SULTHAN BATHERI",
+    district: "Wayanad"
+  },
+  {
+    id: 9269,
+    name: "WO VHSS, MUTTIL, MANDAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9270,
+    name: "ST.PETER`S & ST. PAUL`S HSS,MEENANGADI",
+    district: "Wayanad"
+  },
+  {
+    id: 9271,
+    name: "MGM HSS AMBUKUTTY",
+    district: "Wayanad"
+  },
+  {
+    id: 9272,
+    name: "GOVT. HSS, MULANKAV, NOOLPUZHA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9273,
+    name: "GOVT. HSS, THRISSILERY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9274,
+    name: "KATTIKKULAM GOVT. HSS, THIVUNELLY, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9275,
+    name: "GOVT. HSS, KAKKAVAYAL, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9276,
+    name: "GOVT. HSS, PANANKADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9277,
+    name: "GOVT. HSS, VADUVANCHAL, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9278,
+    name: "GOVT. HSS, KOLERY, POOTHADI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9279,
+    name: "GOVT HSS ,ANAPPARA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9280,
+    name: "GOVT HSS ,PERINGALLUR, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9281,
+    name: "GOVT HSS ,VYTHIRI, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9282,
+    name: "GOVT HSS ,KOYILERY,PAYYAMPALLY P.O,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9283,
+    name: "GOVT HSS ,NIRAVARAM, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9284,
+    name: "RAJIVE GANDHI MRS,NOOLPUZHA,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9285,
+    name: "GHSS, ACHOOR,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9286,
+    name: "GOVT. HSS, KALLOOR,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9287,
+    name: "GOVT. SARVAJANA HIGHER SECONDARY SCHOOL, SULTHAN BATHERY,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9288,
+    name: "CMS HSS, ARRAPETTA,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9289,
+    name: "MTDM HSS, THONDARNAD, THONDARNADU.P.O, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9290,
+    name: "ST. THOMAS HSS, NADAVAYAL,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9291,
+    name: "Sarvodaya Higher Secondary School, Eachome, P O Eachome, Via Panamaram,",
+    district: "Wayanad"
+  },
+  {
+    id: 9292,
+    name: "GOVT. HIGHER SECONDARY SCHOOL, KALPETTA,WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9293,
+    name: "GOVT.HS, KOTTATHARA",
+    district: "Wayanad"
+  },
+  { id: 9294, name: "GHS VALERI", district: "Wayanad" },
+  {
+    id: 9295,
+    name: "GMRS FOR GIRLS KALPETTA",
+    district: "Wayanad"
+  },
+  { id: 9296, name: "GTHS EDATHANA", district: "Wayanad" },
+  { id: 9297, name: "GHSS KUNJHOM", district: "Wayanad" },
+  { id: 9298, name: "GHS THARUVANA", district: "Wayanad" },
+  {
+    id: 9299,
+    name: "FGKMHS KANNIYARAM",
+    district: "Wayanad"
+  },
+  { id: 9300, name: "WOVHSS MUTTIL", district: "Wayanad" },
+  {
+    id: 9301,
+    name: "LOURDU MATHA HS",
+    district: "Wayanad"
+  },
+  { id: 9302, name: "RCHS CHUNDALE", district: "Wayanad" },
+  {
+    id: 9303,
+    name: "ST.ROSELLA'S SPEECH & HEARING HSS, POOMALA, WAYANAD",
+    district: "Wayanad"
+  },
+  {
+    id: 9304,
+    name: "GOVT HSS,CHAVASSERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9305,
+    name: "GOVT HSS,CHUNDANGA POIL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9306,
+    name: "GOVT BRENNEN HSS,THALASSERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9307,
+    name: "GOVT HSS,IRIKKUR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9308,
+    name: "GOVT VHSS,KALLIASSERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9309,
+    name: "GOVT AVS HSS,KARIVELLUR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9310,
+    name: "GOVT HSS,MANATHANA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9311,
+    name: "C.P.NARAYANAN SMARAKA GOVT.HSS,MATHAMANGALAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9312,
+    name: "GOVT HSS,MAYYIL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9313,
+    name: "GOVT HSS,PALAYAD,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9314,
+    name: "GOVT HSS,PALLIKKUNNU,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9315,
+    name: "AKG SM GHSS,PERLASSERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9316,
+    name: "AKGM GOVT HSS,PINARAYI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9317,
+    name: "GOVT HSS,THOTTADA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9318,
+    name: "GOVT HSS,VENGAD,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9319,
+    name: "GOVT HSS,KUNJIMANGALAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9320,
+    name: "GOVT HSS, KOZHICHAL, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9321,
+    name: "GOVT HSS,KOTTILA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9322,
+    name: "GOVT HSS,MATTOOL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9323,
+    name: "GOVT TOWN HSS,KANNUR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9324,
+    name: "GOVT HSS,CHALA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9325,
+    name: "GOVT HSS,MORAZHA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9326,
+    name: "GOVT HSS,SREEKANDAPURAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9327,
+    name: "GOVT HSS,CHITTARIPPARAMBA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9328,
+    name: "GOVT HSS,VAYAKKARA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9329,
+    name: "GOVT HSS,MATHIL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9330,
+    name: "GOVT HSS,PATTIAM,PATTIAYAMKUNNU P O,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9331,
+    name: "TAGORE VIDYANIKETHAM GVHSS,THALIPARAMBA",
+    district: "Kannur"
+  },
+  {
+    id: 9332,
+    name: "AKSGHSS,MALAPPATTOM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9333,
+    name: "GOVT HSS,MUZHAPPILANGAD,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9334,
+    name: "GOVT HSS,CHELLORA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9335,
+    name: "GOVT HSS FOR BOYS, MADAI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9336,
+    name: "GOVT HSS, CHUZHALI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9337,
+    name: "GHSS, CHERUKUNNU, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9338,
+    name: "GOVT HSS, MUNDERI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9339,
+    name: "GOVT HSS, SREEPURAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9340,
+    name: "GOVT HSS, VELLUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9341,
+    name: "CGHSS, THIRUVANGAD, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9342,
+    name: "GOVT HSS, VADAKKUMPAD, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9343,
+    name: "GOVT HSS, KOOTHUPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9344,
+    name: "GOVT HSS, ARALAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9345,
+    name: "GOVT HSS, PALA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9346,
+    name: "GVHSS, KATHIRUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9347,
+    name: "SHENOY SMARAKA GOVERNMENT HSS,PAYYANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9348,
+    name: "EMS SMARAKA GOVT HSS, PAPPINISSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9349,
+    name: "PANOOR HSS,PANOOR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9350,
+    name: "NIRMALA HSS,CHEMPERI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9351,
+    name: "D I SABHA HSS,KANNUR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9352,
+    name: "KKV MEMORIAL HSS,PANOOR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9353,
+    name: "KOLAVALLUR HSS,THUVAKKUNNU,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9354,
+    name: "SANTHOME HSS,KOLAKKAD,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9355,
+    name: "ST MARYS HSS,EDOOR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9356,
+    name: "RAMAVILASOM HSS,CHOKLI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9357,
+    name: "MAMBRAM HSS,MAMBRAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9358,
+    name: "NSS HSS,ALAKKODE,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9359,
+    name: "ST. MICHAEL`S AI BHSS, KANNUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9360,
+    name: "ST. THERESS AI GHSS, KANNUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9361,
+    name: "ST. JOSEPH`S HSS, VAYATTUPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9362,
+    name: "ANJRAKANDI HSS, ANJARAKANDI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9363,
+    name: "TAGORE MEMORIAL HSS, VELLORA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9364,
+    name: "CHOVVA HSS, CHOVVA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9365,
+    name: "SEETHI SAHIB HSS, THALIPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9366,
+    name: "KPC HSS, PATTANUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9367,
+    name: "KADAMBUR HSS, EDAKKAD, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9368,
+    name: "ST. SEBASTIAN`S HSS,VELIMANOM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9369,
+    name: "NAM MEMORIAL HSS, PERINGATHUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9370,
+    name: "ST. JOSEPH`S HSS, THALASSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9371,
+    name: "MATTANNUR HSS, MATTANNUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9372,
+    name: "I.J.M HSS, KOTTIYOOR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9373,
+    name: "M.M. HSS, TEMPLE GATE, THALASSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9374,
+    name: "SN TRUST HSS, ELAYAVOOR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9375,
+    name: "NAJATH GIRLS HSS, MATTOOL NORTH",
+    district: "Kannur"
+  },
+  {
+    id: 9376,
+    name: "RANI JAI HSS, NIRMALAGIRI",
+    district: "Kannur"
+  },
+  {
+    id: 9377,
+    name: "DEENUL ISLAM SABHA HSS, CHIRAKULAM",
+    district: "Kannur"
+  },
+  {
+    id: 9378,
+    name: "CHM HSS, ILAYAVOOR",
+    district: "Kannur"
+  },
+  {
+    id: 9379,
+    name: "CHMKM HSS, VADAKKUMPAD, RAMANTHALI",
+    district: "Kannur"
+  },
+  {
+    id: 9380,
+    name: "RAHMANIYA ORPHANAGE HSS, IRRIKKUR",
+    district: "Kannur"
+  },
+  {
+    id: 9381,
+    name: "ST. JOHNS BAPTIST HSS, KADATHUMKADAVU, IRITTI",
+    district: "Kannur"
+  },
+  {
+    id: 9382,
+    name: "PARASSINIKKADAVU HSS, PARASSINIKKADAVU",
+    district: "Kannur"
+  },
+  {
+    id: 9383,
+    name: "JAMA ATH HSS, PUTHIYANGADI, MADAYI",
+    district: "Kannur"
+  },
+  {
+    id: 9384,
+    name: "CHERUPUSHPAM HSS, CHANDANAKKAMPARA",
+    district: "Kannur"
+  },
+  {
+    id: 9385,
+    name: "SABTM HSS, THAYINERI, PAYYANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9386,
+    name: "DEVA MATHA HSS, PAISAKKARY, PAYYAVOOR",
+    district: "Kannur"
+  },
+  {
+    id: 9387,
+    name: "KHAYIDE MILLATH HSS, KAVVAYI, PAYYANNUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9388,
+    name: "CRESCENT HSS, MOTTAMBRIM, MADAI",
+    district: "Kannur"
+  },
+  {
+    id: 9389,
+    name: "RAJIV MHSS, PILATHARA",
+    district: "Kannur"
+  },
+  {
+    id: 9390,
+    name: "MOOTHERDATH HSS, THALIPARAMBU",
+    district: "Kannur"
+  },
+  {
+    id: 9391,
+    name: "AZHEKKODU HSS, AZHEKKODE",
+    district: "Kannur"
+  },
+  {
+    id: 9392,
+    name: "ST.JOSEPH`S HSS, VIDYANAGAR, CHERUPUZHA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9393,
+    name: "ST. JOSEPH`S HSS, KUNNOTH, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9394,
+    name: "GOVT. HSS, KANNUR CITY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9395,
+    name: "GOVT. HSS, PUZHATHI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9396,
+    name: "GOVT. HSS, CHIRAKKARA, THALASSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9397,
+    name: "GOVT. HSS, ULIKKAL.P.O, KANNUR-670 705",
+    district: "Kannur"
+  },
+  {
+    id: 9398,
+    name: "GOVT. HSS, RAMANTHALY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9399,
+    name: "GOVT. HSS, CHERUTHAZHAM, KANNUR.",
+    district: "Kannur"
+  },
+  {
+    id: 9400,
+    name: "GOVT. HSS, KANNADIPPARAMB, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9401,
+    name: "GOVT. HSS, VALAPATTANAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9402,
+    name: "GOVT. HSS, MAMBRAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9403,
+    name: "GOVT. HSS, CHATTUKAPARA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9404,
+    name: "GOVT. VHSS, EDAYANUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9405,
+    name: "GOVT. WELFARE HSS, CHERUKUNNU, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9406,
+    name: "MALUR GHSS, KOOTHUPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9407,
+    name: "GOVT. GIRLS HSS, PAYYANNUR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9408,
+    name: "GOVT. HSS, KADANNAPPALLY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9409,
+    name: "KANIANCHAL GOVT. HSS, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9410,
+    name: "GOVT. GIRLS HSS, THALASSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9411,
+    name: "GOVT. HSSS, KAVUMBHAGAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9412,
+    name: "KOROM GOVT. HSS, PAYYANNOOR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9413,
+    name: "THAJUL ULOOM EM HSS, VALAPATTANAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9414,
+    name: "ZAHRA HSS, THANGALPEEDIKA, MOKERI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9415,
+    name: "SACRED HEART HSS, PAYYAVOOR, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9416,
+    name: "KOODALI HSS, KOODALI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9417,
+    name: "ST. JOSEPH`S HSS, PULIKURUMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9418,
+    name: "VALAPATTANAM MUSLIM WELFARE ASSOCIATION HSS, KANNU",
+    district: "Kannur"
+  },
+  {
+    id: 9419,
+    name: "MARY QUEENS HSS, KODIYANMALA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9420,
+    name: "WADIHUDA HSS, PAYANGADI, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9421,
+    name: "GOVT HSS,NEDUNGOME,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9422,
+    name: "GOVT HSS,PRAPOYIL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9423,
+    name: "GOVT HSS,AZHIKODE,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9424,
+    name: "GOVT HSS,PERINGOME,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9425,
+    name: "GOVT HSS,PATTUVAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9426,
+    name: "GOVT HSS,KOTTAYAM,MALABAR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9427,
+    name: "MODEL RESIDENTIAL SCHOOL,PATTUVAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9428,
+    name: "MASS GOVT HSS,ETTIKULAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9429,
+    name: "GOVT HSS,KOYYAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9430,
+    name: "GOVT HSS,MADAYI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9431,
+    name: "PATYAM GOPALAN MEMORIAL GOVT. HSS, CHERUVANCHERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9432,
+    name: "GOVT. HSS, THIRUMENI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9433,
+    name: "RAJAS HSS, CHIRAKKAL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9434,
+    name: "CHM HSS, ELAYAOOR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9435,
+    name: "KARIYAD NAMBIAR’S HSS,POOTHADY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9436,
+    name: "ST. CORNELIUS HSS, KOLAYAD. P.O, CHITTARIPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9437,
+    name: "RAJEEV GANDHI MEMMORIAL HSS, MOKERI,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9438,
+    name: "C H MUHAMMED KOYA MEMMORIAL H SS KAVUMPADY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9439,
+    name: "MM HSS, NEW MAHE, ,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9440,
+    name: "CHOTHAVOOR HSS, PULLIYODE, KADIRUR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9441,
+    name: "CHAPPARAPADAVA HSS, CHAPPARAPADAVA. P. O, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9442,
+    name: "B.V.J.M HSS, PERUMPADAVE,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9443,
+    name: "KAMBIL MOPLA HIGH SCHOOL",
+    district: "Kannur"
+  },
+  {
+    id: 9444,
+    name: "SACRED HEART HSS, ANGADIKADAVU,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9445,
+    name: "ST.THOMAS HSS, KELAKAM,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9446,
+    name: "ST. THOMAS HSS, KILIANTHARA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9447,
+    name: "SACRED HEART HSS, PAYYAVOOR,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9448,
+    name: "CHEMBILODE HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9449,
+    name: "IRITTY HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9450,
+    name: "PUTHIYANGADI JAMA-ATH HSS, MADAYI.P.O,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9451,
+    name: "KADACHIRA HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9452,
+    name: "SIVAPURAM HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9453,
+    name: "NADUVIL HSS, NADUVIL,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9454,
+    name: "PARASSINIKADAVU HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9455,
+    name: "MOOTHEDATH HSS, THALIPARAMBA,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9456,
+    name: "SACRED HEART HSS,THALASSERY, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9457,
+    name: "B E M P HSS,THALASSERRY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9458,
+    name: "KOODALI HSS,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9459,
+    name: "GOVT HSS, PADIYOOR, P.O, KANNUR - 670 703",
+    district: "Kannur"
+  },
+  {
+    id: 9460,
+    name: "GOVT HSS, AROLI, PAPINASSERY,KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9461,
+    name: "SIR SYED HSS TALIPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9462,
+    name: "GOVT.VHSS KURUMATHOOR",
+    district: "Kannur"
+  },
+  {
+    id: 9463,
+    name: "KKNPM GOVT.VHSS PARIYARAM",
+    district: "Kannur"
+  },
+  {
+    id: 9464,
+    name: "AKASGVHSS PAYANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9465,
+    name: "VHSS KADAVATHOOR",
+    district: "Kannur"
+  },
+  { id: 9466, name: "AZHIKODE HS", district: "Kannur" },
+  {
+    id: 9467,
+    name: "MARY GIRI HS, THERTHALLY",
+    district: "Kannur"
+  },
+  {
+    id: 9468,
+    name: "S.A.B.T.M. HS, THAYINERI",
+    district: "Kannur"
+  },
+  {
+    id: 9469,
+    name: "ST.JOSEPH HS.PERAVUR",
+    district: "Kannur"
+  },
+  {
+    id: 9470,
+    name: "ST.THOMAS HIGH SCHOOL MANIKADAVU",
+    district: "Kannur"
+  },
+  {
+    id: 9471,
+    name: "KOOTHUPARAMBA HS, KOOTHUPARAMBA, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9472,
+    name: "ST. JOSEPH`S HSS , KUNNOTH",
+    district: "Kannur"
+  },
+  {
+    id: 9473,
+    name: "GOVT HSS, ARALAM FARM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9474,
+    name: "KARAKKUND DON-BOSCO SPEECH & HEARING HSS, PARIYARAM, KANNUR",
+    district: "Kannur"
+  },
+  {
+    id: 9475,
+    name: "GOVT HSS,CHEEMENI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9476,
+    name: "GOVT HSS,KAMBALLUR,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9477,
+    name: "GOVT HSS,KUMBLA,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9478,
+    name: "GOVT HSS,KUNDANKUZHI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9479,
+    name: "GOVT HSS,MOGRALPUTHUR,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9480,
+    name: "CKNS GOVT HSS,PILICODE,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9481,
+    name: "GOVT HSS,KAKKAD,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9482,
+    name: "GOVT HSS,UDINUR,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9483,
+    name: "GOVT HSS,MADIKKAI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9484,
+    name: "GOVT HSS,MALOTH KASBA,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9485,
+    name: "GOVT HSS,KUTTAMATH,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9486,
+    name: "GOVT HSS, CHERKALA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9487,
+    name: "GOVT HSS, PADRA, ENKANJE, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9488,
+    name: "GOVT HSS, PAIVALIKA NAGAR, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9489,
+    name: "AMBEDKAR HSS, KODOTH, HOSDURG, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9490,
+    name: "GOVT HSS, CHAYOTH, HOSDURG, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9491,
+    name: "GOVT HSS, UDUMA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9492,
+    name: "GOVT HSS, PADNEKADAPPURAM, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9493,
+    name: "GOVT HSS, BALANTHODE, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9494,
+    name: "IQBAL HSS,AJANUR,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9495,
+    name: "DURGA HSS,KANJANGAD,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9496,
+    name: "HHSIBS HSS,EDNEER,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9497,
+    name: "CHATTANCHAL HSS,THEKKIL, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9498,
+    name: "SS HSS,KATTUKUKKE,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9499,
+    name: "CHEMNAD JAMA ATH HSS,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9500,
+    name: "ST THOMAS HSS,THOMAPURAM,,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9501,
+    name: "TI. HSS, NAIMARMOOLA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9502,
+    name: "B.A.R HSS, BOVIKANA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9503,
+    name: "HOLY FAMILY HSS, RAJAPURAM, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9504,
+    name: "ST. JUD`S HSS, VELLARIKUNDU, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9505,
+    name: "CH MKS HSS, MUTTAMMAL, ELAMBACHI",
+    district: "Kasaragod"
+  },
+  {
+    id: 9506,
+    name: "JAMA-ATH HSS, CHITHARI",
+    district: "Kasaragod"
+  },
+  {
+    id: 9507,
+    name: "NA GIRLS HSS, ERATHUMKADAVU, CHENKALA",
+    district: "Kasaragod"
+  },
+  {
+    id: 9508,
+    name: "LITTLE FLOWER HSS, KANJANGADU",
+    district: "Kasaragod"
+  },
+  {
+    id: 9509,
+    name: "DHAKEERATH EM HSS, THALANGARA, KASARAGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9510,
+    name: "UDAYA EMHSS, MANJESWARAM",
+    district: "Kasaragod"
+  },
+  {
+    id: 9511,
+    name: "AMBEDKAR VIDYANIKETHAN HSS, PERIYA, PALLIKKARA",
+    district: "Kasaragod"
+  },
+  {
+    id: 9512,
+    name: "GOVT. HSS, BANGARA MANJESHWARAM, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9513,
+    name: "GOVT. HSS, UPPALA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9514,
+    name: "GOVT. MVHSS, THALANGARA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9515,
+    name: "GOVT. VHSS FOR GIRLS, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9516,
+    name: "GURU CHANDUPANICKER SMARAKA GOVT HSS, ELAMBACHI.P.O",
+    district: "Kasaragod"
+  },
+  {
+    id: 9517,
+    name: "GOVT. HSS, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9518,
+    name: "GOVT. HSS, EDANEER, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9519,
+    name: "GOVT. VHSS, MULLERIYA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9520,
+    name: "GOVT. HSS, BELLERU, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9521,
+    name: "GOVT. HSS, PADLA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9522,
+    name: "GOVT. VHSS, ERIYANNI, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9523,
+    name: "GOVT. HSS, HOSDURG (KANJANGAD), Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9524,
+    name: "GOVT. HSS, PARAPPA (HOSDURG), Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9525,
+    name: "GOVT. HSS, ANGADIMUGAR, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9526,
+    name: "GOVT. HSS, BETHOOPPARA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9527,
+    name: "GOVT HSS, ADOOR, URDOOR P.O., DELAMPADY PANCHAYATH, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9528,
+    name: "GOVT. HSS, PALLIKKARA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9529,
+    name: "GOVT. HSS, CHANDRAGIRI, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9530,
+    name: "GOVT. HSS, CHEMMANAD, PARAVANADUKKAM, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9531,
+    name: "GOVT. HSS, ALAMPADY, CHENGALA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9532,
+    name: "GOVT. HSS, ADHOOR, KARADUKKA PANCHAYATH, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9533,
+    name: "GOVT. HSS, PERIYA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9534,
+    name: "GOVT. HSS, BELLA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9535,
+    name: "G.F.HSS, CHERUVATHOOR, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9536,
+    name: "G.V.HSS, MOGRAL, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9537,
+    name: "GOVT. HSS, BEKKOOR, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9538,
+    name: "GOVT. HSS, BANDADUKKA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9539,
+    name: "GOVT. HSS, KALLIYOD, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9540,
+    name: "MODEL RESIDENTIAL HSS, UDUMA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9541,
+    name: "GOVT. HSS, SHIRIYA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9542,
+    name: "G.F. HSS, BEKKAL, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9543,
+    name: "GOVT. HSS, MANGALPADY, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9544,
+    name: "TECHNICAL HSS, CHEEMENI,Kasaragod.",
+    district: "Kasaragod"
+  },
+  {
+    id: 9545,
+    name: "MARTHOMA HSS FOR DEAF,Kasaragod.",
+    district: "Kasaragod"
+  },
+  {
+    id: 9546,
+    name: "KUNIL EDUCATION TRUST HSS, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9547,
+    name: "P. BEERAN MEMORIAL EM HSS, NETTIKKADA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9548,
+    name: "MALABAR ISLAMIC COMPLEX HSS, CHATTANCHAL, KASARGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9549,
+    name: "PALLIKKARA ISLAMIC ENGLISH MEDIUM HSS, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9550,
+    name: "ST. JOSEPH`S HSS, CHERUPUZHA, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9551,
+    name: "KALANAD HYDROSE JAMA ATH HSS, KALANAD, KASARGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9552,
+    name: "GOVT HSS,THAYANNOOR,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9553,
+    name: "GOVT HSS,RAVANEESWARAM,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9554,
+    name: "GOVT HSS,KOTTODI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9555,
+    name: "GOVT HSS,PAIVALIK,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9556,
+    name: "GOVT HSS,PAKKAM,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9557,
+    name: "GHSS UPPILIKAI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9558,
+    name: "GHSS ATTENGANAM,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9559,
+    name: "GVHSS KAYYOOR,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9560,
+    name: "SRI ANNAPURNESHWARI HSS, AGALAPAY,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9561,
+    name: "SRI VIDYA VARDHAKA HSS, MIYAPPADVIE. P. O , Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9562,
+    name: "VARAKKAD HSS, KOTTAMALA.P.O,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9563,
+    name: "RAJAH’S HSS NILESWAR, KASARAGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9564,
+    name: "NAVAJEEVANA HSS, PERDLA,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9565,
+    name: "GHSS, BELAL,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9566,
+    name: "BEM HSS, KASARAGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9567,
+    name: "GHSS, PANDI,Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9568,
+    name: "SRMGHS RAMNAGER",
+    district: "Kasaragod"
+  },
+  {
+    id: 9569,
+    name: "CHMKSGVHS KOTTAPPURAM",
+    district: "Kasaragod"
+  },
+  {
+    id: 9570,
+    name: "VPPMKPS GHS TRIKKARIPUR",
+    district: "Kasaragod"
+  },
+  {
+    id: 9571,
+    name: "GVHS PERUMPATTA",
+    district: "Kasaragod"
+  },
+  {
+    id: 9572,
+    name: "SBV HS KODLAMOGRU",
+    district: "Kasaragod"
+  },
+  {
+    id: 9573,
+    name: "MS COLLEGEHSS NIRCHAL",
+    district: "Kasaragod"
+  },
+  {
+    id: 9574,
+    name: "ST.JOHNS HS PALAVAYAL",
+    district: "Kasaragod"
+  },
+  {
+    id: 9575,
+    name: "SRI SARADAMPA HS SHENI",
+    district: "Kasaragod"
+  },
+  {
+    id: 9576,
+    name: "VKPHMMRVHS PADANA",
+    district: "Kasaragod"
+  },
+  {
+    id: 9577,
+    name: "SHREE DURGA PARAMESHWARY AHS, DHARMATHADKA",
+    district: "Kasaragod"
+  },
+  {
+    id: 9578,
+    name: "SATHSS, MANJESWAR",
+    district: "Kasaragod"
+  },
+  {
+    id: 9579,
+    name: "N.A.MODEL HIGHER SECONDARY SCHOOL, CHENGALA, NAIMARMOOLA, VIDYANAGAR, Kasaragod",
+    district: "Kasaragod"
+  },
+  {
+    id: 9580,
+    name: "ESSA HIGHER SECONDARY SCHOOL, KUMBLA, KASARGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9581,
+    name: "MUHIMMATH HIGHER SECONDARY SCHOOL , MUHIMMATH NAGAR ,PUTHIGE,(VIA) KUMBLA, KASARAGOD",
+    district: "Kasaragod"
+  },
+  {
+    id: 9582,
+    name: "MAJLIS ENGLISH MEDIUM HIGHER SECONDARY SCHOOL, MANHAMPARA, KUNTAR P.O, KASARAGOD",
+    district: "Kasaragod"
+  }
+]

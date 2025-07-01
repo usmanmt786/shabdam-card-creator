@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100..800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -102,4 +104,12 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+@font-face {
+  font-family: ClashDisplay;
+  font-style: normal;
+  src: url("/fonts/ClashDisplay-Regular.ttf") format("truetype");
+}
+.clash{
+  font-family: ClashDisplay;
 }

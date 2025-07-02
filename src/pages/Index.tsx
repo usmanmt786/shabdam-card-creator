@@ -36,10 +36,7 @@ const Index = () => {
               <h4 className="mt-4 text-xl font-medium font-malayalam">
                 ഹയർസെക്കണ്ടറി മെമ്പർഷിപ്പ് കാമ്പയിൻ
               </h4>
-              <p className="text-sm md:text-lg text-white/90 max-w-2xl mx-auto leading-relaxed font-normal mt-4">
-                Join our community and access exclusive benefits designed for
-                HSS students
-              </p>
+            
             </div>
           </div>
 

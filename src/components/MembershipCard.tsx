@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Download, Share2 } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
@@ -59,6 +60,7 @@ const MembershipCard = ({
         title: "Download Failed",
         description:
           error instanceof Error ? error.message : "Failed downloading card",
+        variant: "destructive",
       });
     }
   };
@@ -67,31 +69,25 @@ const MembershipCard = ({
       document.body.style.touchAction = "none";
       const frameWidth = 460; // Your desired output width
       const frameHeight = 733; // Your desired output height
-      const containerWidth = contRef.current.offsetWidth; // Current container width
-      const containerHeight = contRef.current.offsetHeight; // Current container height
-
-      const scaleX = frameWidth / containerWidth;
-      const scaleY = frameHeight / containerHeight;
-
       const clone = contRef.current.cloneNode(true) as HTMLElement;
       clone.style.position = "fixed";
-      clone.style.top = "9999px";
-      clone.style.left = "9999px";
+      clone.style.top = "-9999px";
+      clone.style.left = "-9999px";
       clone.style.width = frameWidth + "px";
       clone.style.height = frameHeight + "px ";
       clone.style.maxWidth = frameWidth + "px" || "100%";
       clone.style.visibility = "visible";
       clone.style.opacity = "1";
-      const scale = Math.max(scaleX, scaleY);
+
       const hssmid = clone.querySelector("#hssmid") as HTMLElement;
-      hssmid.style.fontSize = 30 * scale + "px";
-      hssmid.style.top = "4%";
+      hssmid.style.fontSize = 30 + "px";
+      hssmid.style.top = "3.8%";
       const name = clone.querySelector("#name") as HTMLElement;
-      name.style.fontSize = 20 * scale + "px";
+      name.style.fontSize = 20 + "px";
       const school = clone.querySelector("#school") as HTMLElement;
-      school.style.fontSize = 13 * scale + "px";
+      school.style.fontSize = 13 + "px";
       const year = clone.querySelector("#year") as HTMLElement;
-      year.style.fontSize = 12 * scale + "px";
+      year.style.fontSize = 12 + "px";
 
       document.body.appendChild(clone);
 
@@ -145,17 +141,102 @@ const MembershipCard = ({
       return dataUrl;
     } catch (error) {
       console.error("Download failed:", error);
+      throw error;
     } finally {
       const clones = document.querySelectorAll('[style*="fixed"]');
       clones.forEach((clone) => document.body.removeChild(clone));
     }
   };
 
-  const handleShare = () => {
-    toast({
-      title: "Share Options",
-      description: "⏳ Social media sharing will be available soon.",
-    });
+  const handleShare = async () => {
+    const dataUrl = await getDownloadUrl();
+    if (!dataUrl) throw new Error("Failed to generate image");
+
+    try {
+      // 1. First try Web Share API if available
+      if (typeof navigator.share === "function") {
+        console.log("Attempting native share...");
+
+        // For better mobile support, try both file and URL sharing
+        try {
+          // Try with file first (better for WhatsApp on Android)
+          const response = await fetch(dataUrl);
+          const blob = await response.blob();
+          const file = new File([blob], formData.fullName + ".png", {
+            type: blob.type,
+          });
+
+          if (navigator.canShare?.({ files: [file] })) {
+            await navigator.share({
+              title: "SSF HSS Membership",
+              text: "*SSF HSS Membership ✨*\n\n" + "_Join our community:_\n\n",
+              url: "https://hssmembersportal.ssfkerala.org/",
+              files: [file],
+            });
+            return;
+          }
+        } catch (fileError) {
+          console.log("File sharing failed, trying URL:", fileError);
+        }
+
+        // Fallback to URL sharing
+        try {
+          await navigator.share({
+            title: "SSF HSS Membership",
+            text: "*SSF HSS Membership ✨*\n\n" + "_Join our community:_\n\n",
+            url: "https://hssmembersportal.ssfkerala.org/",
+          });
+          return;
+        } catch (urlError) {
+          console.log("URL sharing failed:", urlError);
+        }
+      }
+
+      // 2. Platform-specific WhatsApp fallback
+      console.log("Using WhatsApp fallback");
+      const message = encodeURIComponent("*SSF HSS Membership*\n\n" + dataUrl);
+
+      // Detect platform
+      const userAgent = navigator.userAgent || (window as any).opera;
+      let whatsappUrl: string;
+
+      if (/android/i.test(userAgent)) {
+        whatsappUrl = `intent://send?text=${message}#Intent;package=com.whatsapp;scheme=whatsapp;end`;
+      } else if (/iPad|iPhone|iPod/i.test(userAgent)) {
+        whatsappUrl = `whatsapp://send?text=${message}`;
+      } else {
+        // Desktop
+        whatsappUrl = `https://web.whatsapp.com/send?text=${message}`;
+      }
+
+      // 3. Robust window opening with fallback
+      const openWindow = () => {
+        const newWindow = window.open(whatsappUrl, "_blank");
+        if (
+          !newWindow ||
+          newWindow.closed ||
+          typeof newWindow.closed === "undefined"
+        ) {
+          // Fallback for mobile browsers that block window.open
+          window.location.href = whatsappUrl;
+        }
+      };
+
+      // Handle iOS security restrictions
+      if (/iPad|iPhone|iPod/i.test(userAgent)) {
+        document.body.addEventListener("click", openWindow, { once: true });
+      } else {
+        openWindow();
+      }
+    } catch (error) {
+      console.error("Sharing failed completely:", error);
+      toast({
+        title: "Download Failed",
+        description:
+          error instanceof Error ? error.message : "Failed downloading card",
+        variant: "destructive",
+      });
+    }
   };
   useEffect(() => {
     if (contRef.current) {
@@ -291,7 +372,6 @@ const MembershipCard = ({
             <h3 className="text-primary font-semibold mb-2">What's Next?</h3>
             <ul className="text-gray-700 space-y-2 text-sm">
               <li>• Your membership is now active</li>
-              <li>• You will receive updates via phone/email</li>
               <li>• Join our community activities and events</li>
               <li>• Use your membership card for identification</li>
             </ul>

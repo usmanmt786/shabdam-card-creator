@@ -1,5 +1,12 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { useState, useEffect, useCallback } from "react";
+import {
+  useState,
+  useEffect,
+  useCallback,
+  useRef,
+  MutableRefObject,
+} from "react";
+import CreatableSelect from "react-select/creatable";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -52,7 +59,6 @@ const MembershipForm = ({ onBack }: MembershipFormProps) => {
     year: string;
     stream: string;
   } | null>(null);
-  const [showManualSchoolInput, setShowManualSchoolInput] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isCheckingMember, setIsCheckingMember] = useState(false);
   const [phoneInput, setPhoneInput] = useState("");
@@ -127,21 +133,18 @@ const MembershipForm = ({ onBack }: MembershipFormProps) => {
           setTimeout(() => {
             setValue("division", student.Division);
 
-            setValue(
-              "schoolName",
-              student["School Portal ID"] || student["School Name"]
-            );
+            setValue("schoolName", student["School Name"]);
           }, 1000);
 
-          if (!student["School Portal ID"]) setShowManualSchoolInput(true);
           toast({
             title: "Member Found!",
             description: "We've auto-filled your details from our records.",
           });
           setUserFound(true);
         } else {
+
           reset({
-            phone: phoneInput.toString(),
+            phone: watch("phone"),
             fullName: "",
             hssmid: "",
             district: "",
@@ -150,7 +153,6 @@ const MembershipForm = ({ onBack }: MembershipFormProps) => {
             year: "",
             stream: "",
           });
-          setShowManualSchoolInput(false);
         }
       } catch (error) {
         console.error("Error checking member:", error);
@@ -206,12 +208,8 @@ const MembershipForm = ({ onBack }: MembershipFormProps) => {
             phone: data.phone,
             district: data.district,
             division: data.division,
-            schoolName: parseInt(data.schoolName)
-              ? schools.find(
-                  (school) => school.id === parseInt(data.schoolName)
-                )?.name || ""
-              : data.schoolName,
-            portalId: parseInt(data.schoolName) || "",
+            schoolName: data.schoolName,
+            portalId: schools.find((s) => s.name === data.schoolName)?.id || "",
             year: data.year,
             stream: data.stream,
           }),
@@ -492,70 +490,51 @@ const MembershipForm = ({ onBack }: MembershipFormProps) => {
                 <Label className="text-gray-700 font-medium">
                   School Name *
                 </Label>
+                <CreatableSelect
+                  isDisabled={!formData.district || userFound}
+                  options={schools
+                    .filter(
+                      (school) =>
+                        formData.district &&
+                        formData.district.startsWith(school.district)
+                    )
+                    .map((school) => ({
+                      value: school.name,
+                      label: school.name,
+                    }))}
+                  value={
+                    formData.schoolName
+                      ? {
+                          value: formData.schoolName,
+                          label:
+                            schools.find(
+                              (s) => s.id.toString() === formData.schoolName
+                            )?.name || formData.schoolName,
+                        }
+                      : null
+                  }
+                  onChange={(selectedOption) => {
+                    const value = selectedOption?.value || "";
+                    setValue("schoolName", value);
+                  }}
 
-                {!showManualSchoolInput ? (
-                  <>
-                    <Select
-                      value={formData.schoolName}
-                      onValueChange={(value) => {
-                        setValue("schoolName", value);
-                        setShowManualSchoolInput(false);
-                      }}
-                      disabled={!formData.district || userFound}
-                    >
-                      <SelectTrigger
-                        className={`${
-                          errors.schoolName ? "border-red-500" : ""
-                        }`}
-                      >
-                        <SelectValue placeholder="Search or select school" />
-                      </SelectTrigger>
-                      <SelectContent>
-                        {schools
-                          .filter(
-                            (school) =>
-                              formData.district &&
-                              school.district === formData.district
-                          )
-                          .map((school) => (
-                            <SelectItem
-                              key={school.id}
-                              value={school.id.toString()}
-                            >
-                              {school.name}
-                            </SelectItem>
-                          ))}
-                      </SelectContent>
-                    </Select>
-
-                    <button
-                      type="button"
-                      onClick={() => setShowManualSchoolInput(true)}
-                      className="text-sm text-primary hover:underline mt-2 disabled:hidden"
-                      disabled={userFound}
-                    >
-                      Can't find your school? Enter manually
-                    </button>
-                  </>
-                ) : (
-                  <>
-                    <Input
-                      value={formData.schoolName}
-                      onChange={(e) => setValue("schoolName", e.target.value)}
-                      placeholder="Type school name manually"
-                      className="mt-2"
-                      disabled={userFound}
-                    />
-                    <button
-                      type="button"
-                      onClick={() => setShowManualSchoolInput(false)}
-                      className="text-sm text-primary hover:underline mt-2 disabled:hidden"
-                      disabled={userFound}
-                    >
-                      Select from list
-                    </button>
-                  </>
-                )}
+                  placeholder="Search or select school"
+                  styles={{
+                    control: (base) => ({
+                      ...base,
+                      borderColor: errors.schoolName
+                        ? "#ef4444"
+                        : base.borderColor,
+                      minHeight: "40px",
+                    }),
+                  }}
+                  className={`${errors.schoolName ? "border-red-500" : ""}`}
+                />
+                <p className="text-gray-500 text-sm font-malayalam">
+                  സ്കൂളിന്റെ പേര് ടൈപ്പ് ചെയ്ത ഡ്രോപ്‌ഡൗണിൽ നിന്ന്
+                  തിരഞ്ഞെടുക്കുക , ഡ്രോപ്‌ഡൗണിൽ ലഭിച്ചില്ലെങ്കിൽ മാത്രം ടൈപ്പ്
+                  ചെയ്യുക.
+                </p>
                 {errors.schoolName && (
                   <p className="text-red-500 text-sm mt-1">
                     {errors.schoolName.message}

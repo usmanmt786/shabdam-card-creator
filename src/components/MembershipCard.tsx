@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Download, Share2 } from "lucide-react";
 import { toast } from "@/hooks/use-toast";
-import QRCode from "react-qr-code";
+import { useEffect, useRef, useState } from "react";
+import html2canvas from "html2canvas";
+import { QRCodeSVG } from "qrcode.react";
+import QRCode from "qrcode";
 
 interface FormData {
   hssmid: string;
@@ -23,11 +26,129 @@ const MembershipCard = ({
   previewImage,
   onBack,
 }: MembershipCardProps) => {
-  const handleDownload = () => {
-    toast({
-      title: "Download Started",
-      description: "Your membership card is being downloaded.",
-    });
+  const contRef = useRef<HTMLDivElement>(null);
+  const [qrDataUrl, setQrDataUrl] = useState<string | null>(null);
+  const [scale, setScale] = useState<{ x: number; y: number }>({ x: 1, y: 1 });
+  useEffect(() => {
+    QRCode.toDataURL(formData.hssmid, {
+      errorCorrectionLevel: "H",
+      width: 200,
+      margin: 2,
+    })
+      .then((url) => setQrDataUrl(url))
+      .catch((err) => console.error("Failed to generate QR", err));
+  }, [formData.hssmid]);
+  const handleDownload = async () => {
+    try {
+      const dataUrl = await getDownloadUrl();
+      if (!dataUrl) throw new Error("Failed to generate image");
+
+      const link = document.createElement("a");
+      link.download = `${formData.fullName}.png`;
+      link.href = dataUrl;
+      document.body.appendChild(link);
+      link.click();
+
+      setTimeout(() => {
+        document.body.removeChild(link);
+        URL.revokeObjectURL(dataUrl);
+      }, 100);
+    } catch (error) {
+      console.error("Download failed:", error);
+      toast({
+        title: "Download Failed",
+        description:
+          error instanceof Error ? error.message : "Failed downloading card",
+      });
+    }
+  };
+  const getDownloadUrl = async () => {
+    try {
+      document.body.style.touchAction = "none";
+      const frameWidth = 460; // Your desired output width
+      const frameHeight = 733; // Your desired output height
+      const containerWidth = contRef.current.offsetWidth; // Current container width
+      const containerHeight = contRef.current.offsetHeight; // Current container height
+
+      const scaleX = frameWidth / containerWidth;
+      const scaleY = frameHeight / containerHeight;
+
+      const clone = contRef.current.cloneNode(true) as HTMLElement;
+      clone.style.position = "fixed";
+      clone.style.top = "9999px";
+      clone.style.left = "9999px";
+      clone.style.width = frameWidth + "px";
+      clone.style.height = frameHeight + "px ";
+      clone.style.maxWidth = frameWidth + "px" || "100%";
+      clone.style.visibility = "visible";
+      clone.style.opacity = "1";
+      const scale = Math.max(scaleX, scaleY);
+      const hssmid = clone.querySelector("#hssmid") as HTMLElement;
+      hssmid.style.fontSize = 30 * scale + "px";
+      hssmid.style.top = "4%";
+      const name = clone.querySelector("#name") as HTMLElement;
+      name.style.fontSize = 20 * scale + "px";
+      const school = clone.querySelector("#school") as HTMLElement;
+      school.style.fontSize = 13 * scale + "px";
+      const year = clone.querySelector("#year") as HTMLElement;
+      year.style.fontSize = 12 * scale + "px";
+
+      document.body.appendChild(clone);
+
+      const images = clone.querySelectorAll("img");
+      clone.style.border = "none";
+      await Promise.all(
+        Array.from(images).map((img) =>
+          img.complete
+            ? Promise.resolve()
+            : new Promise((resolve, reject) => {
+                img.onload = resolve;
+                img.onerror = () =>
+                  reject(new Error(`Image failed to load: ${img.src}`));
+              })
+        )
+      );
+
+      let canvas;
+      let attempts = 0;
+      const maxAttempts = 3;
+
+      while (attempts < maxAttempts) {
+        try {
+          canvas = await html2canvas(clone, {
+            backgroundColor: "white",
+            scale: 2,
+            logging: true,
+            useCORS: true,
+            allowTaint: false,
+            width: frameWidth,
+            height: frameHeight,
+            windowWidth: frameWidth,
+            windowHeight: frameHeight,
+            scrollX: 0,
+            scrollY: 0,
+            x: 0,
+            y: 0,
+          });
+          break;
+        } catch (error) {
+          attempts++;
+          if (attempts >= maxAttempts) throw error;
+          await new Promise((resolve) => setTimeout(resolve, 300 * attempts));
+        }
+      }
+
+      if (!canvas) throw new Error("Failed to generate canvas");
+
+      const dataUrl = canvas.toDataURL("image/png");
+
+      return dataUrl;
+    } catch (error) {
+      console.error("Download failed:", error);
+    } finally {
+      const clones = document.querySelectorAll('[style*="fixed"]');
+      clones.forEach((clone) => document.body.removeChild(clone));
+    }
   };
 
   const handleShare = () => {
@@ -36,6 +157,19 @@ const MembershipCard = ({
       description: "⏳ Social media sharing will be available soon.",
     });
   };
+  useEffect(() => {
+    if (contRef.current) {
+      const width = contRef.current.clientWidth;
+      const height = contRef.current.clientHeight;
+      const scaleX = width / 460;
+      const scaleY = height / 733;
+
+      setScale({
+        x: scaleX,
+        y: scaleY,
+      });
+    }
+  }, [contRef]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-white font-clash">
@@ -67,8 +201,11 @@ const MembershipCard = ({
           </div>
 
           {/* Membership Card Preview */}
-          <div className="bg-gradient-to-br from-primary to-secondary  rounded-2xl p-8 text-white shadow-2xl mb-8 animate-slide-up w-max mx-auto">
-            <div className="relative text-card  w-[460px] h-[733px]">
+          <div className="bg-gradient-to-br from-primary to-secondary  rounded-2xl p-8 text-white shadow-2xl mb-8 animate-slide-up w-full mx-auto">
+            <div
+              className="relative text-card w-full aspect-[460/733] h-auto max-w-[460px] max-h-[733px]  mx-auto"
+              ref={contRef}
+            >
               <img
                 src="/card.png"
                 alt="card"
@@ -77,27 +214,54 @@ const MembershipCard = ({
               <img
                 src={previewImage}
                 alt="profile"
-                className="w-[37.7%] absolute top-[37.2%] left-[23.5%] h-auto z-0"
+                className="w-[37.7%] absolute top-[37.1%] left-[23.35%] h-auto z-0"
               />
-              <h6 className="absolute text-lg top-[7.2%] left-[33%] font-bold text-black z-10">
+              <h6
+                className="absolute  top-[5.8%] left-[33%]  font-card font-[600] text-black z-10"
+                id="hssmid"
+                style={{
+                  fontSize: `${30 * Math.max(scale.x, scale.y)}px`,
+                }}
+              >
                 {formData.hssmid}
               </h6>
-              <div className="w-max absolute top-[5.2%] right-[12%] z-10">
-                <QRCode
-                  className="h-16 w-16"
-                  value={formData.hssmid}
-                  size={128}
+
+              {qrDataUrl && (
+                <img
+                  src={qrDataUrl}
+                  alt="QR Code"
+                  style={{ backgroundColor: "transparent" }}
+                  className="aspect-square w-[15.5%] h-auto absolute top-[4.6%] right-[5.8%] z-10"
                 />
-              </div>
-              <div className="absolute top-[63.2%] left-[23.5%] h-auto z-10 text-white w-[200px] flex flex-col gap-2">
-                <h6 className=" text-2xl  font-bold  z-10">
+              )}
+
+              <div className="absolute top-[62.2%] left-[23.5%] h-auto z-10 text-white w-[44%]  flex flex-col gap-2">
+                <h6
+                  className="font-semibold leading-tight font-card z-10 capitalize"
+                  id="name"
+                  style={{
+                    fontSize: `${20 * Math.max(scale.x, scale.y)}px`,
+                  }}
+                >
                   {formData.fullName}
                 </h6>
-                <h6 className=" text-sm  font-bold  z-10">
+                <h6
+                  className=" font-semibold leading-tight font-card  z-10"
+                  style={{
+                    fontSize: `${13 * Math.max(scale.x, scale.y)}px`,
+                  }}
+                  id="school"
+                >
                   {formData.schoolName.split(",").join(", ")}
                 </h6>
-                <h6 className=" text-sm  font-bold  z-10 flex gap-3 items-center">
-                  {formData.year}  <span>|</span>   {formData.stream}
+                <h6
+                  className=" font-medium  z-10 flex gap-1 font-card items-center"
+                  style={{
+                    fontSize: `${12 * Math.max(scale.x, scale.y)}px`,
+                  }}
+                  id="year"
+                >
+                  {formData.year} <span>|</span> {formData.stream}
                 </h6>
               </div>
             </div>

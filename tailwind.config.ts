@@ -71,7 +71,13 @@ export default {
       fontFamily: {
         clash: ['"Plus Jakarta Sans"', "system-ui", "sans-serif"],
         malayalam: ['"Anek Malayalam"', "system-ui", "sans-serif"],
-        card: ["Space Grotesk", "sans-serif"],
+        card: ["ClashDisplay-Variable"],
+        "card-200": ["ClashDisplay-Extralight"],
+        "card-300": ["ClashDisplay-Light"],
+        "card-400": ["ClashDisplay-Regular"],
+        "card-500": ["ClashDisplay-Medium"],
+        "card-600": ["ClashDisplay-Semibold"],
+        "card-700": ["ClashDisplay-Bold"],
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -18,7 +18,7 @@ function centerAspectCrop(
     makeAspectCrop(
       {
         unit: "%",
-        width: 50,
+        width: 90,
       },
       aspect,
       mediaWidth,
@@ -52,12 +52,23 @@ export const ImageCropper: React.FC<ImageCropperProps> = ({
   const onLoad = useCallback(
     (img: HTMLImageElement) => {
       setImageRef(img);
-      const crop = centerAspectCrop(
-        img.naturalWidth,
-        img.naturalHeight,
-        aspectRatio
-      );
+      const { naturalWidth, naturalHeight } = img;
+      const crop = centerAspectCrop(naturalWidth, naturalHeight, aspectRatio);
       setCrop(crop);
+      const screenHeight = window.innerHeight;
+      const screenWidth = window.innerWidth;
+      const containerWidth = Math.min(screenWidth * 0.7, 896);
+      const containerHeight = Math.min(screenHeight * 0.6, 640);
+      let width = Math.min(containerWidth, naturalWidth);
+      let height = (naturalHeight / naturalWidth) * width;
+
+      if (height > containerHeight) {
+        height = containerHeight;
+        width = (naturalWidth / naturalHeight) * height;
+      }
+
+      contRef.current!.style.width = `${width}px`;
+      contRef.current!.style.height = `${height}px`;
     },
     [aspectRatio]
   );
@@ -117,47 +128,21 @@ export const ImageCropper: React.FC<ImageCropperProps> = ({
     setMode("cropping");
   };
 
-  useEffect(() => {
-    if (contRef.current && imageRef) {
-      const { naturalWidth, naturalHeight } = imageRef;
-      const contWidth = contRef.current.clientWidth;
-      const contHeight = contRef.current.clientHeight;
-
-      const cropWidth =
-        contWidth * (naturalHeight / naturalWidth) <= contHeight
-          ? contWidth
-          : contHeight * (naturalWidth / naturalHeight);
-
-      const cropContainer = contRef.current.querySelector(
-        "#crop-container"
-      ) as HTMLDivElement;
-
-      if (cropContainer) {
-        cropContainer.style.width = `${cropWidth}px`;
-        cropContainer.style.aspectRatio = `${naturalWidth / naturalHeight}`;
-      }
-    }
-  }, [imageRef]);
-
   return (
     <Dialog open={true} onOpenChange={onClose}>
-      <DialogContent className="w-max max-w-4xl">
+      <DialogContent className=" flex flex-col delay-1000">
         <DialogHeader>
           <DialogTitle>Crop Your Image</DialogTitle>
         </DialogHeader>
 
-        <div className="flex flex-col gap-4" ref={contRef}>
+        <div className="flex flex-col gap-4 flex-1" ref={contRef}>
           {mode === "cropping" && (
             <>
               <ReactCrop
                 crop={crop}
                 onChange={(c) => setCrop(c)}
+                className="w-full flex-1 object-contain"
                 aspect={aspectRatio}
-                style={{
-                  maxHeight: "60vh",
-                  width: "100%",
-                  objectFit: "contain",
-                }}
               >
                 <img
                   src={src}
@@ -179,11 +164,12 @@ export const ImageCropper: React.FC<ImageCropperProps> = ({
           )}
 
           {mode === "preview" && croppedImageUrl && (
-            <div className="flex flex-col gap-4 items-center">
+            <div className="flex flex-col gap-4 items-center w-full flex-1 object-contain">
               <img
                 src={croppedImageUrl}
                 alt="Preview"
-                className="max-w-xs border rounded shadow"
+                className="max-w-full max-h-full border rounded shadow"
+                onLoad={(e) => onLoad(e.currentTarget)}
               />
               <div className="flex gap-2 justify-end">
                 <Button variant="outline" onClick={handleRecrop}>

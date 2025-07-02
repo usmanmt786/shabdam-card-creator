@@ -46,3 +46,36 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+.card-text-lg {
+  font-size: 4.5mm;
+}
+
+.card-text-md {
+  font-size: 3.5mm;
+}
+
+.card-text-sm {
+  font-size: 2.5mm;
+}
+
+.card-text-xs {
+  font-size: 2mm;
+}
+
+@media (max-width: 640px) {
+  .card-text-lg {
+    font-size: 3.5mm;
+  }
+  
+  .card-text-md {
+    font-size: 2.8mm;
+  }
+  
+  .card-text-sm {
+    font-size: 2.2mm;
+  }
+  
+  .card-text-xs {
+    font-size: 1.8mm;
+  }
+}

@@ -169,8 +169,7 @@ const MembershipCard = ({
           if (navigator.canShare?.({ files: [file] })) {
             await navigator.share({
               title: "SSF HSS Membership",
-              text: "*SSF HSS Membership ✨*\n\n" + "_Join our community:_\n\n",
-              url: "https://hssmembersportal.ssfkerala.org/",
+              text: "*ശരികളുടെ ശബ്ദമാവുക*/n/n#hss #ssfkerala #membership2025",
               files: [file],
             });
             return;
@@ -183,7 +182,7 @@ const MembershipCard = ({
         try {
           await navigator.share({
             title: "SSF HSS Membership",
-            text: "*SSF HSS Membership ✨*\n\n" + "_Join our community:_\n\n",
+            text: "*ശരികളുടെ ശബ്ദമാവുക*/n/n#hss #ssfkerala #membership2025",
             url: "https://hssmembersportal.ssfkerala.org/",
           });
           return;
@@ -194,7 +193,7 @@ const MembershipCard = ({
 
       // 2. Platform-specific WhatsApp fallback
       console.log("Using WhatsApp fallback");
-      const message = encodeURIComponent("*SSF HSS Membership*\n\n" + dataUrl);
+      const message = encodeURIComponent("*SSF HSS Membership*\n\n*ശരികളുടെ ശബ്ദമാവുക*/n/n#hss #ssfkerala #membership2025" + dataUrl);
 
       // Detect platform
       const userAgent = navigator.userAgent || (window as any).opera;

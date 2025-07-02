@@ -82,7 +82,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-white/20 mt-8 pt-8 text-center">
           <p className="text-white/70">
-            © 2025 SSF HSS Membership Portal. All rights reserved.
+            © 2025<span className="font-cooper"> SSF </span>HSS Membership
+            Portal. All rights reserved.
           </p>
         </div>
       </div>

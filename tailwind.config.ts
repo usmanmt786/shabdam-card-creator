@@ -78,6 +78,7 @@ export default {
         "card-500": ["ClashDisplay-Medium"],
         "card-600": ["ClashDisplay-Semibold"],
         "card-700": ["ClashDisplay-Bold"],
+        cooper: ["Cooper Black Regular"],
       },
       borderRadius: {
         lg: "var(--radius)",

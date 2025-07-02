@@ -21,6 +21,7 @@ const Index = () => {
         <div className="text-center animate-fade-in">
           {/* Logo/Header */}
           <div className="mb-8">
+            <h1 className="text-3xl sm:text-5xl font-black text-white font-cooper">SSF</h1>
             <h1 className="text-2xl sm:text-4xl font-black text-white mb-2">
               HSS Membership Portal
             </h1>
